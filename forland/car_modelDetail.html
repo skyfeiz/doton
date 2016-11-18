@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>车型展示</title>
+    <meta name="description" content="福田汽车 具体内容由福田提供">
+    <meta name="keywords" content="福田汽车 具体内容由福田提供">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/car_model.css" />
+    <script src="http://pv.sohu.com/cityjson" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--生成头底-->
+    <script src="js/HandF.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/headerAndFooter.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/scrollShow.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/jquery_scrollBar.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/share.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/car_model.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            new foton.HandF();
+            new foton.HeaderAndFooter();
+            new foton.scrollShow();
+            new foton.CarModel();
+            new foton.share();
+            $("#models").addClass("present");
+        });
+    </script>
+</head>
+
+<body>
+<!--头部-->
+<div id="header"></div>
+
+<!--内容-->
+<div class="car_vehicles w1200-1400">
+    <div class="vehicle_con w1200">
+        <h2 class="scrollShow">
+            <span class="en_title">VEHICLES</span>
+            <span class="cn_title">车型展示</span>
+        </h2>
+        <div class="vehicle_text clearfix">
+            <div class="car_troduction scrollShow">
+                <p class="vehi_title">瑞沃中卡4X2</p>
+                <div class="vehi_line"></div>
+                <p class="vehi_tro">瑞沃中卡是福田汽车深度链合康明斯、法士特、首钢等知名企业，采用2200/2400mm半/全浮车身、康明斯动力、法士特变速箱、首钢高强度合金钢材料底盘等领先配置，开发的面向城市、城际物流的高品质中卡，特别是配装康明斯ISF3.8L发动机，满足国IV/国V排放标准；其产品在舒适性、可靠性、动力性、承载性、安全性、燃油经济性等方面均处于中卡市场领先地位。</p>
+            </div>
+            <img class="scrollShow" src="images/car_model/car_details.png" alt="">
+        </div>
+    </div>
+    <div class="car_highlights ">
+        <h2 class="scrollShow">
+            <span class="en_title">PRODUCT HIGHLIGHTS</span>
+            <span class="cn_title">产品亮点</span>
+        </h2>
+        <div class="highlight_mask w1200">
+                <div class="highlight_group clearfix">
+                    <div class="imagePanel scrollShow">
+                        <div class="hl_img">
+                            <img class="trans bgImage" src="images/car_model/hl_img_01.jpg">
+                        </div>
+                        <div class="titleBar trans">
+                            <p class="mask_title">造型时尚</p>
+                            <p class="mask_content">采用RC3车身，造型新颖，依据空气动力学原理设计，风阻系数小，油耗低；装配水晶大灯总成，集近远光灯、雾灯、转向灯于一体，2016款新式豪华内饰，操控便捷，驾乘舒适。</p>
+                        </div>
+                    </div>
+                    <div class="imagePanel scrollShow">
+                        <div class="hl_img">
+                            <img class="trans bgImage" src="images/car_model/hl_img_02.jpg">
+                        </div>
+                        <div class="titleBar trans">
+                            <p class="mask_title">造型时尚</p>
+                            <p class="mask_content">采用RC3车身，造型新颖，依据空气动力学原理设计，风阻系数小，油耗低；装配水晶大灯总成，集近远光灯、雾灯、转向灯于一体，2016款新式豪华内饰，操控便捷，驾乘舒适。</p>
+                        </div>
+                    </div>
+
+                    <div class="imagePanel scrollShow">
+                        <div class="hl_img">
+                            <img class="trans bgImage" src="images/car_model/hl_img_02.jpg">
+                        </div>
+                        <div class="titleBar trans">
+                            <p class="mask_title">造型时尚</p>
+                            <p class="mask_content">采用RC3车身，造型新颖，依据空气动力学原理设计，风阻系数小，油耗低；装配水晶大灯总成，集近远光灯、雾灯、转向灯于一体，2016款新式豪华内饰，操控便捷，驾乘舒适。</p>
+                        </div>
+                    </div>
+                    <div class="imagePanel scrollShow">
+                        <div class="hl_img">
+                            <img class="trans bgImage" src="images/car_model/hl_img_03.jpg">
+                        </div>
+                        <div class="titleBar trans">
+                            <p class="mask_title">经济高效</p>
+                            <p class="mask_content">采用世界领先的康明斯ISF3.8动力，通过160万公里道路可靠性试验，B10寿命达到100万公里；同级发动机中重量最轻、体积最小；动力强劲, 最大扭矩达到600N.m，高出同类产品接近50%；独有EBP电子节油技术，集成控制系统，提升燃油率，低振动、低噪声，经济油耗对应的发动机转速范围宽，较同类柴油机产品平均节油6-8%；核心零部件2年20万公里保修承诺，业内首创，2万公里超长换油周期，平均每公里投入保养成本约2分钱，不到同类产品的1/3。</br> 变速箱采用法士特6/8档，国内最好的变速箱生产厂家，带全同步器，挂档轻便，路况适应能力强，长途行驶节油5%，质量稳定可靠。</p>
+                        </div>
+                    </div>
+                    <div class="imagePanel scrollShow">
+                        <div class="hl_img">
+                            <img class="trans bgImage" src="images/car_model/hl_img_03.jpg">
+                        </div>
+                        <div class="titleBar trans">
+                            <p class="mask_title">经济高效</p>
+                            <p class="mask_content">采用世界领先的康明斯ISF3.8动力，通过160万公里道路可靠性试验，B10寿命达到100万公里；同级发动机中重量最轻、体积最小；动力强劲, 最大扭矩达到600N.m，高出同类产品接近50%；独有EBP电子节油技术，集成控制系统，提升燃油率，低振动、低噪声，经济油耗对应的发动机转速范围宽，较同类柴油机产品平均节油6-8%；核心零部件2年20万公里保修承诺，业内首创，2万公里超长换油周期，平均每公里投入保养成本约2分钱，不到同类产品的1/3。</br> 变速箱采用法士特6/8档，国内最好的变速箱生产厂家，带全同步器，挂档轻便，路况适应能力强，长途行驶节油5%，质量稳定可靠。</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="btn_part">
+            <div class="prevBtn scrollShow"></div>
+            <div class="nextBtn scrollShow"></div>
+        </div>
+    </div>
+    <div class="car_config">
+        <h2 class="scrollShow">
+            <span class="en_title">VEHICLE CONFIGURATION</span>
+            <span class="cn_title">车型配置</span>
+        </h2>
+        <div class="scrollShow config_mask w1200">
+            <table  border="0" cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr class="businessFormTitle">
+                        <td class="config_type"></td>
+                        <td class="config_name">产品系列</td>
+                        <td class="config_detial">瑞沃中卡4×2系列</td>
+                    </tr>
+                    <tr class="">
+                        <td rowspan="16" class="config_type">技术配置</td>
+                        <td class="config_name">驱动形式</td>
+                        <td class="config_detial">4×2</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">轴距</td>
+                        <td class="config_detial">5250</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">发动机型号</td>
+                        <td class="config_detial">ISF3.8s4R168</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">额定功率/马力</td>
+                        <td class="config_detial">125/168</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">变速箱</td>
+                        <td class="config_detial">6J70T/8JS85C</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">后桥（型号/速比）</td>
+                        <td class="config_detial">1093Z/4.875/1093Z/5.286</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">板簧（前/后）</td>
+                        <td class="config_detial">8/10+8</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">转向形式</td>
+                        <td class="config_detial">助力装箱</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">制动形式</td>
+                        <td class="config_detial">断气杀</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name"></td>
+                        <td class="config_detial">8998×2495×2920</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">整车外形尺寸</td>
+                        <td class="config_detial">6700×2300，2400×600，550</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name"></td>
+                        <td class="config_detial">6700×2300，2400×600，550</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">货箱内部平板尺寸</td>
+                        <td class="config_detial">6700×2300，2400×600，550</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">货箱内部仓栅尺寸</td>
+                        <td class="config_detial">6700×2420×2400</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">货箱内部厢货尺寸</td>
+                        <td class="config_detial">6700×2420×2400</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">轮胎</td>
+                        <td class="config_detial">9.00R20</td>
+                    </tr>
+
+                    <tr class="">
+                        <td rowspan="10" class="config_type">基本配置</td>
+                        <td class="config_name">空调</td>
+                        <td class="config_detial">●</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">暖风</td>
+                        <td class="config_detial">●</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">ABS</td>
+                        <td class="config_detial">●</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">行驶记录仪</td>
+                        <td class="config_detial">●</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">电动门窗</td>
+                        <td class="config_detial">○</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">天窗</td>
+                        <td class="config_detial">▬</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">气囊座椅</td>
+                        <td class="config_detial">●</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">定速巡航</td>
+                        <td class="config_detial">▬</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">备胎</td>
+                        <td class="config_detial">●</td>
+                    </tr>
+                    <tr class="">
+                        <td class="config_name">备注</td>
+                        <td class="config_detial">半浮平顶</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="config_notice">注："●"表示有此配置;"○"表示选装配置;"-"表示无此配置.所供材料有所变更，以最新发布为准.</p>
+        </div>
+    </div>
+    <div class="car_video w1200-1400">
+        <h2 class="scrollShow">
+            <span class="en_title">VIDEO</span>
+            <span class="cn_title">车型视频</span>
+        </h2>
+        <div class="video_mask w1200">
+            <ul class="video_group clearfix">
+                <li class="startPos scrollShow">
+                    <img class="videoBg" src="images/car_model/car_video_01.jpg" alt="">
+                    <div class="foton_shadowcol trans" data=""></div>
+                    <div class="playBtn" data=""></div>
+                </li>
+                <li class="startPos scrollShow">
+                    <img class="videoBg" src="images/car_model/car_video_02.jpg" alt="">
+                    <div class="foton_shadowcol trans" data=""></div>
+                    <div class="playBtn" data=""></div>
+                </li>
+                <li class="startPos scrollShow">
+                    <img class="videoBg" src="images/car_model/car_video_03.jpg" alt="">
+                    <div class="foton_shadowcol trans" data=""></div>
+                    <div class="playBtn" data=""></div>
+                </li>
+                <li class="startPos scrollShow">
+                    <img class="videoBg" src="images/car_model/car_video_04.jpg" alt="">
+                    <div class="foton_shadowcol trans" data=""></div>
+                    <div class="playBtn" data=""></div>
+                </li>
+                <li class="startPos scrollShow">
+                    <img class="videoBg" src="images/car_model/car_video_05.jpg" alt="">
+                    <div class="foton_shadowcol trans" data=""></div>
+                    <div class="playBtn" data=""></div>
+                </li>
+                <li class="startPos scrollShow">
+                    <img class="videoBg" src="images/car_model/car_video_06.jpg" alt="">
+                    <div class="foton_shadowcol trans" data=""></div>
+                    <div class="playBtn" data=""></div>
+                </li>
+                <li class="startPos scrollShow">
+                    <img class="videoBg" src="images/car_model/car_video_02.jpg" alt="">
+                    <div class="foton_shadowcol trans" data=""></div>
+                    <div class="playBtn" data=""></div>
+                </li>
+                <li class="startPos scrollShow">
+                    <img class="videoBg" src="images/car_model/car_video_01.jpg" alt="">
+                    <div class="foton_shadowcol trans" data=""></div>
+                    <div class="playBtn" data=""></div>
+                </li>
+                <li class="startPos scrollShow">
+                    <img class="videoBg" src="images/car_model/car_video_03.jpg" alt="">
+                    <div class="foton_shadowcol trans" data=""></div>
+                    <div class="playBtn" data=""></div>
+                </li>
+                <li class="startPos scrollShow">
+                    <img class="videoBg" src="images/car_model/car_video_01.jpg" alt="">
+                    <div class="foton_shadowcol trans" data=""></div>
+                    <div class="playBtn" data=""></div>
+                </li>
+            </ul>
+        </div>
+        <div class="part_left">
+            <div class="prevBtn scrollShow"></div>
+        </div>
+        <div class="part_right">
+            <div class="nextBtn scrollShow"></div>
+        </div>
+    </div>
+    <div class="car_other clearfix">
+        <div class=" clearfix w1200">
+            <a class="imagePanel scrollShow" href="#">
+                <div class="other_img">
+                    <img class="trans" src="images/car_model/other_img_1.jpg">
+                    <div class="foton_shadowcol_bf trans"></div>
+                </div>
+                <p class="other_en">ACCESSORIES</p>
+                <p class="other_cn">内外饰图片</p>
+            </a>
+
+            <a class="imagePanel scrollShow" href="#">
+                <div class="other_img">
+                    <img class="trans" src="images/car_model/other_img_2.jpg">
+                    <div class="foton_shadowcol_bf trans"></div>
+                </div>
+                    <p class="other_en">RESERVE A TEST DRIVE</p>
+                    <p class="other_cn">预约试驾</p>
+            </a>
+            <a class="imagePanel scrollShow" href="#">
+                <div class="other_img">
+                    <img class="trans" src="images/car_model/other_img_3.jpg">
+                    <div class="foton_shadowcol_bf trans"></div>
+                </div>
+                <p class="other_en">OTHER ONLINE</p>
+                <p class="other_cn">在线订购</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--底部-->
+<div id="footer"></div>
+</body>
+
+</html>

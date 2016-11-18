@@ -1,0 +1,504 @@
+h2.scrollShow {
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.en_title {
+    font-size: 46px;
+    color: #0066b3;
+    letter-spacing: -3px;
+    font-family: arial;
+    margin-right: 20px;
+}
+.cn_title {
+    font-size: 38px;
+    color: #000;
+    position: relative;
+    top: -1px;
+    font-weight: normal;
+}
+h3.car_choice {
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+}
+h3.buu_car {
+    padding: 35px 0;
+}
+.onlines {
+    background-color: #fff;
+}
+ .newsNavPanel .subNav_click {
+    color: #FFFFFF;
+}
+.newsNavPanel .subNav {
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.newsNavContainer {
+    width: 202px;
+    margin: 30px auto;
+    position: relative;
+}
+.newsNavPanel {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.newsNavPanel li {
+    float: left;
+}
+.newsNavContainer .barBg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    height: 25px;
+    background: url(../images/car_model/newsBar.png) no-repeat center;
+    -moz-transition: left 0.2s linear;
+    -webkit-transition: left 0.2s linear;
+    -o-transition: left 0.2s linear;
+    transition: left 0.2s linear;
+}
+
+.online_car .imagePanel {
+    font-size: 14px;
+    color: #000000;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 285px;
+    text-align: center;
+    overflow: hidden;
+    /*opacity: 0;*/
+    /*filter: alpha(opacity=0);*/
+    /*visibility: hidden;*/
+    float:left;
+    position: relative;
+}
+.scal_img {
+    width: 285px;
+    height: 175px;
+    position:relative;
+    overflow:hidden;
+}
+.imagePanel img {
+    display: block;
+}
+ul.imageMask > li {
+    width: 1220px;
+}
+.word_part {
+    text-align: left;
+}
+ul.imageMask {
+    height: 264px;
+    overflow: hidden;
+}
+.radioBox label {
+    display: inline-block;
+    margin-right: 25px;
+    line-height: 20px;
+    height: 20px;
+    background: url(../images/car_model/cc1.png) no-repeat 0px 4px;
+    cursor: pointer;
+}
+.radioBox input {
+    visibility: hidden;
+}
+p.word_title {
+    font-size: 14px;
+    padding: 15px 0;
+}
+.car_ruiwo {
+    display: none;
+}
+.car_ruiwo > div {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.clearfix:after
+{
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden;
+    clear:both;
+    font-size: 0px;
+}
+
+.driveFormBox
+{
+    padding: 70px 0px 100px;
+}
+
+.driveFormBox h1
+{
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.driveFormBox h1 strong
+{
+    color: #0066b3;
+    margin-right: 20px;
+    font-size: 45px;
+}
+
+.driveFormBox h1 span
+{
+    position: relative;
+    top: -4px;
+}
+
+.driveForm
+{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.notice
+{
+    font-size: 12px;
+    color: #959595;
+    padding-left: 139px;
+    margin-bottom: 7px;
+}
+
+.notice a
+{
+    color: #00c9ff;
+}
+
+.notice b
+{
+    color: #0066b3;
+}
+
+.inputBox
+{
+    line-height: 33px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.padding_186
+{
+    padding-left: 137px;
+}
+
+.inputBox span
+{
+    color: #0066b3;
+    width: 98px;
+    display: block;
+    float: left;
+}
+
+.inputBox span.star
+{
+    display: inline-block;
+    width: 30px;
+    margin-right: 0;
+    text-indent: 10px;
+}
+
+.inputBox input
+{
+    width: 197px;
+    display: inline-block;
+    height: 33px;
+    border: 1px solid #959595;
+    padding: 0px 10px;
+    float: left;
+    color: #959595;
+    line-height: 33px;
+}
+
+.inputBox input:focus,textarea:focus
+{
+    border-color: #0066b3;
+}
+
+label
+{
+    background: url("../images/car_model/cc1.png") no-repeat 0px 4px;
+    line-height: 20px;
+    display: inline-block;
+    margin-right: 38px;
+    color: #959595;
+    height: 20px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.inputBox label input
+{
+    visibility: hidden;
+    width: 15px;
+}
+.inputBox label input{
+    opacity: 0\9;
+    filter:alpha(opacity=0)\9;
+    height: 0px\9;
+    display: inherit\9;
+}
+.float_left
+{
+    float: left;
+}
+
+.marginR_35
+{
+    margin-right: 35px;
+}
+
+.dropItem
+{
+    height: 35px;
+    float: left;
+    position: relative;
+    line-height: 33px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.dropDefault span
+{
+    display: inline-block;
+    width: 160px;
+    height: 33px;
+    padding: 0px 10px;
+    border: 1px solid #959595;
+    border-right: 0;
+    float: left;
+    margin-right: 0;
+    text-align: left;
+    color: #959595;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.dropItem .shop{
+    width:411px;
+}
+.dropDefault button
+{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: #959595 url("../images/car_model/dropBtn.png") no-repeat 50% 50%;
+    float: left;
+    border: 0;
+    cursor: pointer;
+    cursor: hand;
+}
+
+
+.dropDefault button.click_color
+{
+    background-color: #0066b3;
+}
+
+.dropItem .dropDefault:hover button{
+    background-color: #0065B3;
+}
+
+.dropOptions
+{
+    width: 182px;
+    border: 1px solid #959595;
+    border-top: 0;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 100;
+    display: none;
+    max-height: 132px;
+    overflow-y: auto;
+    box-shadow: 0px 2px 3px #959595;
+}
+
+.dropOptions p
+{
+    padding: 0px 10px;
+    cursor: hand;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #959595;
+    transition: background-color 0.4s;
+    -webkit-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
+    color: #959595;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 33px;
+}
+
+.dropOptions p:hover
+{
+    background-color: #0066b3;
+    color: #fff;
+}
+
+.inputBox span.unit
+{
+    color: #0066b3;
+    float: left;
+    width: 27px;
+}
+
+.inputBox span.marginR_37
+{
+    margin-right: 37px;
+}
+
+textarea
+{
+    resize: none;
+    float: left;
+    width: 453px;
+    padding: 0px 10px;
+    border: 1px solid #959595;
+    color: #959595;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    line-height: 24px;
+    height: 58px;
+}
+
+.btnBox
+{
+    width: 301px;
+    margin: 34px 165px 0px;
+}
+
+button.formBtn
+{
+    background: #0066b3 url("../images/car_model/jt1.png") no-repeat scroll 80px 56%;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Microsoft yahei","微软雅黑",Tahoma,Verdana,Arial,sans-serif;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    transition: background-color 0.4s ease 0s;
+    -webkit-transition: background-color 0.4s ease 0s;
+    -moz-transition: background-color 0.4s ease 0s;
+    -o-transition: background-color 0.4s ease 0s;
+    width: 130px;
+    margin: 0px 10px;
+    float: right;
+    text-indent: -18px;
+}
+
+.btnBox a
+{
+    float: right;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #959595;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.btnBox a:hover
+{
+    color: #29baf6;
+}
+
+button.formBtn:hover{
+    background-color: #29baf6;
+}
+
+#calendar
+{
+    background: url("../images/calendar.png") no-repeat 166px 50%;
+    width: 157px;
+}
+
+.labelBox
+{
+    /* width: 487px; */
+    color: #0066b3;
+    float: left;
+    padding-left: 10px;
+}
+
+.inputBox .labelBox span
+{
+    width: 103px;
+    text-align: left;
+    margin-right: 0;
+}
+
+.padding_103
+{
+    padding-left: 103px;
+}
+
+.inputBox input.AreaCode {
+    padding: 0;
+    text-align: center;
+    width: 48px;
+}
+
+.inputBox span.bars {
+    color: #959595;
+    font-size: 12px;
+    margin-right: 0;
+    text-align: center;
+    width: 11px;
+}
+
+.inputBox input.telNum {
+    width: 136px;
+}
+.inputBox span.grayNotice {
+    color: #959595;
+    font-size: 12px;
+    margin-right: 0;
+    text-align: left;
+    text-indent: 2px;
+    width: 150px;
+}
+.inputBox span.grayNotice b
+{
+    font-weight: 500;
+    color: #0066b3;
+    font-size: 14px;
+}
+p.warning
+{
+    position: absolute;
+    left: 100px;
+    top: 28px;
+    font-size: 12px;
+    color: #e93a3a;
+}
+.dropItem p.warning
+{
+    left: 0;
+}
+p.remarkArea {
+    left: 137px;
+    top: 56px;
+}
+p.oneline {
+    display: inline-block;
+}
+.sex {
+    margin-left: 33px;
+}

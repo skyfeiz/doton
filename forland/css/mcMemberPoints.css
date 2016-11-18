@@ -1,0 +1,90 @@
+.click_states i {
+  background: url("../images/mCLogin/hover_icon.png") no-repeat 0 -121px;
+}
+.detail_content {
+  width: 740px;
+  padding-left: 20px;
+}
+.member_status p {
+  padding-top: 18px;
+}
+.member_status span {
+  line-height: 16px;
+  font-size: 16px;
+  color: #0066b3;
+}
+.member_status i {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.member_grade i {
+  background:url("../images/mCLogin/icon_grade.png") no-repeat center center;
+}
+.member_score i {
+  background:url("../images/mCLogin/icon_score_num.png") no-repeat center center;
+}
+span.grade_con {
+  width: 140px;
+  display: inline-block;
+  padding-left: 10px;
+}
+span.fill_part {
+  color: #494949;
+}
+
+/*表格*/
+.table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+.member_status i, .member_status span {
+  float: left;
+}
+.member_table {
+  padding-top: 40px;
+}
+.table_title {
+  padding-bottom: 10px;
+}
+.table_title a {
+  float: right;
+  font-size: 18px;
+  color: #00c0f4;
+  text-decoration: underline;
+}
+.table_title span {
+  font-size: 14px;
+  color: #0066b3;
+}
+.table_t {
+  background-color: #d2d2d2;
+}
+.table_t th {
+  width: 85px;
+  font-size: 16px;
+  color: #0066b3;
+  height: 37px;
+  border-right:1px solid #bfbfbf;
+  border-bottom:1px solid #bfbfbf;
+}
+th.order {
+  border-left: 1px solid #fff #d2d2d2;
+}
+th.status {
+  border-right: 1px solid #fff #d2d2d2;
+}
+.list td {
+  text-align: center;
+  height: 35px;
+  width: 85px;
+  font-size: 14px;
+  color: #000000;
+  border:1px solid #bfbfbf;
+}
+.table .order {
+  width: 50px;
+}
+tr.list {
+
+}

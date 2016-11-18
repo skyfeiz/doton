@@ -1,0 +1,1688 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: 'Microsoft yahei','微软雅黑',Tahoma,Verdana,Arial,sans-serif;
+}
+body,div,span,ul,li,p,h1,h2,h3,h4,h5
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    padding-top: 70px;
+}
+li
+{
+    list-style-type:none;
+}
+
+img
+{
+    border: none;
+}
+
+button:focus,input:focus{
+	outline: none;
+}
+
+/* 英文标题 */
+h1 .enTitle
+{
+	letter-spacing: -2px;
+	font-size: 46px;
+	margin-right: 10px;
+	font-family: Arial;
+	font-weight: 700;
+}
+
+/* 中文标题 */
+h1 .cnTitle
+{
+	position: relative;
+	top: -4px;
+	font-size: 38px;
+    font-weight: 500;
+}
+
+/* 进入按钮 */
+a.enterLink
+{
+	display: inline-block;
+	width: 152px;
+	line-height: 43px;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 30px;
+	border: 1px solid #0066b3;
+	background: #0066b3 url("../images/index/whiteArrow.png") no-repeat 115px 17px;
+	text-indent: 33px;
+	transition: background-color 0.4s, border-color 0.4s;
+	-webkit-transition: background-color 0.4s, border-color 0.4s;
+	-moz-transition: background-color 0.4s, border-color 0.4s;
+	-o-transition: background-color 0.4s, border-color 0.4s;
+}
+
+a.enterLink:hover
+{
+	background-color: #00c9ff;
+	border-color: #00c9ff;
+}
+
+.clearfix:after 
+{ 
+	content:"."; 
+	display:block; 
+	height:0;
+	visibility:hidden;
+	clear:both; 
+	font-size: 0px;
+}
+
+.w1200-1400
+{
+    margin: 0 auto 0 auto;
+    min-width: 1200px;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.w1200
+{
+    margin: 0 auto 0 auto;
+    width:1200px;
+
+}
+
+a:link,a:visited,a:hover,a:active
+{
+    text-decoration: none;
+}
+
+.italic
+{
+    font-style:italic;
+}
+.trans
+{
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.trans-color
+{
+    -moz-transition:background 0.5s ease-out,color 0.5s ease-out;
+    -webkit-transition:background 0.5s ease-out,color 0.5s ease-out;
+    -o-transition:background 0.5s ease-out,color 0.5s ease-out;
+    transition:background 0.5s ease-out,color 0.5s ease-out;
+}
+
+/*---------------------------------------------------header---------------------------------------------------*/
+.header
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background: #000;
+    z-index: 1000;
+}
+.logo
+{
+    float: left;
+	display: block;
+	position: relative;
+}
+.logo img
+{
+	display: block;
+}
+.logo img.logoGif
+{
+	position: absolute;
+	top: 17px;
+	left: 55px;
+}
+.header .navPanel
+{
+    float: left;
+    width:750px;
+    height: 70px;
+    overflow:hidden;
+}
+.header .navPanel a
+{
+    display: list-item
+	_display:inline-block;
+    float: left;
+    margin-left: 13px;
+    margin-right: 13px;
+    text-align: center;
+    font-weight: bold;
+    height: 65px;
+    line-height: 65px;
+    cursor: pointer;
+	color: #989898;
+}
+
+.header .navPanel a.present
+{
+	color: #fff;
+	position: relative;
+}
+
+.header .navPanel a.present:after{
+	width: 100%;
+	height: 2px;
+	background-color: #0077d2;
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+}
+.header .navPanel a:hover{
+	color: #fff;
+}
+
+.header .rightPanel
+{
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    height: 30px;
+}
+.header .searchPanel
+{
+    display: none;
+    position:absolute;
+    left: 360px;
+    width: 805px;
+    height: 70px;
+    background: #000;
+    overflow: hidden;
+}
+.header .searchPanel .searchInput
+{
+    float: left;
+    margin: 20px 20px 0 20px;
+    width: 700px;
+    height: 30px;
+    border: none;
+    color: #a7a7a7;
+}
+.header .searchPanel .searchClose
+{
+    float: right;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    background: url("../images/index/search_close.png") no-repeat 0 0;
+    cursor: pointer;
+}
+.header .searchPanel .searchClose:hover
+{
+    background-position: center -30px;
+}
+.header .searchPanel .searchBtn
+{
+    float: left;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+	border: none;
+    background: url("../images/index/header_search.png") no-repeat 0 -30px;
+    cursor: pointer;
+}
+.header .rightPanel .searchIcon
+{
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: url("../images/index/header_search.png") no-repeat 0 0;
+    cursor: pointer;
+}
+.header .rightPanel .searchIcon:hover
+{
+    background-position: center -30px;
+}
+.user
+{
+	float: right;
+	position: relative;
+	padding-right: 33px;
+	margin-right: 13px;
+	background: url("../images/user.png") no-repeat 100% 50%;
+	z-index: 10;
+}
+.user p.userName
+{
+	line-height: 30px;
+	color: #0066b3;
+	cursor: hand;
+	cursor: pointer;
+}
+.user .hideLink
+{
+	text-align: center;
+	width: 92px;
+	position: absolute;
+	left: 0;
+	top: 50px;
+	background-color: #fff;
+	box-shadow: 0px 2px 2px #959595;
+	display: none;
+}
+.user .hideLink a.borderB
+{
+	border-bottom: 1px solid #ccc;
+}
+.user .hideLink a
+{
+	display: block;
+	width: 100%;
+	line-height: 41px;
+	color: #777;
+}
+.user .hideLink a:hover
+{
+	color: #fff;
+	background-color: #0065b3;
+}
+.header .rightPanel .line
+{
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 8px;
+    height: 100%;
+    background: url("../images/index/line.png") no-repeat center center;
+}
+.header .rightPanel .languageIcon
+{
+    float: right;
+    margin-right: 5px;
+    width: 100px;
+    height: 100%;
+    background:url("../images/index/language_icon.png") no-repeat 0 0;
+    cursor: pointer;
+}
+.header .rightPanel .languageIcon:hover
+{
+    background-position: center -30px;
+}
+.header .loginPanel
+{
+    position: absolute;
+    top: 71px;
+    right: 0;
+    padding-left: 40px;
+    width: 270px;
+    height: 40px;
+    line-height: 40px;
+    background: url("../images/index/loginBarBg.png") no-repeat left center;
+    overflow: hidden;
+}
+.header .loginPanel .title
+{
+    float: left;
+    height: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+	color: #FFFFFF;
+}
+.header .loginPanel .title:hover{
+	color: #00C0F4;
+}
+.header .loginPanel a
+{
+	color: #FFFFFF;
+}
+.header .loginPanel .line
+{
+    float: left;
+    width: 8px;
+    height: 100%;
+    background: url("../images/index/line.png") no-repeat center;
+}
+/*---------------------------------------------------subNavPanel---------------------------------------------------*/
+.header .subNavPanel
+{
+    position: fixed;
+    top:70px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.header .subNavMask
+{
+    position: absolute;
+    top: 71px;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    transition: left 0.3s ,width 0.5s ,height 0.6s;
+	border: 1px solid #ccc\9;
+	border-top: 0px;
+}
+.header .subNavMask .subNavScrollPanel
+{
+    position: absolute;
+    width:3000px;
+    overflow: hidden;
+    -moz-transition: left 0.4s ;
+    -webkit-transition: left 0.4s ;
+    -o-transition: left 0.4s ;
+    transition: left 0.4s ;
+}
+.header .subNavMask .subNavScrollPanel .subNavGroup
+{
+    float: left;
+    width: 160px;
+}
+.header .subNavMask .subNavScrollPanel .subNavGroup .subNav
+{
+    display:block;
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    color: #777777;
+    border-top: solid 1px #cccccc;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 05s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.header .subNavMask .subNavScrollPanel .subNavGroup .subNav:hover
+{
+    color: #FFFFFF;
+    background-color: #0066b3;
+}
+
+.header .subNavMask .subNavScrollPanel .carPanel
+{
+    border-top: solid 1px #cccccc;
+    width: 950px;
+    height: 360px;
+}
+
+.header .subNavMask .subNavScrollPanel .carPanel .carNavPanel
+{
+    margin: 25px auto 0 50px;
+}
+
+.header .subNavMask .subNavScrollPanel .carPanel .carNavPanel .carNav
+{
+    float: left;
+    margin-left: -1px;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: solid 1px #c3c3c3;
+    cursor: pointer;
+}
+.header .subNavMask .subNavScrollPanel .carPanel .carNavPanel .carNav:hover
+{
+    color: #FFFFFF;
+    background-color: #545454;
+}
+.header .subNavMask .subNavScrollPanel .carPanel .carNavPanel .carNav_click
+{
+    color: #FFFFFF;
+    background-color: #00c9ff;
+}
+.header .carMask
+{
+    clear: both;
+    position: relative;
+    margin-left: 50px;
+    width: 840px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.header .carMask .carScrollPanel
+{
+    position: relative;
+    width: 2000px;
+}
+
+.header .carMask .carScrollPanel .carGroup
+{
+    clear: both;
+    height: 200px
+}
+
+.header .carMask .carScrollPanel .carGroup .carItem
+{
+    float: left;
+}
+.header .carMask .carScrollPanel .carGroup .carItem p
+{
+    text-align: center;
+}
+/*---------------------------------------------------toolPanel---------------------------------------------------*/
+.toolPanel
+{
+    position: relative;
+    z-index: 900;
+}
+.toolPanel .toolGroup
+{
+    position: fixed;
+    top: 215px;
+    right: 0;
+}
+.toolPanel .toolGroup .icon
+{
+    display: block;
+    margin-left: auto;
+    margin-bottom: 1px;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    overflow: hidden;
+    /**/
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 03s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.toolPanel .toolGroup a:link
+{
+    color: #FFFFFF;
+}
+.toolPanel .toolGroup a:visited
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.toolPanel .toolGroup a:hover
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.toolPanel .toolGroup a:active
+{
+    color: #FFFFFF;
+}
+.toolPanel .toolGroup .icon
+{
+    /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF000000,endColorstr=#FF000000);*/
+}
+.toolPanel .toolGroup .driveIcon
+{
+    background: url("../images/index/tool_icon.png") no-repeat 0 -44px;
+    background-color: rgba(0,0,0,0.8);
+    background-color: #000000\9;
+}
+.toolPanel .toolGroup .driveIcon:hover
+{
+    width: 200px;
+    background-color: #0065b3;
+}
+.toolPanel .toolGroup .driveIcon .title
+{
+    margin-left: 44px;
+    width: 300px;
+}
+.toolPanel .toolGroup .phoneIcon
+{
+    background: url("../images/index/tool_icon.png") no-repeat 0px 0px;
+    background-color: rgba(0,0,0,0.8);
+    background-color: #000000\9;
+}
+.toolPanel .toolGroup .phoneIcon:hover
+{
+    width: 120px;
+    background-color: #0065b3;
+}
+.toolPanel .toolGroup .phoneIcon .title
+{
+    margin-left: 44px;
+    width: 300px;
+}
+.toolPanel .toolGroup .phoneIcon .title .bias{
+	margin-left: 12px;
+	margin-right: 12px;
+	color: #fff;
+}
+.toolPanel .toolGroup .phoneIcon .title a:hover{
+	color: #00c9ff;
+}
+.toolPanel .toolGroup .boxIcon
+{
+    background: url("../images/index/tool_icon.png") no-repeat 0 -88px;
+    background-color: rgba(0,0,0,0.8);
+    background-color: #000000\9;
+}
+.toolPanel .toolGroup .boxIcon:hover
+{
+    width: 100px;
+    background-color: #0065b3;
+}
+.toolPanel .toolGroup .boxIcon .title
+{
+    margin-left: 44px;
+    width: 300px;
+}
+.toolPanel .toolGroup .codeIcon
+{
+    position: relative;
+}
+.toolPanel .toolGroup .codeIcon .innerIcon
+{
+    position: absolute;
+    right: 0;
+    width: 44px;
+    height:44px;
+    background: url("../images/index/tool_icon.png") no-repeat right -132px;
+    background-color: rgba(0,0,0,0.8);
+    background-color: #000000\9;
+    cursor: pointer;
+}
+.toolPanel .toolGroup .codeIcon .arrow
+{
+    position: absolute;
+    width: 4px;
+    height: 44px;
+    right: 44px;
+    background: url("../images/index/toolArrow.png") no-repeat left center;
+}
+.toolPanel .toolGroup .codeIcon:hover
+{
+    width: 48px;
+}
+.toolPanel .toolGroup .codeIcon:hover .innerIcon
+{
+    background-color: #0065b3;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 03s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.toolPanel .toolGroup .shareIcon
+{
+    position: relative;
+    background:url("../images/index/tool_icon.png") no-repeat right -176px;
+    background-color: rgba(0,0,0,0.8);
+    background-color: #000000\9;
+    cursor: pointer;
+}
+.toolPanel .toolGroup .shareIcon:hover
+{
+    width: 176px;
+    background-color: #0065b3;
+}
+.toolPanel .toolGroup .shareIcon .sharePanel
+{
+    position: absolute;
+    right: 44px;
+    width: 132px;
+}
+.toolPanel .toolGroup .shareIcon .sharePanel li
+{
+    float: left;
+    width: 44px;
+    height: 44px;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 03s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.toolPanel .toolGroup .shareIcon .sharePanel li:hover
+{
+    background-color: #00c9ff;
+}
+.toolPanel .toolGroup .shareIcon .sharePanel .qq
+{
+    background: url("../images/tool_share_icon.png") no-repeat 0 0;
+}
+.toolPanel .toolGroup .shareIcon .sharePanel .weixin
+{
+    background: url("../images/tool_share_icon.png") no-repeat -44px 0;
+}
+.toolPanel .toolGroup .shareIcon .sharePanel .weibo
+{
+    background: url("../images/tool_share_icon.png") no-repeat -88px 0;
+}
+.toolPanel .toolGroup .tmallIcon
+{
+    background: url("../images/index/tool_icon.png") no-repeat 0 -220px;
+    background-color: rgba(0,0,0,0.8);
+    background-color: #000000\9;
+}
+.toolPanel .toolGroup .tmallIcon_jqr
+{
+    background: url("../images/index/iroobt.png") no-repeat 0px 0px;
+    background-color: rgba(0,0,0,0.8);
+    background-color: #000000\9;
+}
+.toolPanel .toolGroup .robotIcon
+{
+    background: url("../images/robot/robot1.png") no-repeat 0 0px;
+    background-color: rgba(0,0,0,0.8);
+    background-color: #000000\9;
+}
+.toolPanel .toolGroup .fwsIcon
+{
+    background: url("../images/index/fwsIcon.png") no-repeat 0 0px;
+    background-color: rgba(0,0,0,0.8);
+    background-color: #000000\9;
+}
+.toolPanel .toolGroup .jxsIcon
+{
+    background: url("../images/index/jxsIcon.png") no-repeat 0 0px;
+    background-color: rgba(0,0,0,0.8);
+    background-color: #000000\9;
+}
+.toolPanel .toolGroup .zxydIcon
+{
+    background: url("../images/index/gwc.png") no-repeat 0 0px;
+    background-color: rgba(0,0,0,0.8);
+    background-color: #000000\9;
+}
+.toolPanel .toolGroup .tmallIcon:hover
+{
+    background-color: #0066b3;
+}
+.toolPanel .toolGroup .tmallIcon_jqr:hover
+{
+    background-color: #0066b3;
+}
+.toolPanel .toolGroup .robotIcon:hover
+{
+    background: url("../images/robot/robot2.jpg") no-repeat 0 0px;
+    background-color: #000000\9;
+}
+.toolPanel .toolGroup .fwsIcon:hover
+{
+    width: 150px;
+    background-color: #0065b3;
+}
+.toolPanel .toolGroup .jxsIcon:hover
+{
+    width: 150px;
+    background-color: #0065b3;
+}
+.toolPanel .toolGroup .zxydIcon:hover
+{
+    width: 110px;
+    background-color: #0065b3;
+}
+.toolPanel .toolGroup .fwsIcon .title a:hover{
+	color: #00c9ff;
+}
+.toolPanel .toolGroup .jxsIcon .title a:hover{
+	color: #00c9ff;
+}
+.toolPanel .toolGroup .zxydIcon .title a:hover{
+	color: #00c9ff;
+}
+.toolPanel .toolGroup .fwsIcon .title
+{
+    margin-left: 44px;
+    width: 300px;
+}
+.toolPanel .toolGroup .jxsIcon .title
+{
+    margin-left: 44px;
+    width: 300px;
+}
+.toolPanel .toolGroup .zxydIcon .title
+{
+    margin-left: 44px;
+    width: 300px;
+}
+.toolPanel .codePanel
+{
+    position: fixed;
+    display: none;
+    opacity: 0;
+    right: 100px;
+    top:294px;
+    padding: 20px 30px 0 30px;
+    height: 130px;
+    background-color: #0066b3;
+    overflow: hidden;
+}
+.toolPanel .codePanel li
+{
+    float: left;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.toolPanel .codePanel .codeTitle
+{
+    margin-bottom: 8px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/*---------------------------------------------------footer---------------------------------------------------*/
+.footer
+{
+    position: relative;
+    height: 160px;
+    background: #191919;
+    clear: both;
+}
+.footer .innerPanel
+{
+    color: #FFFFFF;
+
+}
+
+.footer .footLine
+{
+    float: left;
+    margin-top: 20px;
+    width: 38px;
+    height: 110px;
+    background:url("../images/index/footLine.png") no-repeat;
+}
+
+.footer .col
+{
+    margin-top: 20px;
+    position: relative;
+    float: left;
+	/*  top: 20px;
+    opacity: 0;
+    filter:alpha(opacity=0); */
+}
+.footer .col1
+{
+    margin-left: 50px;
+    width: 440px;
+    overflow: hidden;
+}
+.footer .col1 .otherNavPanel
+{
+    margin-left: -10px;
+    height: 20px;
+}
+.footer .col1 .otherNavPanel a
+{
+    float: left;
+    display: block;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: #FFFFFF;
+}
+.footer .col1 .otherNavPanel a:hover
+{
+    color: #00C0F4;
+}
+.footer .col1 .otherNavPanel .line
+{
+    float: left;
+    width: 8px;
+    height: 100%;
+    background: url("../images/index/line.png") no-repeat center;
+}
+.footer .searchTitle
+{
+    margin-top: 35px;
+    color: #b6b6b6;
+}
+.footer .searchPanel
+{
+    margin-top: 8px;
+}
+.footer .searchPanel .searchInput
+{
+    float: left;
+    width: 380px;
+    height: 28px;
+	line-height: 28px;
+    border: none;
+    color: #a7a7a7;
+    background: #0e0e0e;
+	padding-left: 10px;
+}
+.footer .searchPanel .searchBtn
+{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url("../images/index/search.png") no-repeat #515151;
+    cursor: pointer;
+	border: none;
+}
+.footer .searchPanel .searchBtn:hover
+{
+    background-color: #0066b3;
+}
+.footer .innerPanel .col2
+{
+    margin-left: 30px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+.footer .col2 .phoneTitle
+{
+    color: #FFFFFF;
+}
+.footer .col2 .phone
+{
+    margin-top: 5px;
+    font-family: Arial;
+    font-size:24px;
+}
+.footer .sharePanel
+{
+    margin-top: 20px;
+}
+.footer .sharePanel li
+{
+    float: left;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background: #0066b3;
+    cursor: pointer;
+}
+.footer .sharePanel .weibo
+{
+    background: url("../images/index/share_icon.png") no-repeat 0 0;
+}
+.footer .sharePanel .weibo:hover
+{
+    background-position: 0 -50px;
+}
+.footer .sharePanel .qqkongjian
+{
+    background: url("../images/index/share_icon.png") no-repeat -50px 0;
+}
+.footer .sharePanel .qqkongjian:hover
+{
+    background-position: -50px -50px;
+}
+.footer .sharePanel .qq
+{
+    background: url("../images/index/share_icon.png") no-repeat -100px 0;
+}
+.footer .sharePanel .qq:hover
+{
+    background-position: -100px -50px;
+}
+.footer .col3
+{
+    text-align: center;
+    color: #cdcdcd;
+    margin-top: 0;
+    margin-right: 10px;
+}
+.footer .col3 .codeContainer
+{
+
+}
+.footer .col3 .codeIcon
+{
+    margin-left: 50px;
+    margin-bottom: 15px;
+    width: 52px;
+    height: 80px;
+    background: url("../images/index/qrcodeIcon.png") no-repeat;
+    cursor: pointer;
+}
+.footer .col3 .codeIcon_out
+{
+    background-position: 0 0;
+}
+.footer .col3 .codeIcon_over
+{
+    background-position: -60px 0;
+}
+.footer .col3 .codeIcon_click
+{
+    background-position: -120px 0;
+}
+.footer .codePanel
+{
+    position: absolute;
+    padding: 20px 30px 0 30px;
+    top: -150px;
+    left: -140px;
+    width: 400px;
+    height: 130px;
+    background: #0066b3;
+    -webkit-transform-origin: 50% 100%;
+    z-index: 555;
+}
+.footer .codePanelOpen
+{
+    visibility:visible;
+    -webkit-transform: rotateX(0deg);
+}
+.footer .codePanelClose
+{
+    visibility: hidden;
+    -webkit-transform: rotateX(90deg);
+}
+
+.footer .codePanel li
+{
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.footer .codePanel .codeTitle
+{
+    margin-bottom: 8px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer .col4
+{
+    margin-left: 10px;
+}
+
+.footer .col4 p
+{
+	text-align: right;
+	color: #b6b6b6;
+	margin-top: 39px;
+}
+
+.footer .col4 .linkPanel
+{
+    position: relative;
+    z-index: 500;
+	margin-top: 11px;
+}
+/* .footer .col4 .linkPanel:hover .linkGroup
+{
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+    filter:alpha(opacity=1);
+}
+ */
+.footer .col4 .linkPanel .linkTitle
+{
+    padding-left: 20px;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    color: #b6b6b6;
+    background: url("../images/index/arrow.png") no-repeat right center;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.footer .col4 .linkPanel .linkGroup
+{
+    position: absolute;
+    bottom: 0;
+    background-color: #FFFFFF;
+    width: 197px;
+    overflow: hidden;
+    box-shadow: 0px -1px 5px rgba(0,0,0,0.3);
+    visibility: hidden;
+    opacity: 0;
+    filter:alpha(opacity=0);
+	height: 216px;
+	overflow: hidden;
+}
+.footer .col4 .linkPanel .linkGroupHover
+{
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+    filter:alpha(opacity=1);
+}
+.footer .col4 .linkPanel .linkGroup .linkBtn
+{
+    display: block;
+    padding-left: 20px;
+    line-height: 36px;
+    color: #777777;
+}
+.footer .col4 .linkPanel .linkGroup .linkBtn:hover
+{
+    color: #FFFFFF;
+    background-color: #0066b3;
+}
+
+/*---------------------------------------------------copyright---------------------------------------------------*/
+.copyright
+{
+    height: 40px;
+    line-height: 40px;
+    color: #6d6d6d;
+    font-size: 12px;
+    background: #000000;
+    overflow: hidden;
+}
+
+.copyright .innerPanel
+{
+    left: 60px;
+    overflow: hidden;
+}
+
+.linkBox
+{
+	position: relative;
+	background-color: #fff;
+}
+
+.barBox
+{
+	background-color: #c2c2c2;
+    height: 400px;
+    position: absolute;
+    right: 1px;
+    top: 0;
+    width: 3px;
+}
+
+.barItem
+{
+	background-color: #075698;
+    height: 30px;
+    left: -1px;
+    position: relative;
+    top: 0;
+    width: 5px;
+}
+/* 表单提交提示 */
+.formAlert
+{
+	width: 280px;
+	height: 160px;
+	box-shadow: 0px 2px 2px #959595;
+	background: #eee;
+	font-size: 20px;
+	color: #494949;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -140px;
+	margin-top: -90px;
+	text-align: center;
+	opacity: 0;
+	-khtml-opacity: 0;
+	filter: alpha(opacity=0);
+}
+.formAlert img
+{
+	margin-top: 35px;
+}
+.formAlert p
+{
+	margin-top: 4px;
+}
+
+
+.entirety{
+	width: 100%;
+	height: 1000px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	display: none;
+}
+.dialogbox{
+	width: 900px;
+	height: 540px;
+	border-radius: 5px;
+	/*margin: 0 auto;*/
+	background-color: #fff;
+	box-shadow: 1px 1px 5px 5px #a8a8a8;
+	/*top: 125px;*/
+	top: 10%;
+	left: 50%;
+	margin-left: -450px;
+}
+.dialogbox .topcon{
+	width: 100%;
+	height: 60px;
+	background-color: #0065b3;
+	border-radius: 5px 5px 0px 0px;
+	position: relative;
+	cursor: move;
+}
+.dialogbox .topcon .machine{
+	position: absolute;
+	left: 30px;
+	top: -36px;
+	float: left;
+}
+.dialogbox .topcon .motivational{
+	width: 200px;
+	margin-left: 105px;
+	float: left;
+}
+.dialogbox .topcon .smalli{
+	font-size: 18px;
+    color: #fff;
+    font-family: "微软雅黑";
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.dialogbox .topcon .allday{
+	font-size: 14px;
+    color: #dbdada;
+    font-family: "微软雅黑";
+}
+.dialogbox .topcon .closed{
+	width: 60px;
+	height: 60px;
+	float: right;
+	cursor: pointer;
+	cursor: hand;
+	border-radius: 0px 5px 0px 0px;
+	background:#11588f url("../images/robot/close.png") no-repeat center center;
+}
+.dialogbox .topcon .closed:hover{
+	background-color: #0f75c4;
+}
+.dialogueleft{
+	width: 499px;
+	height: 480px;
+	border-right: 1px solid #bfbfbf;
+	float: left;
+}
+.dialogueleft .chatting{
+	width: 499px;
+	height: 330px;
+	border-bottom: 1px solid #bfbfbf;
+	overflow: auto;
+}
+.dialogueleft .chatting .writeback{
+	margin: 20px 10px;
+}
+.dialogueleft .chatting .writeback .robotpic{
+	float: left;
+	border-radius: 100%;
+}
+.dialogueleft .chatting .writeback .response{
+	font-size: 14px;
+	color: #383737;
+	min-height:20px; height:auto!important; height:20px;
+	background-color: #e6e6e6;
+	position: relative;
+	top: 5px;
+	border-radius: 20px;
+	padding: 10px 20px 10px 20px;
+	float: left;
+	margin-left: 15px;
+	max-width: 300px;
+}
+.dialogueleft .chatting .writeback .response a{
+	color: blue;
+}
+.dialogueleft .chatting .putquestion{
+	margin: 20px 10px;
+}
+.dialogueleft .chatting .putquestion .raisepic{
+	float: right;
+	border-radius: 100%;
+}
+.dialogueleft .chatting .putquestion .raise{
+	font-size: 14px;
+	color: #383737;
+	margin-right: 15px;
+	min-height:20px; height:auto!important; height:20px;
+	background-color: #0090ff;
+	position: relative;
+	top: 5px;
+	border-radius: 20px;
+	text-align: left;
+	padding: 10px 20px 10px 20px;
+	max-width: 300px;
+	float: right;
+	color: #fff;
+	/*word-break:break-all;*/
+	word-wrap:break-word;
+}
+
+
+.dialogueleft .incontent{
+	width: 499px;
+	height: 149px;
+	position: relative;
+}
+.dialogueleft .incontent .reminder{
+	width: 150px;
+    height: 50px;
+    background: url("../images/robot/ts.png") no-repeat;
+    position: absolute;
+    bottom: 60px;
+    right: 25px;
+    text-align: center;
+    display: none;
+}
+.dialogueleft .incontent .reminder .keyword{
+	font-size: 12px;
+    width: 124px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 3px;
+    color: #0065B3;
+	
+}
+.dialogueleft .incontent .typeface{
+	width: 455px;
+	margin: 0px auto;
+	padding-top: 5px;
+}
+.dialogueleft .incontent .typeface .typepic{
+	width: 15px;
+	height: 15px;
+	background: url("../images/robot/choose.png") no-repeat;
+	float: left;
+	margin-right: 10px;
+}
+#selectsnum{
+	float: left;
+	width: 50px;
+	height: 15px;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 10px;
+}
+.dialogueleft .incontent .typeface .screenshot{
+	width: 15px;
+	height: 15px;
+	background: url("../images/robot/choose.png") no-repeat -21px 0px;
+	float: left;
+	margin-left: 20px;
+}
+.dialogueleft .incontent .typeface .manpower{
+	font-size: 12px;
+	color: #0065b3;
+	float: right;
+}
+form.field{
+	width: 100%;
+	height: 100px;
+	margin-top: 25px;
+}
+#enterContent{
+	width: 455px;
+	height: 55px;
+	resize: none;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	font-size: 12px;
+}
+#quit{
+	float: right;
+	width: 80px;
+	height: 25px;
+	border-radius: 2px;
+	border: 1px solid #6d6d6d;
+	margin-right: 10px;
+	font-size: 12px;
+	color: #494949;
+	background-color: #fff;
+	cursor: pointer;
+	cursor: hand;
+}
+#quit:hover{
+	background-color: #00c9ff;
+	color: #fff;
+	border-color: #00c9ff;
+}
+#sendmessage{
+	float: right;
+	width: 80px;
+	height: 25px;
+	border-radius: 2px;
+	border: none;
+	font-size: 12px;
+	color: #fff;
+	background-color: #0065b3;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.morecon{
+	width: 400px;
+	height: 540px;
+	float: right;
+}
+.morecon .query{
+	border-bottom: 1px solid #bfbfbf;
+}
+.morecon .query li{
+	float: left;
+	width: 99px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-right: 1px solid #bfbfbf;
+}
+.morecon .query li a{
+	color: #000;
+	display: block;
+	cursor: pointer;
+	cursor: hand;
+}
+.morecon .query li:hover{
+	background-color: #00c9ff;
+}
+.morecon .query li:hover a{
+	color: #fff;
+}
+.morecon .query li.checked{
+	background-color: #00c9ff;
+	color: #fff;
+}
+.morecon .query li.checked a{
+	color: #fff;
+}
+.morecon .homepage{
+	display: block;
+}
+.morecon .smallbanner{
+	width: 400px;
+	height: 260px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+.morecon .smallbanner .smallbannerbox{
+	width: 5555px;
+	height: 100%;
+	position: relative;
+}
+.morecon .smallbanner .smallbannerbox .smallbanners{
+	float: left;
+}
+.morecon .smallbanner .smallbannerbox .smallbanners .shade{
+	height: 30px;
+	width: 400px;
+	position: absolute;
+	bottom: 0px;
+}
+.morecon .smallbanner .smallbannerbox .smallbanners .shade .shadows{
+	background-color: #000000;
+	opacity: .5;
+	filter:alpha(opacity=50);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.morecon .smallbanner .smallbannerbox .smallbanners .shade .shadeword{
+	color: #fff;
+    line-height: 30px;
+    position: relative;
+    font-size: 16px;
+}
+.morecon .smallbanner .dotamount{
+	height: 6px;
+	display: inline-block;
+	position: relative;
+	top: -60px;
+}
+.morecon .smallbanner .dotamount .banneryd{
+	height: 6px;
+	width: 6px;
+	float: left;
+	cursor: pointer;
+	cursor: hand;
+	background: url("../images/robot/yuandian.png") no-repeat;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.morecon .smallbanner .dotamount .pick{
+	background: url("../images/robot/yuandian.png") no-repeat 0px -7px;
+}
+.homepage .maintain{
+	width: 390px;
+	margin: 20px auto;
+}
+.homepage .subscribe{
+	width: 120px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.morecon .correlation{
+	display: none;
+}
+.morecon .hotpints li{
+	width: 400px;
+	height: 40px;
+	border-bottom: 1px solid #ececec;
+	line-height: 40px;
+	text-indent: 20px;
+}
+.morecon .hotpints li a{
+	display: block;
+	color: #494949;
+}
+.morecon .hotpints li:hover{
+	background-color: #0065b3;
+}
+.morecon .hotpints li:hover a{
+	color: #fff;
+}
+.morecon .survey{
+	display: none;
+}
+.correlation .pagenum{
+	margin: 20px 20px;
+}
+.correlation .pagenum li{
+	float: left;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #d5d5d5;
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+	cursor: hand;
+	margin-left: 2px;
+	margin-right: 2px;
+	border-radius: 3px;
+	color: #494949;
+}
+.correlation .pagenum li.prevPage{
+	width: 80px;
+}
+.correlation .pagenum li.nextPage{
+	width: 80px;
+}
+
+.correlation .pagenum li.rock{
+	background-color: #0065b3;
+	color: #fff;
+}
+.correlation .pagenum li:hover{
+	background-color: #0065b3;
+	color: #fff;
+}
+.correlation .pagenum li.apostrophe{
+	cursor: auto;
+	border: none;
+	color: #494949;
+	background-color: #fff;
+}
+.dialogbox{
+	position: relative;
+}
+.servicetime{
+	width: 900px;
+	height: 540px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.servicetime .umbrbox{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .5;
+	filter:alpha(opacity=50);  
+	border-radius: 5px;
+}
+.servicetime .timewicket{
+	width: 450px;
+	height: 200px;
+	position: absolute;
+	top: 140px;
+	left: 25px;
+	background-color: #fff;
+	border-radius: 2px 2px 0px 0px;
+}
+.servicetime .timewicket .wickettitle{
+	width: 450px;
+	height: 30px;
+	background-color: #0065b3;
+	border-radius: 2px 2px 0px 0px;
+}
+.servicetime .timewicket .wickettitle .colse{
+	width: 30px;
+	height: 30px;
+	background: #11588f url("../images/robot/sclose.png") no-repeat center center;
+	cursor: pointer;
+	cursor: hand;
+	float: right;
+	border-radius: 0px 2px 0px 0px;
+}
+.servicetime .timewicket .wickettitle .colse:hover{
+	background-color: #0f75c4;
+}
+.servicetime .timewicket .presentation{
+	font-size: 18px;
+	color: #383737;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+.servicetime .timewicket .presentation .clock{
+	color: #0065b3;
+}
+.servicetime .timewicket .sureok{
+	width: 80px;
+	height: 25px;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #0065b3;
+	cursor: pointer;
+	cursor: hand;
+	display: block;
+	margin: 35px auto 0;
+}
+.servicetime .timewicket .sureok:hover{
+	background-color: #0f75c4;
+}
+.searchcase{
+	width: 300px;
+	height: 128px;
+	border: 1px solid #6d6d6d;
+	background-color: #fff;
+	position: absolute;
+	top: 55px;
+	border-radius: 2px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: none;
+}
+.searchcase .warning li{
+	width: 280px;
+	height: 25px;
+	line-height: 25px;
+	cursor: pointer;
+	cursor: hand;
+	color: #494949;
+	text-indent: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.searchcase .warning li:hover{
+	background-color: #b4b4b4;
+}
+
+.onlineservice{
+	cursor: pointer;
+}
+
+/*iframe框架*/
+.dialogue{
+	width: 900px;
+    height: 540px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 5px #a8a8a8;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -450px;
+    display: none;
+}
+.dialogue .framebox{
+	border-radius: 5px;
+}
+
+.dialogue .topcon{
+	width: 100%;
+	height: 60px;
+	background-color: #0065b3;
+	border-radius: 5px 5px 0px 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: move;
+}
+.dialogue .topcon .machine{
+	position: absolute;
+	left: 30px;
+	top: -36px;
+	float: left;
+}
+.dialogue .topcon .motivational{
+	width: 200px;
+	margin-left: 105px;
+	float: left;
+}
+.dialogue .topcon .smalli{
+	font-size: 18px;
+    color: #fff;
+    font-family: "微软雅黑";
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.dialogue .topcon .allday{
+	font-size: 14px;
+    color: #dbdada;
+    font-family: "微软雅黑";
+}
+
+.dialogue .frameclosed{
+	width: 60px;
+    height: 60px;
+    float: right;
+    cursor: pointer;
+    cursor: hand;
+    border-radius: 0px 5px 0px 0px;
+    background: #11588f url("../images/robot/close.png") no-repeat center center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.dialogue .topcon .closed:hover{
+	background-color: #0f75c4;
+}

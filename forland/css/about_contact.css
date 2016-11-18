@@ -1,0 +1,98 @@
+.banner{
+	background:url('../images/about/banner.jpg') no-repeat scroll 0 0;
+	height:555px;
+}
+.banner h2{
+	text-align:center;
+	color:#fff;
+}
+.banner h2.enTitle{
+	font-size:35px;
+	padding-top:230px;
+}
+.banner h2.cnTitle{
+	font-size:32px;
+	font-weight:normal;
+}
+.main{
+	padding:75px 0px 95px;
+}
+.main p.title{
+	font-size:18px;
+	color:#3f3f3f;
+}
+.main p.content{
+	color: #3f3f3f;
+    line-height: 24px;
+}
+.main p span{
+	color:#0066b3;
+}
+
+.clearfix:after 
+{ 
+	content:"."; 
+	display:block; 
+	height:0;
+	visibility:hidden;
+	clear:both; 
+	font-size: 0px;
+}
+
+.QRcodeBox
+{
+	text-align: center;
+	width: 720px;
+	font-size: 18px;
+	color: #000;
+	margin: 55px auto 0px;
+}
+
+.QRcodeBox div
+{
+	float: left;
+	width: 360px;
+}
+
+.QRcodeBox img
+{
+	margin-bottom: 18px;
+}
+.QRcodeBox .weixincon{
+	float: left;
+	margin-left: 66px;
+	letter-spacing: 1px;
+	margin-right: 10px;
+}
+.QRcodeBox .weixinpic{
+	width: 30px;
+	height: 24px;
+	background: url("../images/about/wxwb.png") no-repeat;
+	float: left;
+}
+.QRcodeBox .weibocon{
+	float: left;
+	margin-left: 66px;
+	letter-spacing: 1px;
+	margin-right: 10px;
+}
+.QRcodeBox .weibopic{
+	width: 35px;
+	height: 28px;
+	background: url("../images/about/wxwb.png") no-repeat 0px -41px;
+	float: left;
+	position: relative;
+	top: -4px;
+}
+a{
+	color: #3f3f3f;
+}
+
+
+
+
+
+
+
+
+

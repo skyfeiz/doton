@@ -1,0 +1,230 @@
+.main_part {
+  width: 950px;
+  margin: 80px auto 70px;
+}
+.word_part {
+  padding: 10px 0;
+  width: 100%;
+  height: 600px;
+  padding-left:10px;
+  overflow: hidden;
+    box-shadow:-2px 0 2px #c0c0c0,
+    0 2px 2px #c0c0c0;
+    position: relative;
+
+}
+/*题目、文字部分*/
+.main_title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+.mcr_title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.mcr_title , .next_floor_title, .son_title, .mcr_introduce, .indent_content , .mcr_introduce , .detail_content {
+  color: #494949;
+}
+.mcr_introduce {
+  font-size: 16px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+.detail_content , .indent_content {
+  line-height: 1.7;
+}
+.next_floor_title {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.son_title {
+  padding: 5px 0;
+  font-weight: normal;
+}
+.son_title span{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 0;
+}
+.next_floor_title span {
+  font-size: 14px;
+  font-weight: normal;
+}
+.indent_content {
+  text-indent: 28px;
+}
+.indent_content strong {
+  color: #fc0706;
+}
+.detail_next {
+  font-size: 14px;
+  color: #494949;
+  padding-left: 20px;
+  line-height: 1.7;
+}
+
+
+
+/*table表格*/
+.mc_right {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #bfbfbf;
+    margin: 10px 0 5px;
+}
+.list td {
+    text-align: center;
+    height: auto;
+    width: 95px;
+    font-size: 14px;
+    border: 1px solid #bfbfbf;
+    padding: 0;
+    padding: 10px 0;
+}
+tr.table_title {
+  height: 72px;
+  padding: 0;
+}
+.table_title span {
+  width: 100%;
+  display: inline-block;
+  height: 36px;
+  line-height:36px;
+  border-bottom: 1px solid #bfbfbf;
+}
+.table_title td {
+  padding: 0;
+}
+td.table_Remarks {
+  padding: 10px;
+  width: 300px;
+}
+span.table_two {
+  border-bottom: none;
+}
+.list td {
+  color: #494949;
+}
+.table_introduce {
+  text-align: center;
+}
+.detail_content_notice {
+  font-size: 14px;
+  color: #494949;
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+/*品牌的表格*/
+.table_brand {
+  width: 100%;
+  height: auto;
+  margin: 10px 0 15px;
+}
+.brand_ser {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #bfbfbf;
+    margin: 10px 0 5px;
+}
+.brand td ,.brand th {
+    text-align: center;
+    font-size: 14px;
+    height: 36px;
+    border: 1px solid #bfbfbf;
+}
+.brand th {
+    background-color: #0065b3;
+    color: #fff;
+    border-top: none;
+}
+.brand_one {
+  width: 232px;
+}
+.type_two {
+  width: 386px;
+}
+.brand_type .type_two {
+    width: 191px;
+}
+.strand_three {
+  width: 280px;
+}
+/*积分获得量的表格*/
+.getPointAndNum {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #bfbfbf;
+    margin: 20px 0 20px;
+}
+.getPointAndNum td {
+    text-align: center;
+    height: auto;
+    width: 90px;
+    font-size: 14px;
+    border: 1px solid #bfbfbf;
+}
+td.left_head {
+  width: 64px;
+}
+
+/**/
+.Membership_agreement {
+  margin-top: 40px;
+}
+
+/*按钮*/
+.agree_part {
+  margin: 40px 0;
+  width: 100%;
+  height: 40px;
+}
+.agree_part a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  text-align:center;
+  margin-left: 375px;
+  width: 200px;
+  color: #fff;
+  background-color: #0065b3;
+}
+.agree_part a:hover {
+  background-color: #00C9FF;
+}
+
+.barBox {
+  width: 20px;
+  height: 600px;
+  background-color: #ededed;
+}
+.barItem {
+  width: 20px;
+  left:0;
+}
+.mc_regulations {
+  width: 930px;
+}
+
+.harf_brand td {
+    text-align: center;
+    font-size: 14px;
+    height: 36px;
+    border: 1px solid #bfbfbf;
+    width: 310px;
+    line-height:1.6;
+}
+.getPointAndNum td {
+    text-align: center;
+    font-size: 14px;
+    height: 36px;
+    border: 1px solid #bfbfbf;
+    width: 207px;
+    line-height:1.6;
+}

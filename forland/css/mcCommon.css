@@ -1,0 +1,200 @@
+body {
+  background-color: #e9e3e3;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+.trans {
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 03s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.input_box input{
+	line-height: 33px;
+}
+.main_part {
+  width: 1000px;
+  margin: 80px auto 100px;
+}
+.main_part input {
+	line-height: 33px;
+}
+.tran {
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.main_left {
+  width: 200px;
+  height: 610px;
+  border-left: 1px solid #0065b3;
+  border-right: 1px solid #0065b3;
+  background-color: #0065b3;
+  float: left;
+}
+.navTab {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  display: inline-block;
+  line-height: 60px;
+  border-top: 1px solid #4d94ca;
+}
+div.main_title {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  border-top: none;
+  background-color: #0065b3;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+
+.navTab i {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../images/mCLogin/white_icon.png") no-repeat;
+  background-position: 0 0;
+}
+.navTab:hover i {
+  background: url("../images/mCLogin/hover_icon.png") no-repeat;
+}
+i.nav_icon2 {
+  background-position: 0 -31px;
+}
+.navTab:hover .nav_icon2{
+  background-position: 0 -31px;
+}
+i.nav_icon3 {
+  background-position: 0 -61px;
+}
+.navTab:hover .nav_icon3{
+  background-position: 0 -61px;
+}
+i.nav_icon4 {
+  background-position: 0 -91px;
+}
+.navTab:hover .nav_icon4{
+  background-position: 0 -91px;
+}
+i.nav_icon5 {
+  background-position: 0 -121px;
+}
+.navTab:hover .nav_icon5{
+  background-position: 0 -121px;
+}
+i.nav_icon6 {
+  background-position: 0 -151px;
+}
+.navTab:hover .nav_icon6{
+  background-position: 0 -151px;
+}
+
+.navTab span {
+  color: #fff;
+  padding-left: 65px;
+  font-size: 16px;
+}
+.navTab:hover {
+  background-color: #fff;
+  color: #0065b3;
+}
+.navTab:hover span{
+  color: #0066b3;
+}
+.container_date .on {
+  background-color: #0066b3;
+  color: #fff;
+}
+.click_states {
+  background-color: #fff;
+  color: #0065b3;
+}
+.click_states span {
+  color: #0066b3;
+}
+
+
+/*右侧签到*/
+.main_right {
+  width: 780px;
+  float: right;
+  background-color: #fff;
+
+}
+.signInTitle {
+  height: 50px;
+  background-color: #0065b3;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+.signInTitle span {
+  font-size: 18px;
+  color: #fff;
+  padding-left: 40px;
+}
+
+
+.header .loginPanel .title {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.mcuser {
+  cursor: pointer;
+  min-width: 30px;
+  max-width: 140px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-left: -25px;
+  background: url("../images/mCLogin/login_sure_icon.png") no-repeat 0px 10px;
+}
+.mcuser p {
+  min-width: 30px;
+  max-width: 140px;
+  overflow: hidden;
+  height: 40px;
+  text-indent: 25px;
+  font-size: 14px;
+  color: #cccccc;
+}
+.mcuser .hideLink {
+  text-align: center;
+  width: 92px;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  background-color: #fff;
+  box-shadow: 0px 2px 2px #959595;
+  display: none;
+}
+.mcuser .hideLink a.borderB {
+  border-bottom: 1px solid #ccc;
+}
+.mcuser .hideLink a {
+  display: block;
+  width: 100%;
+  line-height: 41px;
+  color: #777;
+}
+.header .loginPanel {
+  overflow: visible;
+}
+.main_part .border_color {
+  border: 1px solid #0066b3;
+}
+
+.word_content, .member_table {
+	padding-bottom: 60px;
+}

@@ -1,0 +1,92 @@
+.ft_Entitle {
+    font-size: 0.28rem;
+    color: #0066b3;
+    font-family: "DIN";
+    text-align: center;
+    margin-top: 0.28rem;
+    letter-spacing: -1px;
+}
+.ft_Cntitle {
+    text-align: center;
+    font-size: 0.24rem;
+    color: #000000;
+    font-weight: normal;
+}
+.main_tab {
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    margin-top: 0.2rem;
+}
+.main_tab ul li {
+    float: left;
+    width: 20%;
+    height: 0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.14rem;
+}
+.main_part {
+    padding: 0.15rem 0.12rem 0.3rem;
+
+}
+.main_part .main_part_slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.main_part_slider > div{
+  display: none;
+}
+.main_part_slider > div.part_one {
+    display: block;
+}
+.main_tab .click_status {
+    color: #fff;
+    background-color: #00c9ff
+}
+.main_part .detail {
+    width: 50%;
+    height: 2.22rem ;
+    padding: 0 0.03rem 0.05rem;
+    float: left;
+}
+.main_part .detail img {
+    width: 100%;
+    height: 1.25rem;
+
+}
+.main_part .detail  div.div_btn {
+    width: 0.76rem;
+    margin: auto;
+}
+.main_part .detail > div {
+    height: 100%;
+    background-color: #d8d8d8;
+}
+.main_part p.detail_title {
+    text-align: center;
+    color: #000000;
+    font-size: 0.14rem;
+    line-height: 1.5;
+}
+.main_part  p.detail_price {
+    text-align: center;
+    color: #404040;
+    font-size: 0.12rem;
+}
+.main_part p.detail_icon {
+    height: 0.22rem;
+    background: url("../images/purchase/tmLogo.png") center  center no-repeat;
+    background-size: auto 100%;
+}
+.main_part .detail_btn {
+    display:inline-block;
+    height: 0.2rem;
+    width: 0.76rem;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.2rem;
+    color: #fff;
+    background-color: #0066b3;
+
+}

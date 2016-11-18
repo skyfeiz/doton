@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>车型介绍</title>
+    <meta name="description" content="福田汽车 具体内容由福田提供">
+    <meta name="keywords" content="福田汽车 具体内容由福田提供">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/car_online.css" />
+    <script src="http://pv.sohu.com/cityjson" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--生成头底-->
+    <script src="js/HandF.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/headerAndFooter.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/scrollShow.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/jquery_scrollBar.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/share.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/car_online.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            new foton.HandF();
+            new foton.HeaderAndFooter();
+            new foton.scrollShow();
+            new foton.CarOnline();
+            new foton.share();
+            $("#support").addClass("present");
+        });
+    </script>
+</head>
+
+<body>
+<!--头部-->
+<div id="header"></div>
+
+<!--内容-->
+<div class="onlines w1200-1400">
+    <div class="online_car w1200">
+        <h2 class="scrollShow">
+            <span class="en_title">ORDER ONLINE</span>
+            <span class="cn_title">在线订购</span>
+        </h2>
+        <h3 class="car_choice scrollShow">车型选择</h3>
+        <div class="newsNavContainer scrollShow">
+            <ul class="newsNavPanel clearfix">
+                <li class="subNav subNav_click trans">时代汽车</li>
+                <li class="subNav trans">瑞沃</li>
+            </ul>
+            <div class="barBg"></div>
+        </div>
+
+        <ul class="imageMask w1200">
+            <li class="car_shidai clearfix">
+                <div class="imagePanel scrollShow">
+                    <div class="scal_img">
+                        <img class="trans" src="images/car_model/car_one.png">
+                    </div>
+                    <div class="trans word_part">
+                        <p class="word_title">瑞沃中卡平板</p>
+                        <div class="radioBox">
+                            <label for="sd1"><input type="radio" autocomplete="off" id="sd1" value="瑞沃中卡4×2" name="type">瑞沃中卡4×2</label>
+                            <label for="sd2"><input type="radio" autocomplete="off" id="sd2" value="瑞沃中卡6×2" name="type">瑞沃中卡6×2</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="imagePanel scrollShow">
+                    <div class="scal_img">
+                        <img class="trans" src="images/car_model/car_h3.jpg">
+                    </div>
+                    <div class="trans word_part">
+                        <p class="word_title">瑞沃中重型自卸 </p>
+                        <div class="radioBox">
+                            <label for="sd3"><input type="radio" autocomplete="off" id="sd3" value="瑞沃中卡4×2" name="type">瑞沃中卡4×2</label>
+                            <label for="sd4"><input type="radio" autocomplete="off" id="sd4" value="瑞沃中卡6×2" name="type">瑞沃中卡6×2</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="imagePanel scrollShow">
+                    <div class="scal_img">
+                        <img class="trans" src="images/car_model/car_h5.jpg">
+                    </div>
+                    <div class="trans word_part">
+                        <p class="word_title">金刚系列</p>
+                        <div class="radioBox">
+                            <label for="sd5"><input type="radio" autocomplete="off" id="sd5" value="工程型" name="type">工程型</label>
+                            <label for="sd6"><input type="radio" autocomplete="off" id="sd6" value="运输型" name="type">运输型</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="imagePanel scrollShow">
+                    <div class="scal_img">
+                        <img class="trans" src="images/car_model/car_v5.jpg">
+                    </div>
+                    <div class="word_title">
+                        <div class="trans word_part">
+                            <p class="word_title">骁运系列</p>
+                            <div class="radioBox">
+                                <label for="sd7"><input type="radio" autocomplete="off" id="sd7" value="工程型" name="type">工程型</label>
+                                <label for="sd8"><input type="radio" autocomplete="off" id="sd8" value="运输型" name="type">运输型</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="car_ruiwo">
+                <div class="imagePanel">
+                    <div class="scal_img">
+                        <img class="trans" src="images/car_model/car_one.png">
+                    </div>
+                    <div class="trans word_part">
+                        <p class="word_title">瑞沃中卡平板</p>
+                        <div class="radioBox">
+                            <label for="rw1"><input type="radio" autocomplete="off" id="rw1" value="瑞沃中卡4×2" name="type">瑞沃中卡4×2</label>
+                            <label for="rw2"><input type="radio" autocomplete="off" id="rw2" value="瑞沃中卡6×2" name="type">瑞沃中卡6×2</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="imagePanel">
+                    <div class="scal_img">
+                        <img class="trans" src="images/car_model/car_h3.jpg">
+                    </div>
+                    <div class="trans word_part">
+                        <p class="word_title">瑞沃中重型自卸 </p>
+                        <div class="radioBox">
+                            <label for="rw3"><input type="radio" autocomplete="off" id="rw3" value="瑞沃中卡4×2" name="type">瑞沃中卡4×2</label>
+                            <label for="rw4"><input type="radio" autocomplete="off" id="rw4" value="瑞沃中卡6×2" name="type">瑞沃中卡6×2</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="imagePanel">
+                    <div class="scal_img">
+                        <img class="trans" src="images/car_model/car_h5.jpg">
+                    </div>
+                    <div class="trans word_part">
+                        <p class="word_title">金刚系列</p>
+                        <div class="radioBox">
+                            <label for="rw5"><input type="radio" autocomplete="off" id="rw5" value="工程型" name="type">工程型</label>
+                            <label for="rw6"><input type="radio" autocomplete="off" id="rw6" value="运输型" name="type">运输型</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="imagePanel">
+                    <div class="scal_img">
+                        <img class="trans" src="images/car_model/car_v5.jpg">
+                    </div>
+                    <div class="word_title">
+                        <div class="trans word_part">
+                            <p class="word_title">骁运系列</p>
+                            <div class="radioBox">
+                                <label for="rw7"><input type="radio" autocomplete="off" id="rw7" value="工程型" name="type">工程型</label>
+                                <label for="rw8"><input type="radio" autocomplete="off" id="rw8" value="运输型" name="type">运输型</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <h3 class="car_choice buu_car scrollShow">购车信息</h3>
+        <div class="driveForm scrollShow">
+            <p class="notice"><b>*</b> 为必选项。您的信息，我们将会完全保密，请您放心填写</p>
+            <div class="inputBox clearfix">
+                <span>所在省市：</span>
+                <div id="province" class="dropItem">
+                    <p class="dropDefault clearfix"><span>省</span><button></button></p>
+                    <div class="dropOptions">
+                    </div>
+                    <input autocomplete="off" type="hidden" name="provinceId" value="-1"/>
+                    <p class="warning"></p>
+                </div>
+                <span class="star">*</span>
+                <div id="city" class="dropItem">
+                    <p class="dropDefault clearfix"><span>市</span><button></button></p>
+                    <div class="dropOptions">
+                    </div>
+                    <input autocomplete="off" type="hidden" name="cityId" value="-1"/>
+                    <p class="warning"></p>
+                </div>
+                <span class="star">*</span>
+            </div>
+            <div class="inputBox clearfix">
+                <span>经销商名称：</span>
+                <div id="Dealer" class="dropItem">
+                    <p class="dropDefault clearfix"><span>请选择经销商</span><button></button></p>
+                    <div class="dropOptions">
+                    </div>
+                    <input autocomplete="off" type="hidden" name="dealerId" value="-1"/>
+                </div>
+            </div>
+            <div class="inputBox clearfix ">
+                <span>姓名：</span>
+                <input id="name" class="secondInput name" type="text" value="姓名" name="name" autocomplete="off" defaultvalue="姓名">
+                <p class="warning"></p>
+                <span class="star">*</span>
+                <div class="radioBox ">
+                    <label  for="male"><input type="radio" autocomplete="off" value="male" id="male" value="瑞沃中卡4×2" name="sex">先生</label>
+                    <label for="female"><input type="radio" autocomplete="off" id="female" value="female" name="sex">女士</label>
+                </div>
+            </div>
+            <div id="phone_tel" class="inputBox clearfix ">
+                <span>联系方式：</span>
+                <input id="phone" class=" secondInput" type="text" value="手机号" autocomplete="off" defaultValue="手机号" />
+                <span class="star">*</span>
+                <input id="tel_1" class="AreaCode secondInput" type="text" value="区号" autocomplete="off" defaultValue="区号" />
+                <span class="bars">-</span>
+                <input id="tel_2" class="telNum secondInput" type="text" value="号码" autocomplete="off" defaultValue="号码" />
+                <input class="realPhone" type="hidden" autocomplete="off" name="phone" value=""/>
+                <p class="warning"></p>
+            </div>
+            <div class="inputBox clearfix">
+                <span>计划购车时间：</span>
+                <div class="labelBox">
+                    <p class="buyTime oneline">
+                        <label for="oneMonth"><input type="radio" id="oneMonth" name="buyDay" autocomplete="off" value="1"/>一周后</label>
+                        <label for="twoMonth"><input type="radio" id="twoMonth" name="buyDay" autocomplete="off" value="2"/>半个月后</label>
+                        <label for="threeMonth"><input type="radio" id="threeMonth" name="buyDay" autocomplete="off" value="3"/>一个月后</label>
+                        <label for="sixMonth"><input type="radio" id="sixMonth" name="buyDay" autocomplete="off" value="4"/>三个月后</label>
+                    </p>
+                    <p class="buyTime">
+                        <label for="sevenMonth"><input type="radio" id="sevenMonth" name="buyDay" autocomplete="off" value="5"/>半年后</label>
+                        <label for="oneYear"><input type="radio" id="oneYear" name="buyDay" autocomplete="off" value="6"/>一年后</label>
+                    </p>
+                </div>
+            </div>
+            <div class="btnBox clearfix">
+                <a class="formBtn">返回</a>
+                <button id="submit" class="formBtn">提交</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--底部-->
+<div id="footer"></div>
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+.refit{
+	padding-top: 72px;	
+}
+.refit h1 span{
+	font-size: 38px;
+    font-weight: 500;
+    line-height: 49px;
+}
+.refit h1{
+	text-align: center;
+}
+.blue {
+    color: #0066b3;
+}
+.refit .refitnav{
+	height: 25px;
+	margin: 55px auto 0;
+	position: relative;
+	text-align: center;
+}
+.refit .refitnav ul li{
+	display: inline-block;
+	line-height: 25px;
+	width: 137px;
+	height: 25px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.refit .refitnav .bias{
+	width: 8px;
+	height: 20px;
+	/*background: url("../images/line.png") no-repeat;*/
+	margin-top: 3px;
+}
+.refit .refitnav .bth{
+	color: #fff;
+	/*background: url("../images/bttitle.png") no-repeat;*/
+}
+.refit .refitnav .bthbg{
+	width: 137px;
+	height: 25px;
+	background: url("../images/activity/bttitle.png") no-repeat;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	/*-moz-transition: left 0.3s linear;
+    -webkit-transition: left 0.3s linear;
+    -o-transition: left 0.3s linear;
+    transition: left 0.3s linear;*/
+	
+}
+.refit .refitnav .bthcon{
+	cursor: pointer;
+	cursor: hand;
+}
+.refit .refitnav .bthcon:hover{
+	color: #0066B3;
+}
+.refit .refitnav .bth:hover{
+	color: #fff;
+}
+.refit .centercon{
+	width: 1202px;
+	height: 640px;
+	margin: 60px auto;
+	overflow: hidden;
+}
+.refit .bigbox{
+	width: 9000px;
+	height: 785px;
+	position: relative;
+	left: 0;
+	/*-moz-transition: left 0.3s linear;
+    -webkit-transition: left 03s linear;
+    -o-transition: left 0.3s linear;
+    transition: left 0.3s linear;*/
+}
+.refit .services{
+	width: 1202px;
+	height: 785px;
+	float: left;
+	position: relative;
+}
+/*.refit .services .programa{
+	width: 380px;
+	position: absolute;
+}
+.refit .services .programalast{
+	margin-right: 0;
+}
+
+.refit .services .programa p{
+	font-size: 16px;
+	color: #666;
+	margin-top: -5px;
+}
+.refit .services .programa p.last{
+	margin-top: 5px;
+	margin-bottom: 16px;
+}
+.refit .services .programa img{
+	display: block;
+}
+.refit .services .programa .details{
+	display: block;
+	width: 100px;
+	height: 30px;
+	background: #0066b3 url("../images/activity/jt1.png") no-repeat 80px 10px;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 18px;
+	text-indent: 15px;
+	line-height: 30px;
+}*/
+.centercon .specific{
+	width: 385px;
+	height: 300px;
+	position: absolute;
+}
+.centercon .specific .specificpic{
+	overflow: hidden;
+	width: 380px;
+	height: 220px;
+}
+.centercon .specific .specificcon .headline{
+	font-size: 18px;
+	color: #2e2e2e;
+	margin-top: 20px;
+	margin-bottom: 5px;}
+.centercon .specific .specificcon .datetime{
+	font-size: 14px;
+	color: #0066b3;
+}
+.centercon .specificlast{
+	margin-right: 0;
+}
+.specific{
+	position: relative;
+}
+.specific .shadow{
+	width: 365px;
+	height: 200px;
+	border: 10px solid #00C9FF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	-moz-transition: all 0.5s ease;
+    -webkit-transition: all 05s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.specific:hover .shadow{
+	opacity: 1;
+	filter: alpha(opacity = 100);	
+}
+.specific:hover img{
+	transform: scaleX(1.1) scaleY(1.1);
+}
+
+
+/*------------*/
+.refit{
+	position: relative;
+}
+.refit .leftbth{
+	width: 40px;
+	height: 40px;
+	background: url("../images/activity/prev_btn.jpg") no-repeat;
+	position: absolute;
+	top: 540px;
+	left: 47px;
+	cursor: pointer;
+	cursor: hand;
+}
+.refit .leftbth:hover{
+	background: url("../images/activity/prev_btn.jpg") no-repeat 0 -40px;
+}
+.refit .rightbth{
+	width: 40px;
+	height: 40px;
+	background: url("../images/activity/next_btn.jpg") no-repeat;
+	position: absolute;
+	top: 540px;
+	right: 47px;
+	cursor: pointer;
+	cursor: hand;
+}
+.refit .rightbth:hover{
+	background: url("../images/activity/next_btn.jpg") no-repeat 0 -40px;
+}
+.refit .leftDisabled
+{
+	background: url('../images/activity/unClick_2.jpg') 0px 0px;
+}
+
+.refit .rightDisabled
+{
+	background: url('../images/activity/unClick_1.jpg') 0px 0px;
+}
+.refit .leftDisabled:hover{
+	background: url('../images/activity/unClick_2.jpg') 0px 0px;
+	cursor: auto;
+}
+.refit .rightDisabled:hover
+{
+	background: url('../images/activity/unClick_1.jpg') 0px 0px;
+	cursor: auto;
+}

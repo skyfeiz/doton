@@ -1,0 +1,781 @@
+.cont .banner{
+	height: 557px;
+	background: url("../images/client/zhichi1.jpg") no-repeat center center;
+	text-align: center;
+}
+.cont .banner h2{
+	color: #fff;
+}
+.cont .banner .entitle{
+	font-size: 48px;
+	font-weight: 600;
+	letter-spacing: -3px;
+	font-family: arial;
+}
+.cont .banner .cntitle{
+	font-size: 38px;
+	font-weight: normal;
+}
+.cont .banner .title{
+	padding-top: 210px;
+}
+
+
+/*----------------------*/
+
+.alliance h1{
+	text-align: center;
+	padding-top: 70px;
+}
+.alliance h1 .enTitle{
+	color: #0066b3;
+}
+.alliance h1 span{
+	font-size: 38px;
+	font-weight: normal;
+}
+
+/*-------------------------*/
+.cont .service{
+	height: 482px;
+	background: #191919;
+}
+.cont .service .dealer{
+	width: 50%;
+	height: 482px;
+	float: left;
+	background-color: #0066b3;
+}
+.cont .service .serve{
+	width: 50%;
+	height: 482px;
+	float: right;
+}
+.cont .service .dealer .dealerpic{
+	background: url("../images/client/zhichi2.jpg") no-repeat center center;
+	height: 482px;
+}
+
+.cont .service .serve .serveword .entitle{
+	font-size: 44px;
+	color: #fff;
+	letter-spacing: -3px;
+	font-weight: 600;
+	font-family: arial;
+}
+.cont .service .serve .serveword .cntitle{
+	font-size: 36px;
+	color: #fff;
+	margin-bottom: 32px;
+}
+
+.cont .service .serve .serveword .servewordcont{
+	font-size: 14px;
+	color: #fff;
+	line-height: 22px;
+	text-align: justify;
+}
+.cont .service .serve .serveword .particular{
+	width: 475px;
+	margin: 75px auto;
+}
+.cont .service .serve .serveword .particular a{
+	display: block;
+	width: 130px;
+	height: 45px;
+	background: #0066b3 url("../images/buySupport/jt1.png") no-repeat 103px 17px;
+	color: #fff;
+	font-size: 18px;
+	text-indent: 20px;
+	line-height: 45px;
+	margin-top: 60px;
+}
+.cont .service .serve .serveword .particular a:hover{
+	background-color: #00c9ff;
+}
+/* 经销商*/
+.dealerPanel{
+	padding:80px 0px;
+}
+.dealerPanel h3{
+	text-align:center;
+	line-height:30px;
+	margin-bottom: 15px;
+}
+.dealerPanel h3.enTitle{
+	color:#0066b3;
+	margin-bottom:20px;
+	font-family: Arial;
+	letter-spacing: -2px;
+	font-size:46px;
+}
+.dealerPanel h3.cnTitle{
+	font-weight:normal;
+	margin-bottom:35px;
+	font-size: 38px;
+}
+.dealerPanel .selectBox{
+	width:1070px;
+	margin:0 auto;
+}
+.dealerPanel .selectBox ul{
+	height: 155px;
+    overflow: hidden;
+    width: 100%;
+}
+.dealerPanel .selectBox ul li{
+	width:204px;
+	margin-right:10px;
+	float:left;
+	color:#666;
+}
+.dealerPanel .selectBox ul #county{
+	display: none;
+}
+.dealerPanel .selectBox ul li span{
+	display:block;
+	float:left;
+}
+.dealerPanel .selectBox ul li .name{
+	width:37px;
+	line-height:38px;
+	float: left;
+}
+.dealerPanel .selectBox ul li .allthem{
+	width: 166px;
+	float: left;
+}
+.dealerPanel .selectBox ul li .value{
+	width:120px;
+	line-height:34px;
+	border:1px solid #666;
+	padding-left:8px;
+	border-right:none;
+	cursor: pointer;
+	cursor: hand;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.dealerPanel .selectBox ul li .selectBtn{
+	width:34px;
+	height:34px;
+	line-height:27px;
+	border:1px solid #666;
+	background:url('../images/buySupport/22.jpg') no-repeat scroll 0 0;
+	cursor: pointer;
+	cursor: hand;
+}
+.dealerPanel .selectBox ul li .allthem:hover .selectBtn{
+	background:url('../images/buySupport/11.jpg') no-repeat scroll 0 0;
+}
+
+.dealerPanel .selectBox ul li .list{
+	line-height: 25px;
+    margin-left: 37px;
+    width: 163px;
+	display:none;
+	position:relative;
+	overflow-y:auto;
+	overflow-x:hidden;
+	max-height:116px;
+	height:auto;
+	border:1px solid #cacaca;
+	border-top:none;
+	z-index: 100;
+}
+.dealerPanel .selectBox ul li .list li{
+    width: 155px;
+	height:25px;
+	padding-left:8px;
+	background-color:#fff;
+}
+.dealerPanel .selectBox ul li .list li:hover{
+	background-color:#0066B4;
+	color:#fff;
+	cursor:pointer;
+}
+.dealerPanel .selectCon{
+	margin-top:-90px;
+	height:461px;
+	overflow: hidden;
+}
+#mapBox{
+	width:815px;
+	height:461px;
+	float:left;
+	background-color: #fff!important;
+}
+.dealerPanel .selectCon .scrollBox{
+	width:300px;
+	height:400px;
+	float:left;
+	overflow:hidden;
+	position:relative;
+}
+.dealerPanel .selectCon .scrollBox .contentBox{
+	width:260px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.dealerPanel .selectCon .scrollBox .contentBox p.title{
+	font-size:16px;
+	line-height:16px;
+	margin-bottom:10px;
+	color:#000;
+}
+.dealerPanel .selectCon .scrollBox .contentBox p{
+	font-size:14px;
+	line-height:25px;
+	color:#545454;
+}
+.dealerPanel .selectCon .scrollBox .contentBox .blueLine{
+	width:40px;
+	background-color:#0066b3;
+	height:1px;
+	margin:20px 0px;
+}
+.dealerPanel .selectCon .scrollBox .baseBar{
+	width:3px;
+	height:400px;
+	position:absolute;
+	background-color:#c2c2c2;
+	right: 1px;
+	top:0;
+}
+.dealerPanel .selectCon .scrollBox .baseBar .slideBar{
+	width:5px;
+	height:30px;
+	position:relative;
+	top:0;
+	left:-1px;
+	background-color:#075698;
+}
+
+.cont .carbook{
+	height: 855px;
+	background: url("../images/client/zhichi4.jpg") no-repeat center center;
+}
+.cont .carbook .entitle{
+	font-size: 44px;
+	color: #fff;
+	float: left;
+	letter-spacing: -3px;
+	font-family: arial;
+}
+.cont .carbook .cntitle{
+	font-size: 36px;
+	color: #fff;
+	float: right;
+	font-weight: normal;
+	line-height: 42px;
+}
+.cont .carbook .carbooktitle{
+	width: 540px;
+	height: 48px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+.cont .carbook .carbookpic{
+	width: 1240px;
+	height: 600px;
+	margin: 60px auto;
+}
+.cont .carbook .carbookpic .carbookpicleft{
+	width: 300px;
+	height: 600px;
+	float: left;
+	overflow: hidden;
+}
+.cont .carbook .carbookpic .middletitle{
+	font-size: 26px;
+	color: #fff;
+}
+.cont .carbook .carbookpic .carbookpicright{
+	width: 300px;
+	height: 600px;
+	float: right;
+	overflow: hidden;
+}
+.cont .carbook .carbookpic .shadow{
+	width: 640px;
+	height: 300px;
+	background-color: #000;
+	opacity: .7;
+	filter: alpha(opacity = 70);
+	position: relative;
+	top: -95px;
+}
+.cont .carbook .carbookpic .shadowbox{
+	width: 300px;
+	height: 600px;
+	background-color: #000;
+	opacity: .7;
+	filter: alpha(opacity = 70);
+}
+.cont .carbook .carbookpic .carbookpicleft{
+	position: relative;
+}
+.cont .carbook .carbookpic .carbookpicleft .shadowbox{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.cont .carbook .carbookpic .sidetitle{
+	font-size: 26px;
+	color: #fff;
+	position: absolute;
+	z-index: 1;
+	top: 60px;
+	left: 25px;
+}
+.cont .carbook .carbookpic .carbookpicright{
+	position: relative;
+}
+.cont .carbook .carbookpic .carbookpicright .shadowbox{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/*----------------------*/
+.cont .carbook .carbookpic .carbookpiccen{
+	float: left;
+}
+.cont .carbook .carbookpic .carbookpiccen .carbookpiccenshow{
+	width: 640px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+.cont .carbook .carbookpic .carbookpiccen .carbookpiccenshow .shadow{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.cont .carbook .carbookpic .carbookpiccen .carbookpiccenshow .middletitle{
+	position: absolute;
+	top: 60px;
+	left: 25px;
+	z-index: 1;
+}
+.cont .carbook .carbookpic .carbookpiccen .carbookpiccencontshow{
+	width: 640px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+.cont .carbook .carbookpic .carbookpiccen .carbookpiccencontshow .shadow{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.cont .carbook .carbookpic .carbookpiccen .carbookpiccencontshow .middletitle{
+	position: absolute;
+	top: 60px;
+	left: 25px;
+	z-index: 1;
+}
+
+
+.cont .carbook .carbookpic .carbookpicleft:hover .shadowbox{
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+.cont .carbook .carbookpic .carbookpicleft:hover .sidetitle{
+	color: #00C0F4;
+}
+.cont .carbook .carbookpic .carbookpicleft:hover img{
+	transform: scaleX(1.1) scaleY(1.1);
+}
+.cont .carbook .carbookpic .carbookpicright:hover .shadowbox{
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+.cont .carbook .carbookpic .carbookpicright:hover .sidetitle{
+	color: #00C0F4;
+}
+.cont .carbook .carbookpic .carbookpicright:hover img{
+	transform: scaleX(1.1) scaleY(1.1);
+}
+.cont .carbook .carbookpic .carbookpiccen .carbookpiccenshow:hover .shadow{
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+.cont .carbook .carbookpic .carbookpiccen .carbookpiccenshow:hover .middletitle{
+	color: #00C0F4;
+}
+.cont .carbook .carbookpic .carbookpiccen .carbookpiccenshow:hover img{
+	transform: scaleX(1.1) scaleY(1.1);
+}
+.cont .carbook .carbookpic .carbookpiccen .carbookpiccencontshow:hover .shadow{
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+.cont .carbook .carbookpic .carbookpiccen .carbookpiccencontshow:hover .middletitle{
+	color: #00C0F4;
+}
+.cont .carbook .carbookpic .carbookpiccen .carbookpiccencontshow:hover img{
+	transform: scaleX(1.1) scaleY(1.1);
+}
+/*-------------------*/
+
+#btnQuery{
+	margin-left: 29px;
+    margin-right: 8px;
+}
+.accessories .inquire .contportionlast{
+	margin-right: 0;
+}
+.accessories .inquire .contportionlast .word{
+	width: 325px;
+	color: #404040;
+	margin-top: 25px;
+	margin-left: 25px;
+	text-align: justify;
+	line-height: 24px;
+}
+.Display{
+	display: none;
+}
+.result{
+	display: none;
+}
+.accessories .catalogue{
+	width: 1200px;
+	position: relative;
+	top: 0px;
+	left: 0;
+}
+.listForm
+{
+	font-size: 18px;
+	color: #404040;
+	text-align: center;
+	width: 850px;
+	margin: 0 auto;
+}
+
+.listForm .listTitle
+{
+	font-size: 24px;
+	text-align: left;
+	margin-bottom: 32px;
+}
+
+.w100
+{
+	width: 100%;
+}
+
+.inputBox
+{
+	width: 380px;
+	float: left;
+	line-height: 38px;
+	position: relative;
+}
+
+.inputBox span
+{
+	display: block;
+	width: 90px;
+	float: left;
+	color: #0066b3;
+	text-align: left;
+	font-size: 14px;
+}
+
+.inputBox input
+{
+	display: block;
+	width: 250px;
+	padding: 0px 10px;
+	float: left;
+	border: 0;
+	height: 38px;
+	font-size: 18px;
+	border: 1px solid #a0a0a0;
+	font-family: "Microsoft yahei","瀵邦喛钂嬮梿鍛寸拨",Tahoma,Verdana,Arial,sans-serif;
+}
+.listForm .inputBox b{
+	float: left;
+	margin-left: 8px;
+}
+.warning
+{
+	line-height: 25px;
+	height: 25px;
+	float: left;
+	width: 100%;
+	color: red;
+	text-indent: 90px;
+	text-align: left;
+	font-size: 12px;
+}
+.result
+{
+	display: none;
+}
+.listForm b
+{
+	font-weight: 500;
+	color: #0066b3;
+}
+.listNotice
+{
+	font-size: 14px;
+	text-align: left;
+	color: #959595;
+	margin-bottom: 16px;
+}
+.marginR_75
+{
+	margin-bottom:20PX;
+	margin-right: 70px;
+}
+
+.textareaBox span
+{
+	line-height: 161px;
+}
+
+.textareaBox textarea
+{
+	display: block;
+	width: 633px;
+	height: 159px;
+	line-height: 38px;
+	border: 0;
+	padding: 0px 10px;
+	resize: none;
+	font-size: 18px;
+	font-family: "Microsoft yahei","瀵邦喛钂嬮梿鍛寸拨",Tahoma,Verdana,Arial,sans-serif;
+}
+
+.listForm .btnBox
+{
+	float: left;
+}
+
+.listForm .btnBox button
+{
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	border: 0;
+	font-size: 18px;
+	color: #fff;
+	font-family: "Microsoft yahei","瀵邦喛钂嬮梿鍛寸拨",Tahoma,Verdana,Arial,sans-serif;
+	background-color: #0066b3;
+	transition: background-color 0.4s;
+	-webkit-transition: background-color 0.4s;
+	-moz-transition: background-color 0.4s;
+	-o-transition: background-color 0.4s;
+	cursor: pointer;
+	cursor: hand;
+	margin-top: 24px;
+}
+.listForm .btnBox button:hover,.onlineBox .shopName a:hover
+{
+	background-color: #50c8fa;
+}
+
+.listForm table
+{
+	border-top: 1px solid #a0a0a0;
+	border-left: 1px solid #a0a0a0;
+}
+
+.listForm table td
+{
+	width: 269px;
+	height: 39px;
+	border-right: 1px solid #a0a0a0;
+	border-bottom: 1px solid #a0a0a0;
+}
+.classify{
+	height: 363px;
+	background-color: #0066b3;
+	padding-top: 80px;
+}
+.classify .cont{
+	width: 1200px;
+	height: 260px;
+	margin: 0 auto;
+}
+.classify .cont .pic{
+	width: 290px;
+	float: left;
+	margin-right: 13px;
+}
+.classify .cont .piclast{
+	margin-right: 0;
+}
+.classify .cont .pic .entitle{
+	font-size: 20px;
+	color: #fff;
+	font-family: arial;
+	font-weight: 600;
+	margin-top: 10px;
+}
+.classify .cont .pic .cntitle{
+	font-size: 18px;
+	color: #fff;
+}
+.classify .cont .pic{
+	position: relative;
+}
+.classify .cont .pic .yy{
+	width: 290px;
+	height: 200px;
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: .5;
+	display: none\9;
+}
+.classify .cont .pic:hover .yy{
+	opacity: 0;
+}
+p.warning {
+    color: #e93a3a;
+    font-size: 12px;
+    left: 0px;
+    position: absolute;
+    top: 36px;
+}
+.dropItem p.warning {
+    left: 0;
+}
+/*-------异业联盟-------------*/
+.groupPanel{
+	width: 1215px;
+	margin: 40px auto 100px;
+	height: 300px;
+	position: relative;
+}
+.mask{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+.scrollPanel{
+	width: 9999px;
+	position: relative;
+	left: 0;
+}
+.mask .specific{
+	width: 385px;
+	height: 300px;
+	float: left;
+	margin: 0px 10px;
+}
+.mask .specific .specificpic{
+	overflow: hidden;
+	width: 380px;
+	height: 220px;
+}
+.mask .specific .specificcon .headline{
+	font-size: 18px;
+	color: #2e2e2e;
+	margin-top: 20px;
+	margin-bottom: 5px;}
+.mask .specific .specificcon .datetime{
+	font-size: 14px;
+	color: #0066b3;
+}
+.mask .specificlast{
+	margin-right: 0;
+}
+.specific{
+	position: relative;
+}
+.specific .shadow{
+	width: 365px;
+	height: 200px;
+	border: 10px solid #00C9FF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	-moz-transition: all 0.5s ease;
+    -webkit-transition: all 05s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.specific:hover .shadow{
+	opacity: 1;
+	filter: alpha(opacity = 100);	
+}
+.specific:hover img{
+	transform: scaleX(1.1) scaleY(1.1);
+}
+.groupPanel .prevBtn
+{
+    position: absolute;
+    margin-top: -20px;
+    top: 50%;
+    left: -45px;
+    width: 40px;
+    height: 40px;
+    background: url("../images/buySupport/prev_btn.jpg") no-repeat;
+    cursor: pointer;
+}
+.groupPanel .prevDisabled
+{
+	background-image: url("../images/buySupport/unClick_2.jpg");
+	cursor: auto;
+}
+.groupPanel .prevBtn:hover
+{
+    background-position: center -40px;
+}
+.groupPanel .prevDisabled:hover
+{
+	background-position: center center;
+}
+.groupPanel .nextBtn
+{
+    position: absolute;
+    margin-top: -20px;
+    top: 50%;
+    right: -45px;
+    width: 40px;
+    height: 40px;
+    background: url("../images/buySupport/next_btn.jpg") no-repeat;
+    cursor: pointer;
+}
+.groupPanel .nextDisabled
+{
+	background-image: url("../images/buySupport/unClick_1.jpg");
+	cursor: auto;
+}
+.groupPanel .nextBtn:hover
+{
+    background-position: center -40px;
+}
+.groupPanel .nextDisabled:hover
+{
+    background-position: center center;
+}
+
+/*定位线*/
+#fuwuline{
+	position: relative;
+	top: -70px;
+	border-top: 0px solid #FFFFFF;
+}
+#jingxiaoline{
+	position: relative;
+	top: -150px;
+	border-top: 0px solid #FFFFFF;
+}
+#yiyeline{
+	position: relative;
+	top: -70px;
+	border-top: 0px solid #FFFFFF;
+}

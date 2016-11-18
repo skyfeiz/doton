@@ -1,0 +1,319 @@
+.content {
+  width: 444px;
+  margin: 80px auto 140px;
+}
+.main_part {
+  width: 100%;
+  margin: 0;
+}
+.input_box {
+  position: relative;
+  height: 34px;
+  padding-bottom: 30px;
+}
+.input_box .input_part {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.input_box input {
+  outline: none;
+  padding-left: 15px;
+  width: 333px;
+  height: 33px;
+  border: 1px solid #959595;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.input_mark .input_part {
+  width: 350px;
+}
+.input_mark span {
+  display: inline-block;
+  width: 120px;
+  height: 35px;
+  background-color: #0066b3;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  font-size; 14px;
+  float: right;
+  cursor: pointer;
+  cursor: hand;
+}
+.input_mark .input_part input {
+  float: left;
+  width: 193px;
+}
+.input_box .error_warn {
+  color: #e22;
+  font-size: 12px;
+  position: absolute;
+  line-height: 30px;
+  width: 350px;
+  top: 34px;
+  left: 0;
+  display: none;
+}
+.error_warn i {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 7px;
+  display: inline-block;
+  background: url("../images/mCLogin/icon_pass_part.png") no-repeat -17px 0px;
+}
+/*密码强度*/
+.error_warn i.passlow {
+  background-position: -17px -34px;
+}
+.error_warn i.passcenter {
+  background-position: -34px -17px;
+}
+.error_warn i.passhigh {
+  background-position: -34px -34px;
+}
+.error_warn p {
+  display: inline-block;
+  text-indent: 25px;
+}
+.input_box label {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  color: #0066b3;
+}
+p.mark_des {
+  text-indent: 94px;
+  font-size: 12px;
+  color: #959595;
+  padding-bottom: 10px;
+}
+p.mark_des span {
+  color: #0066b3;
+}
+.content h2 {
+  position: relative;
+  padding-bottom: 40px;
+  height: 55px;
+}
+span.h2_en {
+  position: absolute;
+  left: 125px;
+  font-size: 48px;
+  font-family: arial;
+  color: #0066b3;
+}
+span.h2_cn {
+  position: absolute;
+  right: 35px;
+  top: 2px;
+  font-size: 36px;
+  font-weight: normal;
+}
+.formHandle {
+  position: relative;
+  height: 50px;
+  margin: 45px auto 0;
+}
+.formHandle a {
+  position: absolute;
+  left: 45%;
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: url("../images/mCLogin/icon_arrow.png") no-repeat 92px 17px;
+  background-color: #959595;
+  cursor: pointer;
+  cursor: hand;
+}
+.formHandle a:hover {
+  background-color: #0066b3;
+}
+a.message_save {
+  right: 0;
+}
+a.message_qure {
+  left: 95px;
+}
+.main_part .border_color {
+  border: 1px solid #0066b3;
+}
+.input_mark .btn-code-disable {
+  background: #ccc;
+  color: #999;
+  cursor: default;
+}
+.input_box .i-status {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 10px;
+  right: 10px;
+  display: none;
+  background: url("../images/mCLogin/icon_pass_part.png") no-repeat 0px -17px;
+}
+.input_mark .i-status {
+  right: 150px;
+}
+
+.radio_part {
+  width: 350px;
+  height: 33px;
+}
+.radio_part label {
+  width: 50px;
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 18px;
+  padding-left: 33px;
+  height: 20px;
+  background: url("../images/mCLogin/radio_unselect.png") no-repeat left center;
+}
+.radio_part input , .agreeRequest input {
+ width: 0;
+ height: 0;
+ padding: 0;
+ margin: 0;
+ border: 0;
+ outline: none;
+ line-height: 0;
+ display: block;
+ border: 0;
+ border: none;
+ display: none;
+}
+
+.radio_part span {
+  color: #0066b3;
+}
+.radio_part .radio_click {
+  background: url("../images/mCLogin/radio_select.png") no-repeat left center;
+}
+.select_part {
+  padding-top: 40px;
+}
+.input_car .error_warn {
+  top: 3px;
+  left: 230px;
+}
+
+
+//下拉样式
+.input_part .dropItem {
+  width: 240px;
+  height: 35px;
+  float: left;
+  position: relative;
+  line-height: 33px;
+  color: #959595;
+}
+.input_part .dropItem span {
+  line-height: 35px;
+  font-size: 12px;
+  color: #959595;
+}
+.dropDefault span {
+  display: inline-block;
+  width: 294px;
+  height: 33px;
+  padding: 0px 10px;
+  border: 1px solid #959595;
+  border-right: 0;
+  float: left;
+  margin-right: 0;
+  text-align: left;
+  color: #959595;
+  cursor: pointer;
+}
+.dropDefault button.click_color {
+  background-color: #0066b3;
+}
+.dropDefault button {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background: #959595 url("../images/mCLogin/dropBtn.png") no-repeat 50% 50%;
+  float: left;
+  border: 0;
+  cursor: pointer;
+  cursor: hand;
+}
+.dropOptions {
+  width: 314px;
+  border: 1px solid #959595;
+  border-top: 0;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  z-index: 100;
+  display: none;
+  max-height: 132px;
+  overflow-y: auto;
+}
+.dropOptions p:hover {
+  background-color: #0066b3;
+  color: #fff;
+}
+.dropOptions p {
+  font-size: 12px;
+  padding: 0px 10px;
+  line-height: 33px;
+  cursor: hand;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.4s;
+  -webkit-transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+}
+
+
+.agreeRequest label {
+  display: inline-block;
+  float: left;
+  margin-left: 95px;
+  padding-left: 26px;
+  height: 20px;
+  background: url("../images/mCLogin/cc3.png") no-repeat 0 -18px;
+}
+.agreeRequest input {
+
+}
+.agreeRequest a {
+  float:right;
+  font-size: 14px;
+  color: #0066b3;
+  padding-right: 65px;
+}
+.agreeRequest {
+  position: relative;
+  height: 24px;
+}
+.agreeRequest .error_warn {
+  display: none;
+  color: #e22;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.agreeRequest .error_warn p {
+
+}
+.agreeRequest .error_warn i {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 2px;
+  display: inline-block;
+  background: url("../images/mCLogin/icon_pass_part.png") no-repeat -17px 0px;
+}
+.agreeRequest  .error_warn p {
+  display: inline-block;
+  text-indent: 18px;
+}

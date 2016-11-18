@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>客户支持</title>
+		<meta name="description" content="福田汽车 具体内容由福田提供">
+		<meta name="keywords" content="福田汽车 具体内容由福田提供">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/client_support.css"/>
+		<script src="http://pv.sohu.com/cityjson" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--生成头底-->
+		<script src="js/HandF.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/echarts-all.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/headerAndFooter.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/dropItem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/scrollShow.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery_scrollBar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/client_support.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/share.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				new foton.HandF();
+				new foton.HeaderAndFooter();
+				new foton.dropItem();
+				new foton.scrollShow();
+				new foton.Support();
+				new foton.share();
+				$("#customer").addClass("present");
+			});
+		</script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div id="header"></div>
+
+		<!--内容-->
+		<div class="cont w1200-1400">
+			<!--背景图-->
+			<div class="banner">
+				<div class="title">
+					<h2 class="entitle scrollShow">CUSTOMER SUPPORT</h2>
+					<h2 class="cntitle scrollShow">客户支持</h2>
+				</div>
+			</div>
+			<!--服务政策-->
+			<div class="service">
+				<div id="fuwuline"></div>
+				<div class="dealer scrollShow">
+					<div class="dealerpic"></div>
+				</div>
+				<div class="serve">
+					<div class="serveword">
+						<div class="particular">
+							<p class="entitle scrollShow">SERVICE POLICY</p>
+							<p class="cntitle scrollShow">服务政策</p>
+							<p class="servewordcont scrollShow">
+								时代/瑞沃汽车坚持"以客户为中心"服务宗旨，全面推动客户服务满意度提升，打造差异化的服务，以政策支持为导向，在现有产品资源动力配置划分的基础上，通过对竞争品牌的政策进行调研分析，制定了行业领先的服务政策。由于产品线及车型的不同，服务政策也存在着差异，具体差异详见客户随车文件中的《保修手册》。 
+							</p>
+							<a href="client_policy.html" class="trans scrollShow" target="_blank">查看详情</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--经销商-->
+			<div class="dealerPanel w1200-1400">
+				<div id="jingxiaoline"></div>
+				<h3 class="enTitle scrollShow">DEALERS &amp; SERVICE PROVIDERS</h3>
+				<h3 class="cnTitle scrollShow">服务商/经销商查询</h3>
+				<form class="selectBox scrollShow">
+						<ul>
+							<li id="type">
+								<span class="name">类型</span>
+								<div class="allthem">
+									<span class="value">经销商</span>
+									<span class="selectBtn"></span>
+								</div>
+								<ul class="list" style="display: none;">
+									<li class="item">经销商</li>
+									<li class="item">服务商</li>
+								</ul>
+								<input type="hidden" name="type" value="1" autocomplete="off">
+							</li>
+							<li id="band">
+								<span class="name">品牌</span>
+								<div class="allthem">
+									<span class="value">拓陆者</span>
+									<span class="selectBtn"></span>
+								</div>
+								<ul class="list" style="">
+									<li class="item">拓陆者</li>
+									<li class="item">萨瓦纳</li>
+									<li class="item">萨普</li>
+								</ul>
+								<input type="hidden" name="brandId" value="9" autocomplete="off">
+							</li>
+							<li id="province">
+								<span class="name">省份</span>
+								<div class="allthem">
+									<span class="value">河北省</span>
+									<span class="selectBtn"></span>
+								</div>
+								<ul class="list" style=""><li class="item">安徽省</li><li class="item">澳门特别行政区</li><li class="item">北京市</li><li class="item">福建省</li><li class="item">甘肃省</li><li class="item">广东省</li><li class="item">广西壮族自治区</li><li class="item">贵州省</li><li class="item">海南省</li><li class="item">河北省</li><li class="item">河南省</li><li class="item">黑龙江省</li><li class="item">湖北省</li><li class="item">湖南省</li><li class="item">吉林省</li><li class="item">江苏省</li><li class="item">江西省</li><li class="item">辽宁省</li><li class="item">内蒙古自治区</li><li class="item">宁夏回族自治区</li><li class="item">青海省</li><li class="item">山东省</li><li class="item">山西省</li><li class="item">陕西省</li><li class="item">上海市</li><li class="item">四川省</li><li class="item">台湾省</li><li class="item">天津市</li><li class="item">西藏自治区</li><li class="item">香港特别行政区</li><li class="item">新疆维吾尔自治区</li><li class="item">云南省</li><li class="item">浙江省</li><li class="item">重庆市</li></ul>
+								<input type="hidden" name="provinceId" value="10" autocomplete="off">
+							</li>
+							<li id="city">
+								<span class="name">城市</span>
+								<div class="allthem">
+									<span class="value">--请选择--</span>
+									<span class="selectBtn"></span>
+								</div>
+								<ul class="list" style=""><li class="item">--请选择--</li><li class="item">保定市</li><li class="item">沧州市</li><li class="item">承德市</li><li class="item">邯郸市</li><li class="item">衡水市</li><li class="item">廊坊市</li><li class="item">秦皇岛市</li><li class="item">石家庄市</li><li class="item">唐山市</li><li class="item">邢台市</li><li class="item">张家口市</li><li class="item">其他</li></ul>
+								<input type="hidden" name="cityId" value="-1" autocomplete="off">
+							</li>
+							<li id="county">
+								<span class="name">区/县</span>
+								<div class="allthem">
+									<span class="value">--请选择--</span>
+									<span class="selectBtn"></span>
+								</div>
+								<ul class="list" style="">
+								<li class="item">--请选择--</li></ul>
+								<input type="hidden" name="areaId" value="" autocomplete="off">
+							</li>
+						</ul>
+					</form>
+				<div class="selectCon w1200">
+					<div id="mapBox" class="scrollShow" _echarts_instance_="1476259462070" style="opacity: 1; position: relative; top: 0px; -webkit-tap-highlight-color: transparent; -webkit-user-select: none; cursor: default; background-color: rgba(0, 0, 0, 0);"><div style="position: relative; overflow: hidden; width: 815px; height: 461px;"><div data-zr-dom-id="bg" class="zr-element" style="position: absolute; left: 0px; top: 0px; width: 815px; height: 461px; -webkit-user-select: none;"></div><canvas width="815" height="461" data-zr-dom-id="0" class="zr-element" style="position: absolute; left: 0px; top: 0px; width: 815px; height: 461px; -webkit-user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas><canvas width="815" height="461" data-zr-dom-id="1" class="zr-element" style="position: absolute; left: 0px; top: 0px; width: 815px; height: 461px; -webkit-user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas><canvas width="815" height="461" data-zr-dom-id="_zrender_hover_" class="zr-element" style="position: absolute; left: 0px; top: 0px; width: 815px; height: 461px; -webkit-user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas><div class="echarts-tooltip zr-element" style="position: absolute; display: none; border: 0px solid rgb(51, 51, 51); white-space: nowrap; transition: left 0.4s, top 0.4s; border-radius: 4px; color: rgb(255, 255, 255); padding: 5px; left: 530px; top: 180px; background-color: rgba(0, 0, 0, 0.701961);">经销商 <br>河北 : 6</div></div></div>
+					<div class="scrollBox scrollShow" style="opacity: 1; top: 0px; padding-right: 2.5px;">
+						<div class="contentBox" style="position: relative; top: 0px; left: 0px;"><p class="title">沧州市正大汽车销售有限公司</p><p>地址：沧州市开发区307国道北侧</p><p>电话：13363660202</p><div class="blueLine"></div><p class="title">河北同力汽车贸易有限公司张家口分公司</p><p>地址：</p><p>电话：0313-5968363</p><div class="blueLine"></div><p class="title">石家庄同力汽车贸易有限公司</p><p>地址：</p><p>电话：0311-85339565，0311-86819930</p><div class="blueLine"></div><p class="title">秦皇岛鹏越商贸有限公司</p><p>地址：河北省昌黎县东外环路西王庄段西侧</p><p>电话：13930397909</p><div class="blueLine"></div><p class="title">邢台金阔汽车贸易有限公司</p><p>地址：</p><p>电话：0319-5271186</p><div class="blueLine"></div><p class="title">秦皇岛市锦冠商贸有限公司</p><p>地址：</p><p>电话：13230337337</p><div class="blueLine"></div></div>
+					<div class="barBox"><div class="barItem" style="height: 213.903743315508px; top: 0px;"></div></div></div>
+				</div>
+			</div>
+			<!--爱车宝典-->
+			<div class="carcollectionline" id="carcollection"></div>
+			<div class="carbook">
+				<div class="carbooktitle scrollShow">
+					<h2 class="entitle">KNOWLEDGE BASE</h2>
+					<h2 class="cntitle">爱车宝典</h2>
+				</div>
+				<div class="carbookpic">
+						
+						<a href="client_knowledge.html" target="_blank">
+						<div class="carbookpicleft scrollShow">
+							<img src="images/client/aiche1.jpg" class="trans">
+							<p class="sidetitle trans">保养服务</p>
+							<div class="shadowbox trans"></div>
+						</div>
+					</a>
+					<div class="carbookpiccen">
+							
+							<a href="client_useSkills.html" target="_blank">
+							<div class="carbookpiccenshow scrollShow">
+								<img src="images/client/aiche3.jpg" class="trans">
+								<p class="middletitle trans">用车技巧</p>
+								<div class="shadow trans"></div>
+							</div>
+						</a>
+							<a href="client_safeDriving.html" target="_blank">
+							<div class="carbookpiccencontshow scrollShow">
+								<img src="images/client/aiche4.jpg" class="trans">
+								<p class="middletitle trans">行车安全</p>
+								<div class="shadow trans"></div>
+							</div>
+						</a>
+					</div>
+					
+					<a href="client_drivingTips.html" target="_blank">
+						<div class="carbookpicright scrollShow">
+							<img src="images/client/aiche2.jpg" class="trans">
+							<p class="sidetitle trans">使用指南</p>
+							<div class="shadowbox trans"></div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!--异业联盟-->
+			<div class="alliance">
+				<div id="yiyeline"></div>
+				<h1 class="scrollShow">
+					<strong class="enTitle">CROSS-INDUSTRY ALLIANCE</strong>
+					<br>
+					<span>异业联盟</span>
+				</h1>
+				
+				<div class="groupPanel scrollShow">
+	                <div class="mask">
+	                    <div class="scrollPanel clearfix">
+							<div class="specific">
+								<a href="buy_details.html" target="_blank">
+								<div class="specificpic"><img src="images/buySupport/hd_1.jpg" width="385" height="220" alt="" class="trans"></div>
+								<div class="specificcon">
+									<p class="headline">阿拉善越野招募令</p>
+									<p class="datetime">2016-09-23</p>
+								</div>
+								<div class="shadow"></div>
+								</a>
+							</div>
+							<div class="specific">
+								<a href="buy_details.html" target="_blank">
+								<div class="specificpic"><img src="images/buySupport/hd_1.jpg" width="385" height="220" alt="" class="trans"></div>
+								<div class="specificcon">
+									<p class="headline">阿拉善越野招募令</p>
+									<p class="datetime">2016-09-23</p>
+								</div>
+								<div class="shadow"></div>
+								</a>
+							</div>
+							<div class="specific">
+								<a href="buy_details.html" target="_blank">
+								<div class="specificpic"><img src="images/buySupport/hd_1.jpg" width="385" height="220" alt="" class="trans"></div>
+								<div class="specificcon">
+									<p class="headline">阿拉善越野招募令</p>
+									<p class="datetime">2016-09-23</p>
+								</div>
+								<div class="shadow"></div>
+								</a>
+							</div>
+							<div class="specific">
+								<a href="buy_details.html" target="_blank">
+								<div class="specificpic"><img src="images/buySupport/hd_1.jpg" width="385" height="220" alt="" class="trans"></div>
+								<div class="specificcon">
+									<p class="headline">阿拉善越野招募令</p>
+									<p class="datetime">2016-09-23</p>
+								</div>
+								<div class="shadow"></div>
+								</a>
+							</div>
+							<div class="specific">
+								<a href="buy_details.html" target="_blank">
+								<div class="specificpic"><img src="images/buySupport/hd_1.jpg" width="385" height="220" alt="" class="trans"></div>
+								<div class="specificcon">
+									<p class="headline">阿拉善越野招募令</p>
+									<p class="datetime">2016-09-23</p>
+								</div>
+								<div class="shadow"></div>
+								</a>
+							</div>
+							<div class="specific">
+								<a href="buy_details.html" target="_blank">
+								<div class="specificpic"><img src="images/buySupport/hd_1.jpg" width="385" height="220" alt="" class="trans"></div>
+								<div class="specificcon">
+									<p class="headline">阿拉善越野招募令</p>
+									<p class="datetime">2016-09-23</p>
+								</div>
+								<div class="shadow"></div>
+								</a>
+							</div>
+							<div class="specific">
+								<a href="buy_details.html" target="_blank">
+								<div class="specificpic"><img src="images/buySupport/hd_1.jpg" width="385" height="220" alt="" class="trans"></div>
+								<div class="specificcon">
+									<p class="headline">阿拉善越野招募令</p>
+									<p class="datetime">2016-09-23</p>
+								</div>
+								<div class="shadow"></div>
+								</a>
+							</div>
+	                    </div>
+	                </div>
+	                <div class="prevBtn prevDisabled"></div>
+	                <div class="nextBtn"></div>
+	            </div>
+			</div>
+			
+			<!--在线/购车/维修/优惠-->
+			<div class="synthesizeboxline" id="synthesizebox"></div>
+			<div class="classify">
+				<div class="cont">
+					<div class="pic scrollShow">
+						<a class="onlineservice">
+						<img src="images/client/fuwu1.jpg">
+						<p class="entitle">ONLINE SERVICE</p>
+						<p class="cntitle">在线服务</p>
+						<div class="yy trans"></div>
+						</a>
+					</div>
+					<div class="pic scrollShow">
+						<a href="car_online.html">
+						<img src="images/client/fuwu2.jpg">
+						<p class="entitle">PURCHASING SUPPORT</p>
+						<p class="cntitle">购车支持</p>
+						<div class="yy trans"></div>
+						</a>
+					</div>
+					<div class="pic scrollShow">
+						<a href="client_customerService.html">
+						<img src="images/client/fuwu3.jpg">
+						<p class="entitle">REPAIR &amp; MAINTENANCE</p>
+						<p class="cntitle">维修与保养</p>
+						<div class="yy trans"></div>
+						</a>
+					</div>
+					<div class="pic piclast scrollShow">
+						<a href="activity_brand.html">
+						<img src="images/client/fuwu4.jpg">
+						<p class="entitle">SPECIAL OFFERS</p>
+						<p class="cntitle">优惠活动</p>
+						<div class="yy trans"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div id="footer"></div>
+	</body>
+
+</html>

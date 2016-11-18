@@ -1,0 +1,573 @@
+/*---------------------------------------------------banner---------------------------------------------------*/
+.banner
+{
+    position: relative;
+    overflow: hidden;
+    background-color: #0066b3;
+    height: 560px;
+    clear: both;
+}
+.banner .imageScrollPanel,.banner .txtScrollPanel
+{
+    position: absolute;
+    width: 1000%;
+    height: 100%;
+    overflow: hidden;
+}
+.banner .imagePanel
+{
+    position: relative;
+    float: left;
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
+}
+.banner .imagePanel img
+{
+    position: absolute;
+    left: 50%;
+    margin-left: -800px;
+}
+.banner .imagePanel .img_trans
+{
+    -moz-transition: all 9s linear;
+    -webkit-transition: all 9s linear;
+    -o-transition: all 9s linear;
+    transition: all 9s linear;
+}
+.banner .imagePanel .img_start
+{
+    transform:scale(1.1);
+}
+.banner .imagePanel .img_end
+{
+    transform:scale(1);
+}
+.banner .contentGroup
+{
+    position: relative;
+    float: left;
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
+}
+.banner .contentPanel
+{
+    position: absolute;
+    left: 50%;
+    top: 95px;
+    margin-left: -600px;
+    width: 1200px;
+    overflow: hidden;
+}
+.banner .white
+{
+    color: #FFFFFF;
+}
+.banner .contentPanel .enTxt
+{
+    display:inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    display: block;
+}
+.banner .contentPanel .cnTxt
+{
+    font-size: 34px;
+    display: block;
+}
+.banner .contentPanel span{
+	display: block;
+}
+
+.banner .contentPanel p
+{
+	margin-top: 50px;
+}
+
+.banner .contentPanel .linkBtn
+{
+    display: inline-block;
+    color:#FFFFFF;
+    width: 130px;
+    height: 43px;
+    line-height: 43px;
+    border: solid 1px #e8e8e8;
+	margin-right: 6px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 16px;
+	transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+}
+
+.banner .contentPanel .blue
+{
+	background-color: #0066b3;
+	border-color: #0066b3;
+}
+
+.banner .contentPanel .linkBtn:hover
+{
+    background-color: #00c9ff;
+	border-color: #00c9ff;
+   /* transform: rotateY(360deg);*/
+}
+.banner .txtScrollPanel .contentGroup i{
+	display: block;
+	font-style: normal;
+	position: relative;
+	top: -305px;
+	left: 110px;
+}
+.banner .txtScrollPanel .contentGroup i .linkBtn{
+	display: inline-block;
+    color:#FFFFFF;
+    width: 130px;
+    height: 43px;
+    line-height: 43px;
+    border: solid 1px #e8e8e8;
+	margin-right: 6px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 16px;
+	transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+}
+
+.banner .txtScrollPanel .contentGroup i .linkBtn:hover{
+	background-color: #00c9ff;
+	border-color: #00c9ff;
+   /* transform: rotateY(360deg);*/
+}
+
+.banner .txtScrollPanel .contentGroup i .blue
+{
+	background-color: #0066b3;
+	border-color: #0066b3;
+}
+
+
+.banner .btnPanel
+{
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    /* margin-left: -600px; */
+}
+
+.banner .btnPanel .btn
+{
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    width: 45px;
+    height: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.banner .btnPanel .btn:hover .bg
+{
+    background-color: #00c9ff;
+    height: 20px;
+}
+.banner .btnPanel .btn .title
+{
+    position: absolute;
+    width: 100%;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+.banner .btnPanel .btn .bg
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.banner .btnPanel .btn .bg_out
+{
+    height: 2px;
+    background: #FFFFFF;
+}
+.banner .btnPanel .btn .bg_click
+{
+    height: 20px;
+    background-color: #00c9ff;
+}
+
+/*-----------------------新闻资讯------------------------*/
+h1 span{
+	font-size: 38px;
+    font-weight: 500;
+    line-height: 49px;
+}
+.news{
+	background-color: #FFFFFF;
+	padding-top: 72px;	
+}
+.news h1{
+	text-align: center;
+}
+.blue {
+    color: #0066b3;
+}
+.w990
+{
+    margin: 0 auto 0 auto;
+    width:990px;
+}
+.recommend{
+	margin: 50px auto 95px auto;
+}
+.newbox_left{
+	float: left;
+	width: 510px;
+	height: 285px;
+	position: relative;
+}
+.newbox_right{
+	float: right;
+	width: 380px;
+}
+.newest{
+	display: none;
+}
+.newshow{
+	display: block;
+}
+.flot_left{
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	display: block;
+	width: 330px;
+	height: 230px;
+}
+.flot_right{
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	display: block;
+	width: 404px;
+	height: 288px;
+}
+.new_theone{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 1;
+}
+.new_theone .newyy{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.flot_left .newyy{
+	background-color: #000000;
+	opacity: 0.6;
+	filter:alpha(opacity=60);
+}
+.flot_right .newyy{
+	background-color: #000000;
+	opacity: 0;
+	filter:alpha(opacity=0);
+}
+.new_theone img{
+	width: 100%;
+	height: 100%;
+}
+.newbox_right h2{
+	font-size: 24px;
+	font-weight: normal;
+	color: #000000;
+	height: 62px;
+	overflow: hidden;
+}
+.newbox_right .titleline{
+	height: 2px;
+	width: 60px;
+	background-color: #3d3d3d;
+	margin: 28px 0px 28px 0px;
+}
+.newbox_right .synopsis{
+	font-size: 16px;
+	color: #3d3d3d;
+	text-align: justify;
+	height: 130px;
+	overflow: hidden;
+}
+.newbox_right .yeartime{
+	font-size: 16px;
+	color: #0066b3;
+	margin-top: 15px;
+}
+
+/*----------------------品牌活动--------------------------*/
+.brand{
+	background: url("../images/index/activbg.jpg") no-repeat;
+	height: 500px;
+}
+.brandbox{
+	position: relative;
+	top: 72px;
+	left: 380px;
+	color: #fff;
+	width: 600px;
+}
+.brandline{
+	height: 2px;
+	width: 60px;
+	background-color: #FFFFFF;
+	margin-top: 30px;
+}
+
+/*-----------------------车型展示-------------------------*/
+.models{
+	padding-top: 52px;
+	text-align: center;
+}
+.models h1{
+	text-align: center;
+}
+.navContainer{
+	position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.navPanelead{
+	position: relative;
+    float: left;
+    z-index: 2;
+}
+.navPanelead li{
+	float: left;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+.navPanelead li.line{
+	width: 10px;
+}
+.navPanelead li.subNav{
+	cursor: pointer;
+    cursor: hand;
+    min-width: 65px;
+}
+.navPanelead li.subNav_click{
+	color: #FFFFFF;
+}
+.navContainer .barBg{
+	position: absolute;
+    left: 10px;
+    width: 100px;
+    height: 25px;
+    background: url("../images/index/newsBar.png") no-repeat center;
+}
+.carjh{
+	max-width: 1100px;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 60px;
+}
+.carjh_left{
+	float: left;
+	width: 390px;
+}
+.car_title{
+	font-size: 30px;
+	color: #404040;
+	text-align: left;
+}
+.car_line{
+	width: 60px;
+	height: 2px;
+	background-color: #5f5f5f;
+	margin: 30px 0px;
+}
+.car_con{
+	font-size: 14px;
+	color: #3d3d3d;
+	text-align: justify;
+	line-height: 24px;
+}
+.carjh_right{
+	float: right;
+}
+.show{
+	margin-bottom: 20px;
+}
+.show img{
+	display: inline-block;
+}
+.control{
+	height: 93px;
+}
+.control li{
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	cursor: pointer;
+	cursor: hand;
+	min-width: 98px;	
+	max-width: 110px;
+	height: 93px;	
+	position: relative;
+}
+.control li img{
+	position: absolute;
+	top: 20px;
+	left: 0;
+}
+.control li p{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+li.chosecar img{
+	width: 80px;
+	height: 50px;
+}
+li.chosecar p{
+	color: #6e6e6e;
+}
+li.pitchcar img{
+	margin-top: 0;
+	/*width: 110px;
+	height: 70px;*/
+}
+li.pitchcar p{
+	color: #0066b3;
+}
+
+/*-----------------------经销商/预约试驾-------------------------*/
+.gather{
+	color: #FFFFFF;
+}
+.bottomParts h1 span
+{
+	margin-left: 0;
+}
+
+.bottomParts h1 a
+{
+	font-size: 18px;
+	color: #0066b3;
+	margin-left: 18px;
+}
+.bottomParts h1 a:hover{
+	color: #00c9ff;
+}
+.bottomParts h1 a .jt{
+	width: 8px;
+	height: 11px;
+	background: url("../images/blueArrow.png") no-repeat;
+	display: inline-block;
+	margin-left: 8px;
+}
+.bottomParts h1 a:hover .jt{
+	background: url("../images/jt1.png") no-repeat;	
+}
+.bottom_1
+{
+	height: 470px;
+	background-color: #191919;
+	position: relative;
+}
+
+.bottom_2
+{
+	height: 470px;
+	background-color: #0066b3;
+	position: relative;
+}
+
+.bottomPart_1
+{
+	width: 600px;
+    height: 380px;
+    position: absolute;
+    right: 50%;
+    padding-top: 52px;
+    background: url("../images/index/bottomPart_1.jpg") no-repeat 0px 30px;
+}
+
+.Dealers
+{
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.Dealers a{
+	display: block;
+}
+.color_00c9ff
+{
+	color: #00c9ff;
+}
+
+.bottomPart_2
+{
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	height: 0;
+	background: url("../images/index/bottomPart_2.jpg") no-repeat 50% 0%;
+}
+
+.bottomPart_2 div
+{
+	position: relative;
+	top: 52px;
+	width: 600px;
+	left: 40px;
+}
+/*------------------底部图片------------------*/
+.botbg img{
+	width: 100%;
+	display: block;
+}
+/*定位线*/
+#xinwenline{
+	position: relative;
+	border-top: 0px solid #FFFFFF;
+	top: -140px;
+}
+#huodongline{
+	position: relative;
+	border-top: 0px solid #FFFFFF;
+	top: -70px;
+}
+#zhanshiline{
+	position: relative;
+	border-top: 0px solid #FFFFFF;
+	top: -120px;
+}
+#yyline{
+	position: relative;
+	border-top: 0px solid #FFFFFF;
+	top: -70px;
+}

@@ -1,0 +1,358 @@
+.video{
+	height: 866px;
+	background: url("../images/about/sp_bg.jpg") no-repeat center center;
+}
+.Title{
+	width: 350px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+.Title .enTitle{
+	font-size: 46px;
+	color: #0066b3;
+	letter-spacing: -3px;
+	float: left;
+	font-family: arial;
+	font-weight: 700;
+	margin-right: 15px;
+}
+.Title .cnTitle{
+	font-size: 36px;
+	color: #000;
+	float: left;
+	font-weight: normal;
+}
+.option{
+	margin: 50px auto 40px;
+	text-align: center;
+}
+.option ul{
+	margin: auto;
+	display: inline-block;
+}
+.option ul li{
+	display: block;
+	float: left;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	cursor: pointer;
+	cursor: hand;
+}
+.option ul li:hover{
+	color: #0066b3;
+}
+.option .pitchon{
+	background: url("../images/about/title.png") no-repeat;
+	color: #fff;
+}
+.option .pitchon:hover{
+	color: #fff;
+}
+.video .videocon{
+	width: 1200px;
+	height: 480px;
+	margin: 0 auto;
+}
+.videoShiftBox
+{
+	width: 3600px;
+	position: relative;
+}
+.videoShiftBar
+{
+	width: 1200px;
+	height: 480px;
+	position: relative;
+	float: left;
+}
+.video .videocon .videobox{
+	width: 387px;
+	height: 220px;
+	position: absolute;
+	cursor: pointer;
+	cursor: hand;
+}
+.video .videocon .videoboxlast{
+	margin-right: 0;
+}
+.video .videocon .videobox .yy{
+	width: 387px;
+	height: 220px;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000;
+}
+.video .videocon .videobox .yycon{
+	width: 387px;
+	height: 40px;
+	background-color: #000;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	line-height: 40px;	
+}
+.video .videocon .videobox .yycon span{
+	color: #bababa;
+	font-size: 14px;
+	padding-left: 15px;
+}
+.video .videocon .videobox:hover .yy{
+	opacity: 1;
+	filter:alpha(opacity=100);
+	background: url("../images/about/bf.png") no-repeat;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 60px;
+	left: 160px;
+}
+.video .videocon .videobox:hover .yycon{
+	opacity: 1;
+	filter:alpha(opacity=100);
+	background-color: #fff;
+	
+}
+.video .videocon .videobox:hover .yycon span{
+	color: #3f3f3f;
+}
+.videocon{
+	position: relative;
+	overflow: hidden;
+}
+.leftbth{
+	width: 40px;
+	height: 40px;
+	background:url("../images/activity/prev_btn.jpg") no-repeat;
+	position: absolute;
+	left: 45px;
+	top: 520px;
+}
+.rightbth{
+	width: 40px;
+	height: 40px;
+	background:url("../images/activity/next_btn.jpg") no-repeat;
+	position: absolute;
+	right: 45px;
+	top: 520px;
+}
+.leftbth:hover{
+	background:url("../images/activity/prev_btn.jpg") no-repeat 0 -40px;
+}
+.rightbth:hover{
+	background:url("../images/activity/next_btn.jpg") no-repeat 0 -40px;
+}
+
+.leftDisabled
+{
+	background: url('../images/activity/unClick_2.jpg') 0px 0px;
+}
+
+.rightDisabled
+{
+	background: url('../images/activity/unClick_1.jpg') 0px 0px;
+}
+.leftDisabled:hover{
+	background: url('../images/activity/unClick_2.jpg') 0px 0px;
+	cursor: auto;
+}
+.rightDisabled:hover
+{
+	background: url('../images/activity/unClick_1.jpg') 0px 0px;
+	cursor: auto;
+}
+.more{
+	width: 130px;
+	height: 45px;
+	font-size: 16px;
+	color: #fff;
+	background: #0066b3 url("../images/jt1.png") no-repeat 90px 50%;
+	display: block;
+	text-indent: 30px;
+	line-height: 45px;
+	font-weight: 600;
+	margin: 20px auto;
+}
+.more:hover{
+	background-color: #00C9FF;
+}
+.pic{
+	height: 848px;
+	background: #fff;
+}
+.pic .Title{
+	width: 610px;
+	padding-top: 110px;
+}
+.pic .piccon{
+	width: 1200px;
+	height: 401px;
+	margin: 0 auto;
+	font-size: 0;
+	overflow: hidden;
+}
+.picShift
+{
+	width: 3600px;
+	position: relative;
+	height: 401px;
+}
+.picshiftBar
+{
+	width: 1200px;
+	height: 401px;
+	position: relative;
+	float: left;
+}
+.pic .piccon .picone{
+	position: absolute;
+}
+.pic .piccon .picone .shadow{
+	width: 300px;
+	height: 200px;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	background: #000 url("../images/about/down.png") no-repeat center center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*display: none;*/	
+}
+.pic .piccon .picone:hover .shadow{
+	display: block;
+	cursor: pointer;
+	cursor: hand;
+	    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+.pic .more{
+	margin: 40px auto;
+}
+.pic{
+	position: relative;
+}
+.pic .leftbth{
+	position: absolute;
+	top: 460px;
+	left: 45px;
+}
+.pic .rightbth{
+	position: absolute;
+	top: 460px;
+	right: 45px;
+}
+.load{
+	height: 516px;
+	background: url("../images/download/lastcar.jpg") no-repeat center center;
+}
+.load .Title{
+	width: 470px;
+}
+.load .Title .enTitle{
+	color: #fff;
+}
+.load .Title .cnTitle{
+	color: #fff;
+	position: relative;
+	top: 2px;
+}
+.load .carload{
+	width: 1045px;
+	margin: 50px auto;
+}
+.load .carload .land{
+	width: 300px;
+	height: 265px;
+	float: left;
+	margin-right: 70px;
+	text-align: center;
+}
+.load .carload .landlast{
+	margin-right: 0;
+}
+.load .carload .land .landword{
+	width: 237px;
+	height: 27px;
+	margin: 18px auto;
+	display: inline-block;
+}
+.load .carload .land .landwordthr{
+	width: 150px;
+}
+
+.load .carload .land{
+	position: relative;
+}
+.load .carload .land .shadow{
+	width: 300px;
+	height: 200px;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	background: #000 url("../images/download/down.png") no-repeat center center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*display: none;*/
+}
+.load .carload .land .memory{
+	color: #1CB5DF;
+	position: relative;
+	top: 122px;
+}
+.load .carload .land .landwordone{
+	background: url("../images/download/font.png") no-repeat 0px 0px;
+}
+.load .carload .land:hover .landwordone{
+	background: url("../images/download/font.png") no-repeat 0px -32px;
+}
+.load .carload .land:hover .shadow{
+	/*display: block;*/
+	 -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+.load .carload .land .landwordtwo{
+	background: url("../images/download/font.png") no-repeat 0px -67px;
+}
+.load .carload .land:hover .landwordtwo{
+	background: url("../images/download/font.png") no-repeat 0px -103px; 
+}
+.load .carload .land .landwordthr{
+	background: url("../images/download/font.png") no-repeat 0px -145px;
+}
+.load .carload .land:hover .landwordthr{
+	background: url("../images/download/font.png") no-repeat 0px -175px;
+}
+.videosline{
+	position: relative;
+	border: 0px #fff;
+	top: -70px;
+}
+.imagedownloadsline{
+	position: relative;
+	border: 0px #fff;
+	top: -70px;
+}
+
+
+
+
+
+
+
+
+
+

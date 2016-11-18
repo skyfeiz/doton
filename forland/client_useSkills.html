@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>爱车宝典</title>
+		<meta name="description" content="福田汽车 具体内容由福田提供">
+		<meta name="keywords" content="福田汽车 具体内容由福田提供">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/client_useSkills.css"/>
+		<script src="http://pv.sohu.com/cityjson" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--生成头底-->
+		<script src="js/HandF.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/headerAndFooter.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/scrollShow.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery_scrollBar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/share.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				new foton.HandF();
+				new foton.HeaderAndFooter();
+				new foton.scrollShow();
+				new foton.share();
+				$("#customer").addClass("present");
+			});
+		</script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div id="header"></div>
+
+		<!--内容-->
+		<div class="bannerPanel w1200-1400">
+       <h2 class="entitle">KNOWLEDGE BASE<span class="cntitle">爱车宝典</span></h2>
+      <div class="option">
+		<ul>
+		    <li><a href="client_carZonghe.html">综合查询</a></li>
+			<li><a href="client_knowledge.html">保养服务</a></li>
+			<li class="choose"><a href="javascript:void(0);" class="whitecolor">用车技巧</a></li>
+			<li><a href="client_safeDriving.html">行车安全</a></li>
+			<li><a href="client_drivingTips.html">使用指南</a></li>
+	   </ul>
+      </div> 
+    </div>
+    <div class="mainPanel w1200-1400">
+       
+	<iframe src="http://foton.custhelp.com/app/answers/Foton_Home_kw_list/c/20" width="1000" height="600" frameborder="0" style="display: block;margin-left: 23%;"></iframe>
+	
+       
+    </div>
+		<!--底部-->
+		<div id="footer"></div>
+	</body>
+
+</html>

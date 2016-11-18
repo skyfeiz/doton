@@ -1,0 +1,346 @@
+.click_states i {
+  background: url("../images/mCLogin/hover_icon.png") no-repeat 0 -31px;
+}
+.signInTitle {
+    margin-bottom: 0px;
+}
+.main_right {
+  background-color: #e9e3e3;
+}
+.self_message  {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding-top: 30px;
+}
+.self_message span {
+  color: #0066b3;
+  display: inline-block;
+  width: 100px;
+  padding-left: 40px;
+  font-size: 16px;
+}
+span.needFill {
+  width: 125px;
+  padding-left: 15px;
+  color: #494949;
+}
+.self_message a {
+  display: inline-block;
+  padding-left: 15px;
+  font-size: 16px;
+  color: #00c9ff;
+}
+.self_message > div {
+  padding-bottom: 25px;
+}
+
+.base_message {
+  background-color: #fff;
+}
+
+
+/*个人信息部分*/
+.message_left, .message_right {
+  width: 50%;
+}
+.all_message .item {
+  position: relative;
+  height: 30px;
+  padding-top: 25px;
+}
+span.label {
+  float: left;
+  display: inline-block;
+  font-size: 14px;
+  color: #0066b3;
+  line-height: 35px;
+}
+.message_left span.label {
+  width: 90px;
+  padding-left: 50px;
+}
+.message_right span.label {
+  width: 86px;
+  padding-left: 10px;
+}
+.item > div span {
+  line-height: 35px;
+  font-size: 12px;
+  color: #959595;
+}
+.modification {
+  position: relative;
+  padding: 60px 0;
+  height: 50px;
+}
+.modification a:hover {
+    background-color: #00C9FF ;
+}
+.modification a {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    background: #0066b3 url("../images/mCLogin/icon_arrow.png") no-repeat 92px 17px;
+    cursor: pointer;
+    cursor: hand;
+}
+a.message_qure {
+  left: 240px;
+}
+a.message_save {
+  left: 400px;
+}
+/*input处理*/
+.all_message input {
+  width: 223px;
+  height: 33px;
+  padding-left: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 1px solid #959595;
+}
+
+
+/*下拉菜单、tab栏*/
+.dropItem {
+    width: 240px;
+    height: 35px;
+    float: left;
+    position: relative;
+    line-height: 33px;
+    color: #959595;
+}
+.dropDefault span {
+  overflow: hidden;
+    display: inline-block;
+    width: 182px;
+    height: 33px;
+    padding: 0px 10px;
+    border: 1px solid #959595;
+    border-right: 0;
+    float: left;
+    margin-right: 0;
+    text-align: left;
+    color: #959595;
+    cursor: pointer;
+}
+.dropDefault button {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: #959595 url("../images/mCLogin/dropBtn.png") no-repeat 50% 50%;
+    float: left;
+    border: 0;
+    cursor: pointer;
+    cursor: hand;
+}
+.dropDefault:hover button {
+    background-color: #0066b3;
+    color: #fff;
+}
+.dropOptions {
+    width: 200px;
+    border: 1px solid #959595;
+    border-top: 0;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 100;
+    display: none;
+    max-height: 132px;
+    overflow-y: auto;
+}
+.dropOptions p {
+  font-size: 12px;
+    padding: 0px 10px;
+    cursor: hand;
+    cursor: pointer;
+    height: 33px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: background-color 0.4s;
+    -webkit-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
+}
+.dropOptions p:hover {
+    background-color: #0066b3;
+    color: #fff;
+}
+.dropDefault button.click_color{
+  background-color: #0066b3;
+}
+.proviceCity .dropItem {
+  width: 205px;
+  float: left;
+  padding-bottom: 20px;
+}
+.all_message .proviceCity {
+  width: 200%;
+  z-index: 10;
+}
+.proviceCity > div {
+  width: 80%;
+}
+.proviceCity .dropDefault span {
+  width: 120px;
+}
+.proviceCity .city {
+  /*float: right;*/
+}
+.proviceCity .country {
+  padding-bottom: 0;
+}
+.proviceCity .dropOptions {
+  width: 140px;
+}
+.proviceCity .dropOptions  p {
+  height: 33px;
+  overflow: hidden;
+  padding-top: 0;
+  padding-right:0;
+}
+.birth button {
+
+}
+#birthDays button , #marriage button {
+  background: #959595 url("../images/mCLogin/dropTime.png") no-repeat 50% 50%;
+}
+
+
+/*单选框*/
+.radioBox label {
+    width: 40px;
+    display: inline-block;
+    padding-left: 25px;
+    margin-right: 20px;
+    line-height: 35px;
+    height: 35px;
+    background: url("../images/mCLogin/radio_unselect.png") no-repeat left center;
+}
+.radioBox input {
+    padding-left: 0;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    border: 0;
+    border: none;
+    height: 0;
+    display: inline-block;
+    display: none;
+}
+.radioBox .radio_click {
+  background: url("../images/mCLogin/radio_select.png") no-repeat left center;
+}
+
+.radioBox input {
+}
+
+/*警告信息*/
+
+.item .error_warn {
+    color: #e22;
+    font-size: 12px;
+    position: absolute;
+    line-height: 30px;
+    width: 350px;
+    top: 55px;
+    left: 96px;
+    display: none;
+}
+.error_warn i {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 7px;
+    display: inline-block;
+    background: url("../images/mCLogin/icon_pass_part.png") no-repeat -17px 0px;
+}
+.error_warn p {
+    display: inline-block;
+    text-indent: 20px;
+    font-size: 12px;
+}
+
+
+
+/*分栏*/
+.baseMessageTitle {
+  width: 100%;
+  height: 40px;
+  background-color: #f0f0f0;
+}
+.baseMessageTitle span {
+  line-height: 40px;
+  color: #0066b3;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 40px;
+}
+.otherMessageLine {
+  //height: 5px;
+  width: 100%;
+  background-color: #e9e3e3;
+}
+.all_message {
+  padding-bottom: 40px;
+}
+.otherNeedMessage .all_message {
+  padding-bottom: 0;
+}
+.all_message  .mc_postcode {
+  padding-top: 80px;
+}
+
+
+.self_action table {
+  float: left;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.self_action th {
+    width: 85px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0066b3;
+    padding: 0;
+    height: 30px;
+    border: 1px solid #bfbfbf;
+}
+.list td {
+    text-align: center;
+    height: 35px;
+    width: 85px;
+    font-size: 14px;
+    color: #000000;
+    border-right: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+}
+.self_action span {
+  float: left;
+}
+th.ta_content {
+  width: 230px;
+}
+th.ta_time {
+  width: 100px;
+}
+th.ta_order {
+  width: 70px;
+}
+.mc_postcode .error_warn {
+  top: 112px;
+}
+.marrageDay .error_warn {
+  left: 0;
+  top: 30px;
+}
+.birth .error_warn {
+  left: 0;
+  top: 30px;
+}

@@ -1,0 +1,175 @@
+.boutique{
+	height: 893px;
+	background-color: #f6f6f6;
+}
+.TITLE{
+	width: 450px;
+	margin: 0 auto;
+	padding-top: 75px;
+}
+.TITLE .ENTITLE{
+	font-size: 40px;
+	color: #0066b3;
+	float: left;
+	letter-spacing: -3px;
+	font-family: arial;
+	margin-right: 10px;
+}
+.TITLE .CNTITLE{
+	font-size: 32px;
+	color: #000;
+	position: relative;
+	top: -1px;	
+	font-weight: normal;
+}
+.boutique .navigation{
+	width: 718px;
+	height: 25px;
+	margin: 45px auto 35px;
+	position: relative;
+}
+.boutique .navigation ul li{
+	float: left;
+	line-height: 25px;
+	width: 137px;
+	height: 25px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.boutique .navigation ul li:hover{
+	color: #0066B3;
+}
+.boutique .navigation ul .bias{
+	width: 8px;
+	height: 20px;
+	/*background: url("../images/line.png") no-repeat;*/
+	margin-top: 3px;
+}
+.boutique .navigation ul .bthcon{
+	cursor: hand;
+	cursor: pointer;
+}
+.boutique .navigation ul .bth{
+	color: #fff;
+	/*background: url("../images/bttitle.png") no-repeat;*/
+	
+}
+.boutique .navigation ul .bth:hover{
+	color: #fff;
+}
+.boutique .navigation .bthbg{
+	width: 137px;
+	height: 25px;
+	background: url("../images/buySupport/bttitle.png") no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-moz-transition: left 0.3s linear;
+    -webkit-transition: left 0.3s linear;
+    -o-transition: left 0.3s linear;
+    transition: left 0.3s linear;
+}
+.boutique .content{
+	width: 1200px;
+	height: 496px;
+	margin: 0 auto;
+}
+.boutique .content .seacher{
+	width: 250px;
+	height: 40px;
+	border: 1px solid #a0a0a0;
+	float: right;
+}
+.boutique .content .seacher input{
+	width: 210px;
+	height: 38px;
+	border: none;
+	font-size: 14px;
+	padding-left: 5px;
+	color: #a0a0a0;
+}
+.boutique .content .seacher button{
+	width: 33px;
+	height: 40px;
+	display: inline-block;
+	border: none;
+	float: right;
+	background: url("../images/buySupport/header_search.png") no-repeat 0 5px;
+}
+.boutique .content .seacher button:hover{
+	background-position: 0 -25px;
+}
+.boutique .content .particulars{
+	width: 1200px;
+	height: 427px;
+	float: left;
+	margin-top: 25px;
+	position: relative;
+	overflow: hidden;
+}
+.boutique .content .particulars .shopping{
+	width: 285px;
+	height: 427px;
+	float: left;
+	/*margin-right: 20px;*/
+	position: absolute;
+}
+.boutique .content .particulars .shoppinglast{
+	margin-right: 0;
+}
+.boutique .content .particulars .shopping img{
+	display: block;
+}
+.boutique .content .particulars .shopping a{
+	display: block;
+}
+.boutique .content .particulars .shopping .business{
+	width: 100%;
+	height: 186px;
+	background-color: #dcdcdc;
+	float: left;
+}
+.boutique .content .particulars .shopping .business .til{
+	font-size: 18px;
+	color: #000;
+	margin: 20px 0 20px 30px;
+}
+.boutique .content .particulars .shopping .business .con{
+	margin-left: 30px;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 13px;
+}
+.boutique .content .particulars .shopping .business .tm{
+	width: 109px;
+	height: 13px;
+	background: url("../images/buySupport/tm.png") no-repeat;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.boutique .content .particulars .shopping .business a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	background-color: #0066b3;
+	color: #fff;
+	margin-left: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.boutique .more{
+	display: block;
+	width: 130px;
+	height: 40px;
+	background: #0066b3 url("../images/buySupport/jt1.png") no-repeat 88px 50%;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #fff;
+	line-height: 40px;
+	text-indent: 48px;
+	margin: 40px auto;
+}
+.boutique .more:hover{
+	background-color: #00c0f4;
+}

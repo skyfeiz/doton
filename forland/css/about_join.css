@@ -1,0 +1,48 @@
+.cont{
+	height: 634px;
+	background: url("../images/about/join1.jpg") no-repeat center center;
+}
+.cont .draler{
+	width: 770px;
+	height: 634px;
+	margin: 0 auto;
+	text-align: center;
+}
+.cont .draler h1{
+	font-size: 48px;
+	color: #fff;
+	padding-top: 65px;
+}
+.cont .draler h2{
+	font-size: 34px;
+	color: #fff;
+	font-weight: normal;
+}
+.cont .draler h3{
+	font-size: 24px;
+	color: #fff;
+	font-weight: normal;
+	margin-top: 25px;
+}
+.cont .draler p{
+	color: #fff;
+	font-size: 18px;
+	
+}
+.cont .draler .dralerword{
+	margin-top: 20px;
+	line-height: 33px;
+}
+.cont .draler .hotline{
+	margin-top: 30px;
+}
+.cont .draler .number{
+	font-size: 30px;
+	color: #00c9ff;
+	margin-top: 20px;
+	font-style: italic;
+}
+
+
+
+

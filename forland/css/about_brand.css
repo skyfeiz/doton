@@ -1,0 +1,463 @@
+.banner{
+	background:url('../images/about/brd_bg.jpg') no-repeat scroll 0 0;
+	height:555px;
+}
+.banner h2{
+	text-align:center;
+	color:#fff;
+}
+.banner h2.enTitle{
+	font-size:35px;
+	padding-top:230px;
+}
+.banner h2.cnTitle{
+	font-size:32px;
+	font-weight:normal;
+}
+h1 span{
+	font-size: 38px;
+    font-weight: 500;
+    line-height: 49px;
+}
+.introduce{
+	padding-top: 72px;	
+	background: url("../images/about/int_bg.jpg") no-repeat;
+	height: 708px;
+}
+.introduce h1{
+	text-align: center;
+}
+.blue {
+    color: #0066b3;
+}
+.wordcon{
+	width: 1200px;
+	margin: 50px auto 0px;
+	text-align: left;
+}
+.sd_title{
+	font-size: 18px;
+	color: #000;
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+.sd_con{
+	font-size: 14px;
+	color: #000;
+	text-align: justify;
+	line-height: 24px;
+}
+.research{
+	text-align: center;
+}
+.research h1{
+	padding-top: 72px;
+}
+.yanfapic{
+	display: block;
+	margin: 40px auto 100px;
+}
+/*品牌荣誉*/
+.honor{
+	padding-top: 72px;	
+	background: url("../images/about/ry_bg.jpg") no-repeat;
+	height: 653px;
+}
+.honor h1{
+	text-align: center;
+	color: #fff;
+}
+.ry_pic{
+	width: 945px;
+	height: 300px;
+	margin: 52px auto 0px;
+	position: relative;
+}
+.ry_picgather{
+	display: none;
+}
+.num1_block{
+	display: block;
+}
+.ry_picbox{
+	width: 275px;
+	margin: 0px 20px;
+	float: left;
+}
+.ry_con{
+	margin-top: 25px;
+	height: 57px;
+	overflow: hidden;
+	padding-left: 14px;
+	padding-right: 14px;
+	color: #FFFFFF;
+}
+.ry_prev{
+	width: 49px;
+	height: 49px;
+	background: url("../images/about/honorFormer.png") no-repeat;
+	position: absolute;
+	top: 80px;
+	left: -17%;
+	cursor: pointer;
+	cursor: hand;
+}
+.ry_next{
+	width: 49px;
+	height: 49px;
+	background: url("../images/about/honorNext.png") no-repeat;
+	position: absolute;
+	top: 80px;
+	right: -17%;
+	cursor: pointer;
+	cursor: hand;
+}
+.ry_prev:hover{
+	background-position: 0px -49px;
+}
+.ry_next:hover{
+	background-position: 0px -49px;
+}
+.ry_prevdisabled{
+	background: url("../images/about/honorDisabled_1.png") no-repeat;
+	cursor: default;
+}
+.ry_prevdisabled:hover{
+	background-position: 0px 0px;
+}
+.ry_nextdisabled{
+	background: url("../images/about/honorDisabled_2.png") no-repeat;
+	cursor: default;
+}.ry_nextdisabled:hover{
+	background-position: 0px 0px;
+}
+
+.ry_timeline{
+	width: 100%;
+	height: 0;
+	border-bottom: 1px dashed #c2c2c2;
+	position: relative;
+	top: 150px;
+}
+.ry_timebox{
+	width: 1200px;
+	overflow: hidden;
+	height: 110px;
+	margin: auto;
+	position: absolute;
+	top: -95px;
+	left: 0;
+	right: 0;
+}
+.ry_longbox{
+	width: 10000%;
+	height: 95px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-left: 570px;
+}
+.ry_tione{
+	width: 285px;
+	height: 95px;
+	float: left;
+	position: relative;
+}
+.ry_tione .ry_year{
+	font-size: 20px;
+	color: #949494;
+	position: absolute;
+	bottom: 30px;
+}
+.ry_tione .ry_yd{
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	background: url("../images/about/ry_yd.png") no-repeat 0px -15px;
+	position: absolute;
+	bottom: -6px;
+	left: 16px;
+}
+
+
+.ry_tioneclick .ry_year{
+	font-size: 28px;
+	color: #fff;
+	position: absolute;
+	bottom: 35px;
+}
+.ry_tioneclick .ry_yd{
+	left: 26px;
+	background-position: 0px 0px;
+}
+
+/*品牌历程*/
+.history
+{
+	height: 810px;
+	background: url("../images/about/historyBg.jpg") no-repeat 70% 50%;
+	overflow: hidden;
+	position: relative;
+}
+.history h1
+{
+	text-align: center;
+	color: #fff;
+	position: relative;
+	top: 71px;
+}
+.history h1 span
+{
+	font-size: 38px;
+	font-weight: 500;
+}
+#historyList
+{
+	position: absolute;
+	top: 526px;
+	left: 50%;
+	height: 0;
+	margin-left: -330px;
+}
+.historyNode
+{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.historyPoint
+{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.historyHover
+{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	-khtml-opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+	cursor: hand;
+	cursor: pointer;
+	z-index: 111;
+}
+.historyDotted
+{
+	width: 7px;
+	height: 0px;
+	background: url("../images/about/historyDotted.png") no-repeat 50% 0px;
+	position: absolute;
+	bottom: 20px;
+	left: 6px;
+}
+.historyDotted p
+{
+	position: absolute;
+	bottom: 84px;
+	font-size: 18px;
+	color: #fff;
+	width: 200px;
+	left: -100px;
+	line-height: 24px;
+	height: 48px;
+	overflow: hidden;
+	text-align: center;
+	opacity: 0;
+	-khtml-opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+.history button
+{
+	width: 49px;
+	height: 49px;
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	border: 0;
+	background-position: 50% 0px;
+	background-color: transparent;
+}
+.historyFormer:hover,.historyNext:hover
+{
+	background-position: 50% -49px;
+}
+.historyFormer{
+	left: 7.8%;
+	background-image: url("../images/about/historyBtn_1.png");
+	cursor: hand;
+	cursor: pointer;
+}
+.historyNext{
+	right: 7.8%;
+	background-image: url("../images/about/historyBtn_2.png");
+	cursor: hand;
+	cursor: pointer;
+}
+.honorBtn_3{
+	background: url("../images/about/honorDisabled_1.png") no-repeat 0px 0px;
+	cursor: auto;
+}
+.honorBtn_4{
+	background: url("../images/about/honorDisabled_2.png") no-repeat 0px 0px;
+	cursor: auto;
+}
+.historyFormer_1{
+	background: url("../images/about/honorDisabled_1.png");
+	cursor: auto;
+}
+.historyNext_1{
+	background: url("../images/about/honorDisabled_2.png");
+	cursor: auto;
+}
+.honorBtn_3:hover,.honorBtn_4:hover{
+		background-position: 0px 0px;
+}
+.yearNum
+{
+	position: absolute;
+	width: 100px;
+	top: 25px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	left: -40px;
+}
+.yearDepart
+{
+	width: 20px;
+	height: 20px;
+	background: url("../images/about/historyYear.png");
+	position: absolute;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.yearDepart p
+{
+	width: 80px;
+	line-height: 40px;
+	font-size: 30px;
+	color: #fff;
+	position: absolute;
+	left: -100px;
+	top: -10px;
+}
+.hoverDetail{
+	width: 500px;
+	position: absolute;
+	top: -30px;
+	left: 20px;
+	color: #fff;
+	background-color: #191919;
+	z-index: 100;
+	opacity: 0;
+	-khtml-opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+	display: none;
+}
+.hoverDetail img
+{
+	display: block;
+	float: left;
+	width: 200px;
+	height: 170px;
+}
+.hoverDetail div{
+	padding: 11px 0 0 15px;
+	float: left;
+	width: 270px;
+	text-align: justify;
+}
+.hoverDetail div .title
+{
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+
+.hoverDetail div .detailText
+{
+	line-height: 19px;
+	font-size: 12px;
+	height: 95px;
+	overflow: hidden;
+}
+
+
+/*现场管理、下载中心、招商加盟、联系我们*/
+.classify{
+	height: 363px;
+	padding-top: 80px;
+	background: url("../images/about/gl_bg.jpg") no-repeat center center;
+}
+.classify .cont{
+	width: 1200px;
+	height: 260px;
+	margin: 0 auto;
+}
+.classify .cont .pic{
+	width: 290px;
+	float: left;
+	margin-right: 13px;
+}
+.classify .cont .piclast{
+	margin-right: 0;
+}
+.classify .cont .pic .entitle{
+	font-size: 18px;
+	color: #fff;
+	font-family: arial;
+	font-weight: 600;
+	margin-top: 10px;
+}
+.classify .cont .pic .cntitle{
+	font-size: 16px;
+	color: #fff;
+}
+.classify .cont .pic{
+	position: relative;
+}
+.classify .cont .pic .yy{
+	width: 290px;
+	height: 200px;
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: .5;
+	display: none\9;
+}
+.classify .cont .pic:hover .yy{
+	opacity: 0;
+}
+
+/*定位线*/
+#pinpailine{
+	position: relative;
+	border-top: 0px solid #FFFFFF;
+	top: -140px;
+}
+#rongyuline{
+	position: relative;
+	border-top: 0px solid #FFFFFF;
+	top: -140px;
+}
+#lichengline{
+	position: relative;
+	top: -70px;
+	border-top: 0px solid #FFFFFF;
+}
+#jishuline{
+	position: relative;
+	top: -70px;
+	border-top: 0px solid #FFFFFF;
+}

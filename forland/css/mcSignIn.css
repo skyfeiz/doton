@@ -1,0 +1,84 @@
+
+.click_states i {
+  background: url("../images/mCLogin/hover_icon.png") no-repeat 0 0;
+}
+
+.container_date {
+  width: 542px;
+  border: 1px solid #0065b3;
+  margin: 0 auto;
+}
+.row_fluid {
+  width: 530px;
+  height: 272px;
+  padding: 30px 6px 40px;
+}
+.sign_title {
+  height: 35px;
+  border-bottom: 1px solid #046399;
+}
+.container_date td {
+   width: 72px;
+   height: 30px;
+   text-align: center;
+   color: #494949;
+   font-size: 16px;
+}
+.week_day th {
+  font-size: 16px;
+  height: 50px;
+  color: #046399;
+  font-weight: normal;
+}
+span.calendar_month {
+  font-size: 20px;
+  float: left;
+  padding-left: 20px;
+  color: #046399;
+}
+span.calendar_day {
+  margin-top: -10px;
+  font-family: Din;
+  font-size: 36px;
+  float: right;
+  padding-right: 20px;
+  color: #046399;
+}
+.btn_signIn {
+  width: 140px;
+  height: 50px;
+  padding: 40px 0 60px;
+  margin: 0 auto;
+  cursor: pointer;
+  cursor: hand;
+}
+.btn_signIn span {
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #046399;
+  font-size: 20px;
+  color: #fff;
+}
+.btn_span:hover {
+  background-color: #00C9FF;
+}
+
+.word_content {
+  width: 542px;
+  margin: 0 auto;
+}
+.word_content p {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+p.p_title {
+  color: #0066b3;
+}
+
+td.onSign {
+  background-color: #0066b3;
+  color: #fff;
+}

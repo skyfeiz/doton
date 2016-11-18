@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<meta name="description" content="福田汽车 具体内容由福田提供">
+		<meta name="keywords" content="福田汽车 具体内容由福田提供">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="http://pv.sohu.com/cityjson" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--生成头底-->
+		<script src="js/HandF.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/headerAndFooter.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/scrollShow.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery_scrollBar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/share.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				new foton.HandF();
+				new foton.HeaderAndFooter();
+				new foton.Main();
+				new foton.scrollShow();
+				new foton.share();
+				$("#index").addClass("present");
+			});
+		</script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div id="header"></div>
+
+		<!--内容-->
+		<!--banner-->
+		<div class="banner w1200-1400">
+			<div class="imageScrollPanel">
+				<div class="imagePanel">
+					<img class="img_start" src="images/index/banner2.jpg" />
+				</div>
+				<div class="imagePanel">
+					<img class="img_start" src="images/index/banner2.jpg" />
+				</div>
+				<div class="imagePanel">
+					<img class="img_start" src="images/index/banner2.jpg" />
+				</div>
+			</div>
+			<div class="btnPanel">
+				<div class="btn">
+					<div class="bg bg_out trans"></div>
+					<div class="title">1</div>
+				</div>
+			</div>
+		</div>
+		<!--新闻资讯-->
+		<div class="news w1200-1400">
+			<div id="xinwenline"></div>
+			<h1 class="scrollShow">
+				<strong class="blue enTitle">NEWS</strong>
+				<span class="cnTitle">新闻资讯</span>
+			</h1>
+			<div class="recommend w990">
+				<div class="picbox clearfix">
+					<div class="newbox_left clearfix scrollShow">
+						<a class="flot_left new_theone" href="#1">
+							<div class="newyy"></div>
+							<img src="images/index/news1.jpg"/>
+						</a>
+						<a class="flot_right new_theone" href="#2">
+							<div class="newyy"></div>
+							<img src="images/index/news1.jpg"/>
+						</a>
+					</div>
+					<div class="newbox_right scrollShow">
+						<div class="newest clearfix">
+							<h2>领跑物流季快递物流团走进福田时代111</h2>
+							<div class="titleline"></div>
+							<p class="synopsis">近日，来自快递行业领头羊圆通、申通、中通、韵达、百世、全峰、优速快递等企业和物流行业的天地华宇、新邦、安邦、佳怡、三新冷藏等企业负责人齐聚山东诸城。他们的目标只有一个：带着用车需求，来考察福田时代/瑞沃汽车。</p>
+							<p class="yeartime">2016-8-10</p>
+						</div>
+						<div class="newest newshow clearfix">
+							<h2>领跑物流季快递物流团走进福田时代222</h2>
+							<div class="titleline"></div>
+							<p class="synopsis">近日，来自快递行业领头羊圆通、申通、中通、韵达、百世、全峰、优速快递等企业和物流行业的天地华宇、新邦、安邦、佳怡、三新冷藏等企业负责人齐聚山东诸城。他们的目标只有一个：带着用车需求，来考察福田时代/瑞沃汽车。</p>
+							<p class="yeartime">2016-8-10</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--品牌活动-->
+		<div class="brand w1200-1400">
+			<div id="huodongline"></div>
+			<div class="brandbox">
+				<h1 class="scrollShow">
+					<strong class="enTitle">ACTIVITIES</strong>
+					<br>
+					<span>品牌活动</span>
+				</h1>
+				<div class="brandline scrollShow"></div>
+				<a class="enterLink scrollShow" href="#" target="_blank">查看更多</a>
+			</div>
+		</div>
+		<!--车型展示-->
+		<div class="models w1200-1400">
+			<div id="zhanshiline"></div>
+			<h1 class="scrollShow">
+				<strong class="blue enTitle">VEHICLES</strong>
+				<span class="cnTitle">车型展示</span>
+			</h1>
+			<div class="navContainer clearfix">
+	            <ul class="navPanelead">
+	                <li class="subNav subNav_click">时代汽车</li>
+	                <li class="line"></li>
+	                <li class="subNav">瑞沃</li>
+	            </ul>
+	            <div class="barBg trans"></div>
+	        </div>
+	        <div class="carjh clearfix">
+	        	<div class="carjh_left scrollShow">
+	        		<p class="car_title">瑞沃中卡4X2</p>
+	        		<p class="car_line"></p>
+	        		<p class="car_con">瑞沃中卡是福田汽车深度链合康明斯、法士特、首钢等知名企业，采用2200/2400mm半/全浮车身、康明斯动力、法士特变速箱、首钢高强度合金钢材料底盘等领先配置，开发的面向城市、城际物流的高品质中卡，特别是配装康明斯ISF3.8L发动机，满足国IV/国V排放标准；其产品在舒适性、可靠性、动力性、承载性、安全性、燃油经济性等方面均处于中卡市场领先地位。</p>
+	        	</div>
+	        	<div class="carjh_right scrollShow">
+	        		<div class="show">
+	        			<img src="images/index/ruiwo1.png" class="carshow" />
+	        			<img src="images/index/ruiwo2.png" class="carshow" style="display: none;"/>
+	        			<img src="images/index/ruiwo1.png" class="carshow" style="display: none;"/>
+	        			<img src="images/index/ruiwo2.png" class="carshow" style="display: none;"/>
+	        		</div>
+	        		<ul class="control clearfix">
+	        			<li class="chosecar pitchcar">
+	        				<img src="images/index/rw_big.png"/>
+	        				<p>瑞沃中卡平板</p>
+	        			</li>
+	        			<li class="chosecar">
+	        				<img src="images/index/rw_sam.png"/>
+	        				<p>瑞沃中重型自卸</p>
+	        			</li>
+	        			<li class="chosecar">
+	        				<img src="images/index/rw_sam.png"/>
+	        				<p>金刚系列</p>
+	        			</li>
+	        			<li class="chosecar">
+	        				<img src="images/index/rw_sam.png"/>
+	        				<p>骁运系列</p>
+	        			</li>
+	        		</ul>
+	        	</div>
+	        </div>
+		</div>
+		<!--经销商查询、预约试驾-->
+		<div class="gather w1200-1400">
+			<div id="yyline"></div>
+			<div class="bottom_1 scrollShow">
+				<div class="bottomPart_1">
+					<h1 class="scrollShow">
+						<strong class="enTitle">SERVICE PROVIDERS</strong>
+						<br>
+						<span>经销商查询</span>
+					</h1>
+					<a class="enterLink scrollShow" href="buy_support.html#jingxiaoline" target="_blank">查看更多</a>
+				</div>
+				<div class="bottomPart_2 scrollShow" style="height: 470px;">
+					<div>
+						<h1 class="scrollShow">
+							<strong class="enTitle">RESERVE A TEST DRIVE</strong>
+							<br>
+							<span>预约试驾</span>
+						</h1>
+						<a class="enterLink scrollShow" href="http://www.tyhclub.com/portal.php" target="_blank">查看更多</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="botbg w1200-1400">
+			<img src="images/index/botbg.jpg"/>
+		</div>
+		<!--底部-->
+		<div id="footer"></div>
+	</body>
+
+</html>

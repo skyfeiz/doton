@@ -1,0 +1,38 @@
+.linksbox{
+	height: 625px;
+	text-align: center;
+}
+.linktitle{
+	font-size: 38px;
+	font-weight: normal;
+	margin: 80px auto 0;
+}
+.linksbox .gather{
+	width: 1220px;
+	margin: 65px auto;
+	
+}
+.linksbox .gather .gatherone{
+	height: 155px;
+	width: 206px;
+	margin-left: 18px;
+	margin-right: 18px;
+	float: left;
+	display: block;
+	margin-bottom: 35px;
+}
+.linksbox .gather .gatherone img{
+	display: block;
+	border: 2px solid #b5b5b5;
+}
+.linksbox .gather .gatherone p{
+	font-size: 18px;
+	color: #000;
+	margin-top: 20px;
+}
+.linksbox .gather .gatherone:hover p{
+	color: #0066b3;
+}
+.linksbox .gather .gatherone:hover img{
+	border-color: #00c9ff;
+}

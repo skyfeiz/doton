@@ -1,0 +1,153 @@
+.click_states i {
+  background: url("../images/mCLogin/hover_icon.png") no-repeat 0 -31px;
+}
+.signInTitle {
+    margin-bottom: 0px;
+}
+.main_right {
+  background-color: #e9e3e3;
+}
+.self_message  {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding-top: 30px;
+}
+.self_message span {
+  color: #0066b3;
+  display: inline-block;
+  width: 100px;
+  padding-left: 40px;
+  font-size: 16px;
+}
+span.needFill {
+  width: 125px;
+  padding-left: 15px;
+  color: #494949;
+}
+.self_message a {
+  display: inline-block;
+  padding-left: 15px;
+  font-size: 16px;
+  color: #00c9ff;
+}
+.self_message > div {
+  padding-bottom: 25px;
+}
+
+.base_message {
+  background-color: #fff;
+}
+
+
+/*个人信息部分*/
+.message_left, .message_right {
+  width: 50%;
+}
+.all_message .item {
+  height: 30px;
+  padding-top: 25px;
+}
+span.label {
+  float: left;
+  display: inline-block;
+  font-size: 14px;
+  color: #0066b3;
+  line-height: 35px;
+}
+.message_left span.label {
+  width: 90px;
+  padding-left: 50px;
+}
+.message_right span.label {
+  width: 86px;
+  padding-left: 10px;
+}
+.item > div span {
+  display: inline-block;
+  max-width: 235px;
+  line-height: 35px;
+  color: #494949;
+  font-size: 14px;
+}
+.modification {
+  background-color: #fff;
+  position: relative;
+  padding: 60px 0;
+  height: 50px;
+}
+a.modefy:hover {
+    background-color: #00C9FF;
+}
+a.modefy {
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    width: 140px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    background: #0066b3 url("../images/mCLogin/icon_arrow.png") no-repeat 92px 17px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+
+.self_action table {
+  float: left;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.self_action th {
+    width: 85px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0066b3;
+    padding: 0;
+    height: 30px;
+    border: 1px solid #bfbfbf;
+}
+.list td {
+    text-align: center;
+    height: 35px;
+    width: 85px;
+    font-size: 14px;
+    color: #000000;
+    border-right: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+}
+.self_action span {
+  float: left;
+}
+th.ta_content {
+  width: 230px;
+}
+th.ta_time {
+  width: 100px;
+}
+th.ta_order {
+  width: 70px;
+}
+/*分栏*/
+.baseMessageTitle {
+  width: 100%;
+  height: 40px;
+  background-color: #f0f0f0;
+}
+.baseMessageTitle span {
+  line-height: 40px;
+  color: #0066b3;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 40px;
+}
+.otherMessageLine {
+  //height: 5px;
+  width: 100%;
+  background-color: #e9e3e3;
+}
+.all_message {
+  padding-bottom: 20px;
+}

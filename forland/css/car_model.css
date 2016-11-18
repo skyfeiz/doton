@@ -1,0 +1,387 @@
+div.all_car {
+    margin-bottom: 65px;
+}
+.car_title {
+    width: 690px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+.entitle {
+    font-size: 46px;
+    color: #0066b3;
+    float: left;
+    letter-spacing: -3px;
+    font-family: arial;
+    margin-right: 20px;
+}
+.cntitle {
+    font-size: 38px;
+    color: #000;
+    position: relative;
+    top: -1px;
+    font-weight: normal;
+}
+.all_car .imagePanel {
+    font-size: 14px;
+    color: #000000;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 285px;
+    height: 210px;
+    text-align: center;
+    overflow: hidden;
+    /*opacity: 0;*/
+    /*filter: alpha(opacity=0);*/
+    /*visibility: hidden;*/
+    float:left;
+    position: relative;
+}
+.scal_img {
+    width: 285px;
+    height: 175px;
+    position:relative;
+    overflow:hidden;
+}
+.imagePanel img {
+    display: block;
+}
+
+.all_car li {
+    width: 1220px;
+}
+.name_title {
+    text-align: left;
+    margin-top: 55px;
+    margin-bottom: 15px;
+    line-height:1.5;
+}
+.word_part .cnTitle {
+    height: 35px;
+    line-height: 35px;
+    background: #d8d8d8;
+}
+.all_car .imagePanel:hover img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+.all_car .imagePanel:hover .cnTitle {
+    background-color: #0066b3;
+    color: #fff;
+}
+.foton_shadowcol_bf {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    z-index: 100;
+}
+.foton_shadowcol {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    z-index: 100;
+}
+.all_car .imagePanel:hover .foton_shadowcol {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+.car_vehicles .imagePanel:hover .foton_shadowcol_bf {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+/**/
+.car_vehicles {
+    background-color: #dbd9df;
+}
+h2.scrollShow {
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.en_title {
+    font-size: 46px;
+    color: #0066b3;
+    letter-spacing: -3px;
+    font-family: arial;
+    margin-right: 20px;
+}
+.cn_title {
+    font-size: 38px;
+    color: #000;
+    position: relative;
+    top: -1px;
+    font-weight: normal;
+}
+.vehicle_text > div , .vehicle_text img {
+    float: left;
+}
+.car_troduction {
+    width: 250px;
+    padding: 0 80px;
+}
+p.vehi_title {
+    font-size: 30px;
+    color: #404040;
+}
+div.vehi_line {
+    width: 60px;
+    height: 2px;
+    background-color: #404040;
+    margin: 25px 0;
+}
+p.vehi_tro {
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    word-break: initial;
+    word-break: break-word;
+}
+div.vehicle_text {
+}
+.car_highlights {
+    position: relative;
+    background-color: #fff;
+}
+.highlight_mask {
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+.highlight_group {
+    position: relative;
+    left: 0;
+    width: 300%;
+}
+.highlight_group img {
+    display: block;
+    width: 100%;
+}
+.highlight_mask div.imagePanel {
+    float: left;
+    width: 380px;
+    margin-right: 30px;
+}
+.hl_img {
+    width: 100%;
+    height: 235px;
+}
+p.mask_title {
+    padding: 20px 0 15px;
+    color: #404040;
+    font-size: 22px;
+}
+p.mask_content {
+    line-height: 1.5;
+    font-size: 14px;
+    color: #404040;
+}
+.btn_part {
+    position: absolute;
+    top: 50%;
+    height: 40px;
+    margin-top: -20px;
+    width: 100%;
+}
+.car_vehicles .prevBtn {
+    position: absolute;
+ /*   top: 50%; */
+    left: 44px;
+    width: 40px;
+    height: 40px;
+    background: url(../images/car_model/prev_btn.jpg) no-repeat;
+    z-index: 10;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.car_vehicles .nextBtn {
+    position: absolute;
+    /*top: 50%;*/
+    /* right: 0; */
+    right: 44px;
+    width: 40px;
+    height: 40px;
+    background: url(../images/car_model/next_btn.jpg) no-repeat;
+    z-index: 10;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.car_vehicles .prevBtn:hover {
+    background-position: 0 -40px;
+}
+
+.car_vehicles .nextBtn:hover {
+    background-position: 0 -40px;
+}
+.car_vehicles .prevAuto {
+     background: url(../images/car_model/unClick_2.jpg) no-repeat;
+     cursor: auto;
+ }
+.car_vehicles .prevAuto:hover {
+    background-position:0;
+}
+.car_vehicles .nextAuto {
+    background: url(../images/car_model/unClick_1.jpg) no-repeat;
+    cursor: auto;
+}
+.car_vehicles .nextAuto:hover {
+    background-position:0;
+}
+
+/*车型配置*/
+.car_config {
+    background-color: #0066b3;
+}
+.car_config .en_title , .car_config .cn_title {
+    color: #fff;
+}
+.config_mask table {
+    border-left: 1px solid #65b4f0;
+}
+.config_mask .businessFormTitle td {
+    background-color: #65b4f0;
+    border-right-color: #0066b3;
+    border-bottom: 0;
+    text-align: center;
+}
+.config_mask td {
+    border-right: 1px solid #65b4f0;
+    border-bottom: 1px solid #65b4f0;
+    font-size: 18px;
+    color: #fff;
+    height: 34px;
+    text-align: center;
+}
+td.config_type {
+    width: 230px;
+}
+td.config_name {
+    width: 430px;
+}
+td.config_detial {
+    width: 550px;
+}
+p.config_notice {
+    color: #fff;
+    padding: 10px 0 90px;
+    text-align: center;
+}
+.car_video {
+    background-color: #fff;
+}
+/*最后部分*/
+.car_other {
+    background-color: #0066b3;
+    padding: 60px 0 100px;
+}
+.car_other a {
+    float: left;
+    width: 385px;
+    margin-right: 15px;
+}
+p.other_en {
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: arial;
+    font-weight: bold;
+    color: #fff;
+}
+p.other_cn {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+}
+.car_other .imagePanel:hover .foton_shadowcol {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+.other_img {
+    width: 385px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+}
+
+/*video*/
+div.car_video {
+    position: relative;
+}
+div.video_mask {
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.video_group {
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+ul.video_group {
+    width: 100%;
+}
+ul.video_group li {
+    float: left;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    cursor: hand;
+    top:0;
+    z-index: 50;
+}
+ul.video_group img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+ul.video_group .playBtn {
+    background: url(../images/car_model/playBtn.png) no-repeat;
+    position: absolute;
+    height: 80px;
+    left: 50%;
+    margin-left: -40px;
+    top: 50%;
+    margin-top: -40px;
+    width: 80px;
+}
+ul.video_group li:hover .foton_shadowcol {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+ul.video_group li:hover .playBtn {
+    z-index: 150;
+    background: url(../images/car_model/playBtn_hover.png) no-repeat;
+}
+.car_video .part_left, .car_video .part_right {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 84px;
+    height: 40px;
+}
+.car_video .part_left {
+    left: 0;
+}
+.car_video .part_right {
+    right: 0;
+}

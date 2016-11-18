@@ -1,0 +1,35 @@
+.promisebox{
+	padding-top: 75px;
+	padding-bottom: 93px;
+	text-align: center;
+}
+.promisetitle{
+	font-weight: normal;
+	font-size: 38px;
+	margin-bottom: 57px;
+}
+.promisecon{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: justify;
+}
+.promiseconword{
+	color: #3f3f3f;
+	text-indent: 28px;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+.promisecon .promiseconword a{
+	color: #0066b3;
+}
+.promisecontitle{
+	color: #3f3f3f;
+	font-size: 18px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+.promiseconinfor{
+	font-size: 14px;
+	color: #3f3f3f;
+	line-height: 24px;
+}

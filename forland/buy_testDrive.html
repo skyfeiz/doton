@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>预约试驾</title>
+		<meta name="description" content="福田汽车 具体内容由福田提供">
+		<meta name="keywords" content="福田汽车 具体内容由福田提供">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/buy_testDrive.css"/>
+		<script src="http://pv.sohu.com/cityjson" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--生成头底-->
+		<script src="js/HandF.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/headerAndFooter.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/dropItem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/scrollShow.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery_scrollBar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/buy_testDrive.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/share.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				new foton.HandF();
+				new foton.HeaderAndFooter();
+				new foton.dropItem();
+				new foton.scrollShow();
+				new foton.testdrive();
+				new foton.share();
+				$("#support").addClass("present");
+			});
+		</script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div id="header"></div>
+
+		<!--内容-->
+		<div>
+			<div class="driveFormBox">
+				<h1><strong>RESERVE A TEST DRIVE</strong><span>预约试驾</span></h1>
+				<div class="driveForm">
+					<p class="notice"><b>*</b> 为必选项。您的信息，我们将会完全保密，请您放心填写</p>
+					<div class="inputBox clearfix">
+						<span>请选择品牌及车系：</span>
+						<div id="brand" class="dropItem">
+							<p class="dropDefault clearfix"><span>品牌</span><button class=""></button></p>
+							<div class="dropOptions" style="display: none;"><p>萨普</p><p>萨瓦纳</p><p>拓陆者</p></div>
+							<input autocomplete="off" type="hidden" name="brandId" value="-1">
+							<p class="warning"></p>
+						</div>
+						<span class="star">*</span>
+						<div id="carSeries" class="dropItem">
+							<p class="dropDefault clearfix"><span>车系</span><button></button></p>
+							<div class="dropOptions" style="">
+							</div>
+							<input autocomplete="off" type="hidden" name="seriesId" value="-1">
+							<p class="warning"></p>
+						</div>
+						<span class="star">*</span>
+					</div>
+					<div class="inputBox clearfix">
+						<span>您所在位置：</span>
+						<div id="province" class="dropItem">
+							<p class="dropDefault clearfix"><span>省</span><button class=""></button></p>
+							<div class="dropOptions" style="display: none;"><p class="item">安徽省</p><p class="item">澳门特别行政区</p><p class="item">北京市</p><p class="item">福建省</p><p class="item">甘肃省</p><p class="item">广东省</p><p class="item">广西壮族自治区</p><p class="item">贵州省</p><p class="item">海南省</p><p class="item">河北省</p><p class="item">河南省</p><p class="item">黑龙江省</p><p class="item">湖北省</p><p class="item">湖南省</p><p class="item">吉林省</p><p class="item">江苏省</p><p class="item">江西省</p><p class="item">辽宁省</p><p class="item">内蒙古自治区</p><p class="item">宁夏回族自治区</p><p class="item">青海省</p><p class="item">山东省</p><p class="item">山西省</p><p class="item">陕西省</p><p class="item">上海市</p><p class="item">四川省</p><p class="item">台湾省</p><p class="item">天津市</p><p class="item">西藏自治区</p><p class="item">香港特别行政区</p><p class="item">新疆维吾尔自治区</p><p class="item">云南省</p><p class="item">浙江省</p><p class="item">重庆市</p></div>
+							<input autocomplete="off" type="hidden" name="provinceId" value="-1">
+							<p class="warning"></p>
+						</div>
+						<span class="star">*</span>
+						<div id="city" class="dropItem">
+							<p class="dropDefault clearfix"><span>市</span><button></button></p>
+							<div class="dropOptions" style="">
+							</div>
+							<input autocomplete="off" type="hidden" name="cityId" value="-1">
+							<p class="warning"></p>
+						</div>
+						<span class="star">*</span>
+					</div>
+					<div class="inputBox padding_186 clearfix">
+						<span></span>
+						<div id="county" class="dropItem">
+							<p class="dropDefault clearfix"><span>区/县</span><button class=""></button></p>
+							<div class="dropOptions" style="display: none;">
+							</div>
+							<input autocomplete="off" type="hidden" name="areaId" value="-1">
+							<p class="warning"></p>
+						</div>
+						<span class="star">&nbsp;</span>
+						<div id="Dealer" class="dropItem">
+							<p class="dropDefault clearfix"><span>请选择经销商</span><button class=""></button></p>
+							<div class="dropOptions" style="display: none;">
+							</div>
+							<input autocomplete="off" type="hidden" name="brandId" value="-1">
+						</div>
+					</div>
+					<div class="inputBox clearfix">
+						<span>个人信息：</span>
+						<input id="name" class="secondInput name" type="text" value="姓名" name="name" autocomplete="off" defaultvalue="姓名">
+						<p class="warning"></p>
+						<span class="star">*</span>
+					</div>
+					<div id="phone_tel" class="inputBox clearfix padding_186">
+						<input id="phone" class="marginR_35 secondInput" type="text" value="手机号" autocomplete="off" defaultvalue="手机号">
+						<input id="tel_1" class="AreaCode secondInput" type="text" value="区号" autocomplete="off" defaultvalue="区号">
+						<span class="bars">-</span>
+						<input id="tel_2" class="telNum secondInput" type="text" value="号码" autocomplete="off" defaultvalue="号码">
+						<span class="grayNotice"><b>*</b>手机/固话必填一项</span>
+						<input class="realPhone" type="hidden" autocomplete="off" name="phone" value="">
+						<p class="warning"></p>
+					</div>
+					<div class="inputBox clearfix padding_186">
+						<input class="marginR_35 secondInput weixin" type="text" name="weixin" autocomplete="off" value="微信" defaultvalue="微信">
+						<input class="secondInput QQ" type="text" value="QQ" name="qq" autocomplete="off" defaultvalue="QQ">
+					</div>
+					<div class="inputBox clearfix">
+						<span>请描述您的需求：</span>
+						<textarea class="secondInput remark" autocomplete="off" name="remark"></textarea><p class="remarkArea warning"></p>
+						<span class="star">*</span>
+					</div>
+					<div class="inputBox clearfix">
+						<span>预约试驾时间：</span>
+						<div class="labelBox">
+							<p class="testDriveTime">
+								<span>计划试驾时间</span>
+								<label for="weekend"><input type="radio" id="weekend" name="tryDay" autocomplete="off" value="1">周末</label>
+								<label for="weekday"><input type="radio" id="weekday" name="tryDay" autocomplete="off" value="2">周一至周五</label>
+							</p>
+							<p class="buyTime">
+								<span>计划购车时间</span>
+								<label for="oneMonth"><input type="radio" id="oneMonth" name="buyDay" autocomplete="off" value="1">2周内</label>
+								<label for="twoMonth"><input type="radio" id="twoMonth" name="buyDay" autocomplete="off" value="2">1月内</label>
+							</p>
+							<p class="buyTime padding_103">
+								<label for="threeMonth"><input type="radio" id="threeMonth" name="buyDay" autocomplete="off" value="3">3月内</label>
+								<label for="sixMonth"><input type="radio" id="sixMonth" name="buyDay" autocomplete="off" value="4">6月内</label>
+							</p>
+							<p class="buyTime padding_103">
+								<label for="sevenMonth"><input type="radio" id="sevenMonth" name="buyDay" autocomplete="off" value="5">6个月以上</label>
+							</p>
+						</div>
+					</div>
+					<div class="btnBox clearfix">
+						<a class="formBtn" onclick="javascript :history.back(-1)">返回</a>
+						<button id="submit" class="formBtn">提交</button>
+					</div>
+				</div>
+			</div>
+			</div>
+		<!--底部-->
+		<div id="footer"></div>
+	</body>
+
+</html>

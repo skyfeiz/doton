@@ -1,0 +1,165 @@
+.content {
+  width: 1000px;
+  margin: 80px auto 225px;
+  min-width: 1000px;
+}
+.content_leftImg img {
+  border: 0;
+  display: block;
+}
+.content_leftImg, .content_right {
+  float: left;
+}
+.content_leftImg {
+  width: 564px;
+  height: 324px;
+}
+.content_leftImg img {
+  width: 100%;
+}
+.content_right {
+  width: 436px;
+}
+.content_right h2 {
+  position: relative;
+  padding-bottom: 60px;
+  height: 36px;
+}
+.content_right h2 span {
+  display: block;
+  position: absolute;
+}
+span.h2_en {
+  font-family: arial;
+  font-size: 48px;
+  color: #0066b3;
+  position: absolute;
+  left: 50%;
+  margin-left: -96px;
+  top: -7px;
+}
+span.h2_cn {
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  margin-left: 100px;
+  top: -6px;
+  font-weight: normal;
+}
+
+.userN , .passW , .remStatus {
+  width: 100%;
+  height: 34px;
+  padding-bottom: 28px;
+  position: relative;
+}
+.userN input , .passW input {
+  font-size: 14px;
+  font-family: "Microsoft yahei";
+  padding-left: 40px;
+  width: 308px;
+  height: 32px;
+  border: 1px solid #959595;
+}
+.input_box {
+  position: absolute;
+  right: 0;
+}
+.input_box span {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 34px;
+}
+span.icon_u {
+  background: url("../images/mCLogin/icon_user.png") no-repeat center center;
+}
+span.icon_p {
+  background: url("../images/mCLogin/icon_pass.png") no-repeat center center;
+}
+label {
+  color: #0066b3;
+  font-size: 14px;
+}
+.remStatus  a {
+  color: #0066b3;
+  float: right;
+  padding-left: 20px;
+}
+.remStatus label {
+  display: inline-block;
+  margin-left: 85px;
+  padding-left: 26px;
+  height: 20px;
+  background: url("../images/mCLogin/cc3.png") no-repeat 0 -18px;
+}
+.remStatus input {
+  display: none;
+}
+.userN label , .passW label {
+  position: absolute;
+  top: 9px;
+  left: 40px;
+}
+a.login_in {
+  position: absolute;
+  left: 45%;
+  display: block;
+  width: 140px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  background: #0066b3 url("../images/mCLogin/icon_arrow.png") no-repeat 92px 17px;
+  cursor: pointer;
+  cursor: hand;
+}
+a.login_in:hover {
+  background-color: #00C9FF;
+}
+.loginPart {
+  position: relative;
+  height: 50px;
+  margin-top: 16px;
+}
+/* .error_warn {
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  left: 362px;
+  top: 8px;
+  width: 100px;
+  display: none;
+}
+ */
+.content_right .border_color {
+  border: 1px solid #0066b3;
+}
+
+.input_box .error_warn {
+    color: #e22;
+    font-size: 12px;
+    position: absolute;
+    line-height: 30px;
+    width: 350px;
+    top: 34px;
+    left: 0;
+    display:none;
+}
+.error_warn i {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 7px;
+    display: inline-block;
+    background: url("../images/mCLogin/icon_pass_part.png") no-repeat -17px 0px;
+}
+.error_warn p {
+    display: inline-block;
+    text-indent: 25px;
+}
+

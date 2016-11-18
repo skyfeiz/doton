@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>维修与保养</title>
+		<meta name="description" content="福田汽车 具体内容由福田提供">
+		<meta name="keywords" content="福田汽车 具体内容由福田提供">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/client_customerService.css"/>
+		<script src="http://pv.sohu.com/cityjson" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--生成头底-->
+		<script src="js/HandF.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/headerAndFooter.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/dropItem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/scrollShow.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery_scrollBar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/client_customerService.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/share.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				new foton.HandF();
+				new foton.HeaderAndFooter();
+				new foton.dropItem();
+				new foton.scrollShow();
+				new foton.customerService();
+				new foton.share();
+				$("#customer").addClass("present");
+			});
+		</script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div id="header"></div>
+
+		<!--内容-->
+		<div class="cont w1200-1400">
+			<div class="title">
+				<h2 class="entitle">REPAIR &amp; MAINTENANCE</h2>
+				<h2 class="cntitle">维修与保养</h2>
+			</div>
+			<div class="menu">
+				<!--<div class="option">
+					<div class="maintenance repair">
+						<div class="iconservice"></div>
+						<div class="word">
+							<p class="cncont">维修</p>
+							<p class="encont">REPAIR</p>
+						</div>
+					</div>
+					<div class="maintenance">
+						<div class="icon"></div>
+						<div class="word">
+							<p class="cncont">保养</p>
+							<p class="encont">MAINTENANCE</p>
+						</div>
+					</div>
+					<input id="type" type="hidden" value="维修">
+				</div>-->
+				<span>请选业务类型：</span>
+				<div class="inputBox clearfix">
+					<div id="types" class="dropItem">
+						<p class="dropDefault clearfix"><span>维修</span><button class=""></button></p>
+						<div class="dropOptions"><p class="wxby">维修</p><p class="wxby">保养</p></div>
+						<p class="warning"></p>
+					</div>
+					<input id="type_style" autocomplete="off"  type="hidden" value="维修">
+					<span class="star">*</span>
+				</div>
+				<div class="tabulation" style="top: 0px; opacity: 1;">
+					<p class="notice">(其中标<span class="starone">*</span>号的为必填项)</p>
+					<div class="inputBox clearfix">
+						<span>请选择品牌及车系：</span>
+						<div class="rightBox">
+							<div id="brand" class="dropItem">
+								<p class="dropDefault clearfix"><span>萨瓦纳</span><button class=""></button></p>
+								<div class="dropOptions" style="display: none;"><p>萨普</p><p>萨瓦纳</p><p>拓陆者</p></div>
+								<input id="brandId" autocomplete="off" type="hidden" name="brandId" value="4">
+								<p class="warning"></p>
+							</div>
+							<span class="star">*</span>
+							<div id="carSeries" class="dropItem">
+								<p class="dropDefault clearfix"><span>萨瓦纳VX3</span><button class=""></button></p>
+								<div class="dropOptions" style="display: none;"><p>萨瓦纳VX3</p></div>
+								<input id="seriesId" autocomplete="off" type="hidden" name="seriesId" value="10">
+								<p class="warning"></p>
+							</div>
+							<span class="star">*</span>
+							<div class="marginR_35 inforBox">
+								<input id="carNum_1" autocomplete="off" class="carNum" type="text" value="车辆VIN号" defaults="车辆VIN号">
+							</div>
+							<div class="inforBox">
+								<input id="carNum_2" autocomplete="off" class="carNum" type="text" value="车牌号" defaults="车牌号">
+							</div>
+							<input id="carNum" type="hidden" value="">
+							<span class="grayNotice county">VIN号/车牌号任填一项</span>
+						</div>
+					</div>
+					<div class="inputBox clearfix">
+						<span>您所在位置：</span>
+						<div class="rightBox">
+							<div id="province" class="dropItem">
+								<p class="dropDefault clearfix"><span>省</span><button></button></p>
+								<div class="dropOptions" style=""><p class="item">安徽省</p><p class="item">澳门特别行政区</p><p class="item">北京市</p><p class="item">福建省</p><p class="item">甘肃省</p><p class="item">广东省</p><p class="item">广西壮族自治区</p><p class="item">贵州省</p><p class="item">海南省</p><p class="item">河北省</p><p class="item">河南省</p><p class="item">黑龙江省</p><p class="item">湖北省</p><p class="item">湖南省</p><p class="item">吉林省</p><p class="item">江苏省</p><p class="item">江西省</p><p class="item">辽宁省</p><p class="item">内蒙古自治区</p><p class="item">宁夏回族自治区</p><p class="item">青海省</p><p class="item">山东省</p><p class="item">山西省</p><p class="item">陕西省</p><p class="item">上海市</p><p class="item">四川省</p><p class="item">台湾省</p><p class="item">天津市</p><p class="item">西藏自治区</p><p class="item">香港特别行政区</p><p class="item">新疆维吾尔自治区</p><p class="item">云南省</p><p class="item">浙江省</p><p class="item">重庆市</p></div>
+								<input id="provinceId" autocomplete="off" type="hidden" name="provinceId" value="-1">
+								<p class="warning"></p>
+							</div>
+							<span class="star">*</span>
+							<div id="city" class="dropItem">
+								<p class="dropDefault clearfix"><span>市</span><button></button></p>
+								<div class="dropOptions" style="">
+								</div>
+								<input id="cityId" autocomplete="off" type="hidden" name="cityId" value="-1">
+								<p class="warning"></p>
+							</div>
+							<span class="star">*</span>
+							<div id="county" class="dropItem county">
+								<p class="dropDefault clearfix"><span>区/县</span><button></button></p>
+								<div class="dropOptions" style="">
+								</div>
+								<input id="areaId" autocomplete="off" type="hidden" name="areaId" value="-1">
+							</div>
+							<span class="star county">&nbsp;</span>
+						</div>
+					</div>
+					<div class="inputBox clearfix">
+						<span>个人信息：</span>
+						<div class="rightBox information">
+							<div class="inputBox clearfix">
+								<input id="realName" autocomplete="off" type="text" value="姓名" defaults="姓名">
+								<p class="warning"></p>
+								<span class="star">*</span>
+							</div>
+							
+							<div class="inputBox county clearfix">
+								<input id="phone" class="phone_tel" autocomplete="off" type="text" value="手机号" defaults="手机号">
+								<p class="warning"></p>
+								<input id="tel_1" class="AreaCode phone_tel" autocomplete="off" type="text" value="区号" defaults="区号">
+								<span class="bars">-</span>
+								<input id="tel_2" class="telNum phone_tel" autocomplete="off" type="text" value="号码" defaults="号码">
+								<p class="warning"></p>
+								<span class="grayNotice">手机号/固定电话任填一项</span>
+							</div>
+							<div class="inputBox marginR_25px marginT_20 clearfix">
+								<input id="weixin" type="text" autocomplete="off" value="微信" defaults="微信">
+								<p class="warning"></p>
+								<input id="QQ" type="text" autocomplete="off" value="QQ" defaults="QQ">
+								<p class="warning"></p>
+							</div>
+						</div>
+					</div>
+					<div class="inputBox clearfix"><span>请描述您的需求：</span><textarea id="remark"></textarea>
+					<p class="remarkArea warning"></p>
+					<span class="star">*</span></div>
+					<div class="inputBox clearfix">
+						<span>预约时间：</span>
+						<div class="rightBox">
+							<div class="dropItem" id="datechoose">
+								<p class="dropDefault clearfix"><span id="datespan">年/月/日</span><button></button></p>
+								<div class="dropOptions" style="">
+									<p>2016-10-13</p>
+									<p>2016-10-14</p>
+									<p>2016-10-15</p>
+									<p>2016-10-16</p>
+									<p>2016-10-17</p>
+									<p>2016-10-18</p>
+									<p>2016-10-19</p>
+								</div>
+								<p class="warning"></p>
+							</div>
+							<span class="star">*</span>
+							<div class="dropItem" id="timechoose">
+								<p class="dropDefault clearfix"><span id="timespan">时间</span><button></button></p>
+								<div class="dropOptions" style="">
+									<p>8:00</p>
+									<p>9:00</p>
+									<p>10:00</p>
+									<p>11:00</p>
+									<p>12:00</p>
+									<p>13:00</p>
+									<p>14:00</p>
+									<p>15:00</p>
+									<p>16:00</p>
+									<p>17:00</p>
+								</div>
+								<p class="warning"></p>
+							</div>
+							<span class="star">*</span>
+						</div>
+					</div>
+					<div class="btnBox clearfix">
+						<a id="submit" class="regist trans">提交</a>
+						<span><a onclick="javascript:history.back(-1);" class="trans">返回</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div id="footer"></div>
+	</body>
+
+</html>
