@@ -1,0 +1,55 @@
+.ft_Entitle {
+    font-size: 0.28rem;
+    color: #0066b3;
+    font-family: "DIN";
+    text-align: center;
+    margin-top: 0.28rem;
+    letter-spacing: -1px;
+}
+.ft_Cntitle {
+    text-align: center;
+    font-size: 0.24rem;
+    color: #000000;
+    font-weight: normal;
+}
+.main_part {
+  padding: 0.2rem 0.15rem;
+}
+.dropItem {
+    position: relative;
+    color: #959595;
+    margin-bottom: 0.1rem;
+    width: 100%;
+}
+.dropItem select {
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    padding: 0px 10px;
+    border: 1px solid #959595;
+    text-align: left;
+    color: #404040;
+    font-size: 0.14rem;
+    background: url(../images/car_model/down_arrow.jpg) no-repeat top right;
+    background-size: contain;
+}
+.detail_part p {
+  width: 100%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  text-align: center;
+  background-color: #d8d8d8;
+  color: #000000;
+  font-size: 0.14rem;
+}
+.detail_part a {
+  float: left;
+  width: 50%;
+  padding: 0 0.025rem;
+}
+.detail_part a img {
+  width: 100%;
+  background-color: #f1f1f1;
+}

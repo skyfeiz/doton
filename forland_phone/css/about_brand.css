@@ -1,0 +1,41 @@
+.ft_Entitle{
+	font-size: 0.28rem;
+	color: #0066b3;
+	font-family: "DIN";
+	text-align: center;
+	margin-top: 0.28rem;
+	letter-spacing: -1px;
+}
+.ft_Cntitle{
+	text-align: center;
+	font-size: 0.24rem;
+	color: #000000;
+	font-weight: normal;
+	position: relative;
+	top: -0.02rem;
+	font-family: "微软雅黑";
+	margin-left: 0.1rem;
+}
+.bannerbg{
+	width: 100%;
+	height: auto;
+	margin-top: 0.3rem;
+}
+.container{
+	margin-bottom: 0.3rem;
+}
+.con_title{
+	font-size: 0.18rem;
+	color: #000000;
+	font-weight: 600;
+	margin-top: 0.3rem;
+	margin-bottom: 0.15rem;
+}
+.con_con{
+	font-size: 0.16rem;
+	color: #3f3f3f;
+	text-align: justify;
+	letter-spacing: -0.01rem;
+	line-height: 0.24rem;
+	margin-bottom: 0.1rem;
+}
